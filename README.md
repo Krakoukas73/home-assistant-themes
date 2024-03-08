@@ -26,17 +26,17 @@
 
 <h1>How to use dark and light</h1>
 
-Choose "Piregwan Dark" theme will automatically toggle all cards in dark mode
+Choose "_Piregwan Dark_" theme will automatically toggle all cards in dark mode
 
-Choose "Piregwan Light" theme will automatically toggle all cards in light mode
+Choose "_Piregwan Light_" theme will automatically toggle all cards in light mode
 
-You can also use two more themes :
+**You can also use two more themes** :
 
 <h2>Transparent theme</h2>
 
 <i>(for picture-only, without border or background)</i>
 
-Use <b>markdown card</b>, add picture and select "Transparent" theme :
+Use <b>markdown card</b>, add picture and select "_Transparent_" theme :
 
 ![picture-light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e1e926dd-6295-4fd7-afb1-02c6fb5584f3)
 
@@ -44,17 +44,17 @@ Use <b>markdown card</b>, add picture and select "Transparent" theme :
 
 <h2>Title theme</h2>
 
-Use <b>markdown card</b>, select "Title" theme and type :
+Use <b>markdown card</b>, select "_Title_" theme and type :
 
 <pre>## &lt;b&gt;YOU TITLE HERE&lt;/b&gt;</pre>
 
-Card toogles transparent and uses special large fonts and CSS Effects
+Card becomes transparent and uses special large fonts and CSS Effects
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/9837d09f-002b-4ae9-aba0-39b252c650c7)
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/708c1cfa-9573-4367-81f9-85872954195a)
 
-See wiki for more title features :
+See wiki for more **title features** :
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/adfd0149-c279-44d9-a8c7-b387206c2131)
 
