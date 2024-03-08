@@ -1,0 +1,136 @@
+
+
+
+DO NOT USE (card-mod): &card-mod-css 
+  card-mod-card-yaml: &card-mod-card |
+    .: |
+
+
+        ha-card, ha-card:before, ha-card:hover {
+             border: none;
+             background-color: transparent; 
+             background-image: none;
+             border: none;
+             box-shadow: none; 
+             text-align: center;
+             margin-top: -10px;
+             margin-bottom: -10px;
+             color: white; 
+             border-radius: 7px; 
+        }
+        
+        
+        ha-card.type-markdown, ha-card.type-statistics-graph, ha-card.type-entities, ha-card.type-button {
+          backdrop-filter: none;
+        }
+        
+
+
+
+    ha-markdown:
+      $: |
+        
+        
+        # h1 {
+            # color: transparent;
+            # background-image: linear-gradient(0deg, #82DAEE 0%, #FAFDFE 100%);
+            # -webkit-background-clip: text;
+            # background-clip: text;
+            # filter: drop-shadow(0 4px 3px rgb(0,0,0));
+            
+            # text-align: center;
+            
+            # font-size: 5.5vw;
+            
+            # white-space: nowrap;
+            # overflow: hidden;
+            # text-overflow: ellipsis;
+        # }
+        
+        
+
+        
+        
+        
+        
+        h2 {
+          
+          /* TITRE GLOW */
+          -webkit-text-fill-color: transparent;
+          -webkit-text-stroke: 0.1vw #f1f1f1;
+          
+          position: relative;
+          width: auto;
+          display: block;
+          padding: 0;
+          border-radius: 10px;
+        }
+        h2:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          # background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.0) 1px, rgba(255,255,255,0) 1px, rgba(255,255,255,0) 2px);
+        }
+        h2 b {
+          font-size: 55px;
+          font-family: "Roboto Condensed" ;
+          text-transform: uppercase;
+
+          /* TITRE GLOW #1 */
+          -webkit-background-clip: text;
+          background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
+          
+          # -webkit-filter: drop-shadow(0px 0px 14px #FF4444);
+          -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
+          
+          /* TITRE GLOW #2 */
+          # text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+          
+        }
+        h2:after b {
+          background: none; 
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+  # Toolbar and dashboard modifications
+  card-mod-root-yaml: &card-mod-root |
+    .: |
+
+      hui-masonry-view {       
+      }
+   
+    ha-tabs$: |
+      paper-icon-button { }
+
+  card-mod-sidebar: &card-mod-sidebar |
+    
+    :host {      
+    }   
+
+
+
+
+
+Titres:
+  card-mod-theme: Titres
+  # <<: *piregwan-colors
+  # <<: *base
+  <<: *card-mod-css
+  
+  

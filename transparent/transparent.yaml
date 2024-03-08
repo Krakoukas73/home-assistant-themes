@@ -1,0 +1,62 @@
+
+
+
+DO NOT USE (card-mod): &card-mod-css 
+  card-mod-card-yaml: &card-mod-card |
+    .: |
+
+
+        ha-card, ha-card:before, ha-card:hover {
+             border: none;
+             background-color: transparent; 
+             background-image: none;
+             border: none;
+             box-shadow: none; 
+             text-align: center;
+             margin-top: -10px;
+             margin-bottom: -10px;
+             color: white; 
+             border-radius: 7px; 
+        }
+        
+        
+        ha-card.type-markdown, ha-card.type-statistics-graph, ha-card.type-entities, ha-card.type-button {
+          backdrop-filter: none;
+        }
+        
+
+
+        
+
+  # Toolbar and dashboard modifications
+  card-mod-root-yaml: &card-mod-root |
+    .: |
+
+      hui-masonry-view {       
+      }
+   
+    ha-tabs$: |
+      paper-icon-button { }
+
+
+
+  card-mod-sidebar: &card-mod-sidebar |
+    
+    :host {      
+    }   
+
+
+
+
+
+
+
+
+
+Transparent:
+  card-mod-theme: Transparent
+  # <<: *piregwan-colors
+  # <<: *base
+  <<: *card-mod-css
+  
+  
