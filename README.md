@@ -34,7 +34,7 @@ You can also use two more themes :
 
 <h2>Transparent theme</h2>
 
-<i>(for pictures without border or background)</i>
+<i>(for picture-only, without border or background)</i>
 
 Use <b>markdown card</b>, add picture and select "Transparent" theme :
 
