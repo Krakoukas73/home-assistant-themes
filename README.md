@@ -5,11 +5,16 @@
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
+![HA thèmes Dark et Light copy](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b437a34b-d784-4520-90be-8a67946a5cb5)
+
+
+
 ![dark-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/5e753fad-43ba-4f17-9c52-ce8ac6e43185)
 ![darky](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/df247a86-2fcd-4acf-8599-64f0e69186f0)
 
 ![light-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/2fec465a-5622-470b-b730-8564f7ad7637)
-![light](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/b4feddc5-bbea-407a-8b84-f1e8d7c408ab)
+
+![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
 
 
 
