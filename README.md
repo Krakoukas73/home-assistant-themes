@@ -1,7 +1,7 @@
 
 <h1>About</h1>
 
-<b>Dark and light theme for Home Assistant</b> using awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
+<b>Dark and light theme for Home Assistant</b> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
@@ -21,9 +21,9 @@
 
 <h1>How to use</h1>
 
-Choosing "Dark" theme will automatically toggle all cards in dark mode
+Choose "Dark" theme will automatically toggle all cards in dark mode
 
-Choosing "Light" theme will automatically toggle all cards in light mode
+Choose "Light" theme will automatically toggle all cards in light mode
 
 Now you can use two more themes :
 
