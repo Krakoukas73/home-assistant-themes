@@ -49,7 +49,7 @@ Card toogles transparent and uses special large fonts and CSS Effects
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/708c1cfa-9573-4367-81f9-85872954195a)
 
-<h1>Issue / Work in progress</h1>
+<h1>Troubleshooting / Work in progress</h1>
 
 - Strange glitches sometimes
 - Canceled glow/animate/shadow CSS effect (consuming too much CPU even with modern devices)
