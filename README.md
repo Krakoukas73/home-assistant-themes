@@ -36,7 +36,7 @@ Now you can use two more themes :
 
 <i>(for pictures without border or background)</i>
 
-Select "Transparent" theme. Card toogles transparent :
+Use <b>markdown card</b>, add picture and select "Transparent" theme :
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/01b7fa32-2ff1-42b6-a1e2-a07fe904d2c1)
 
@@ -44,7 +44,7 @@ Select "Transparent" theme. Card toogles transparent :
 
 <h2>Title theme</h2>
 
-Use <b>markdown card</b>, select "Title" theme, and type :
+Use <b>markdown card</b>, select "Title" theme and type :
 
 <pre>## &lt;b&gt;YOU TITLE HERE&lt;/b&gt;</pre>
 
