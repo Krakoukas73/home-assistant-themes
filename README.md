@@ -24,13 +24,13 @@
 - Restart Home Assistant
 - Choose "Dark" or "Light" theme (do not use base themes)
 
-<h1>How to use</h1>
+<h1>How to use dark and light</h1>
 
 Choose "Dark" theme will automatically toggle all cards in dark mode
 
 Choose "Light" theme will automatically toggle all cards in light mode
 
-Now you can use two more themes :
+You can also use two more themes :
 
 <h2>Transparent theme</h2>
 
@@ -38,9 +38,9 @@ Now you can use two more themes :
 
 Use <b>markdown card</b>, add picture and select "Transparent" theme :
 
-![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/01b7fa32-2ff1-42b6-a1e2-a07fe904d2c1)
+![picture-light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e1e926dd-6295-4fd7-afb1-02c6fb5584f3)
 
-![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/71e4538d-6b7b-42d7-b033-e7ce04abd13b)
+![picture-dark](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/d4111762-be78-45bd-a8a4-d5ff478bb2ed)
 
 <h2>Title theme</h2>
 
