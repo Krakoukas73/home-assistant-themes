@@ -1,7 +1,7 @@
 
 <h1>About</h1>
 
-This is a <b>dark and light theme for Home Assistant</b> using awesome Card-mod
+<b>Dark and light theme for Home Assistant</b> using awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
@@ -21,18 +21,29 @@ This is a <b>dark and light theme for Home Assistant</b> using awesome Card-mod
 
 <h1>How to use</h1>
 
-Choosing dark theme will automatically toggle all cards in dark mode
-Choosing light theme will automatically toggle all cards in light mode
+Choosing "Dark" theme will automatically toggle all cards in dark mode
 
-Now you can use two more card styles :
+Choosing "Light" theme will automatically toggle all cards in light mode
 
-<h2>Transparent theme (for pictures without any border nor background)</h2>
+Now you can use two more themes :
+
+<h2>Transparent theme</h2>
+
+<i>(for pictures without border or background)</i>
+
+Select "Transparent" theme. Card toogles transparent :
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/01b7fa32-2ff1-42b6-a1e2-a07fe904d2c1)
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/71e4538d-6b7b-42d7-b033-e7ce04abd13b)
 
 <h2>Title theme</h2>
+
+Use <b>markdown card</b>, select "Title" theme, and type :
+
+<pre>## &lt;b&gt;YOU TITLE HERE&lt;/b&gt;</pre>
+
+Card toogles transparent and uses special large fonts and CSS Effects
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/9837d09f-002b-4ae9-aba0-39b252c650c7)
 
@@ -41,4 +52,4 @@ Now you can use two more card styles :
 <h1>Issue / Work in progress</h1>
 
 - Strange glitches sometimes
-- Canceled glow/animate/shadow CSS effect (consuming too much CPU)
+- Canceled glow/animate/shadow CSS effect (consuming too much CPU even with modern devices)
