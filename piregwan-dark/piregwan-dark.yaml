@@ -21,16 +21,6 @@ DO NOT USE (colors): &piregwan-colors
   
   piregwan-font: Calibri
   
-  # MSD Colors:
-  # msd-bright: "#fff1ab"
-  # msd-medium: var(--piregwan-yellow) 
-  # msd-normal: var(--piregwan-orange)
-  # msd-dark: "#ff4400"
-  # msd-ra-bright: "#dca29e"
-  # msd-ra-medium: "#e97369"
-  # msd-ra-normal: "#ff1100"
-  # msd-ra-dark: "#7f0800"
-  
   # Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/piregwan-dark/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/piregwan-dark/cloudy.svg")
@@ -137,7 +127,7 @@ DO NOT USE (customizations): &base
   switch-checked-button-color: var(--piregwan-red)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55)
-  paper-item-icon-color: var(--piregwan-medium-gray)
+  paper-item-icon-color: var(--piregwan-text-gray)
   more-info-header-background: rgba(25, 25, 25)
   app-header-background-color: black
   
@@ -158,7 +148,7 @@ DO NOT USE (customizations): &base
   mdc-theme-primary: white
   mdc-theme-secondary: var(--piregwan-orange)
   round-slider-bar-color: var(--piregwan-red)
-  app-header-edit-background-color: transparent
+  app-header-edit-background-color: black
   switch-unchecked-track-color: var(--piregwan-text-gray)
   switch-unchecked-button-color: var(--piregwan-text-gray)
   header-height: 43px
@@ -684,8 +674,10 @@ DO NOT USE (card-mod): &card-mod-css
     
 
     div.tooltip {
-      color: var(--piregwan-red);
-      background-color: pink;
+      color: black;
+      background-color: white;
+      border-radius: 7px; 
+      padding: 3px 15px; 
     }
 
 
