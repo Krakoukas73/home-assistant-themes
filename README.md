@@ -70,4 +70,4 @@ Card toogles transparent and uses special large fonts and CSS Effects
 
 <h1>Buy me a coffee </h1>
 
-[Thank you !](https://www.buymeacoffee.com/li08jg7kmc) 🙏
+🐙 [Thank you !](https://www.buymeacoffee.com/li08jg7kmc) 🙏
