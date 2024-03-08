@@ -26,9 +26,9 @@
 
 <h1>How to use dark and light</h1>
 
-Choose "Dark" theme will automatically toggle all cards in dark mode
+Choose "Piregwan Dark" theme will automatically toggle all cards in dark mode
 
-Choose "Light" theme will automatically toggle all cards in light mode
+Choose "Piregwan Light" theme will automatically toggle all cards in light mode
 
 You can also use two more themes :
 
