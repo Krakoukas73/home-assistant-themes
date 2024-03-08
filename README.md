@@ -1,15 +1,20 @@
 
 <h1>About</h1>
 
-<b>Dark and light theme for Home Assistant</b> using awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
+<b>Dark and light theme for Home Assistant</b> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
+
+![HA thèmes Dark et Light copy](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b437a34b-d784-4520-90be-8a67946a5cb5)
+
+
 
 ![dark-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/5e753fad-43ba-4f17-9c52-ce8ac6e43185)
 ![darky](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/df247a86-2fcd-4acf-8599-64f0e69186f0)
 
 ![light-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/2fec465a-5622-470b-b730-8564f7ad7637)
-![light](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/b4feddc5-bbea-407a-8b84-f1e8d7c408ab)
+
+![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
 
 
 
@@ -21,9 +26,9 @@
 
 <h1>How to use</h1>
 
-Choosing "Dark" theme will automatically toggle all cards in dark mode
+Choose "Dark" theme will automatically toggle all cards in dark mode
 
-Choosing "Light" theme will automatically toggle all cards in light mode
+Choose "Light" theme will automatically toggle all cards in light mode
 
 Now you can use two more themes :
 
@@ -31,7 +36,7 @@ Now you can use two more themes :
 
 <i>(for pictures without border or background)</i>
 
-Select "Transparent" theme. Card toogles transparent :
+Use <b>markdown card</b>, add picture and select "Transparent" theme :
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/01b7fa32-2ff1-42b6-a1e2-a07fe904d2c1)
 
@@ -39,7 +44,7 @@ Select "Transparent" theme. Card toogles transparent :
 
 <h2>Title theme</h2>
 
-Use <b>markdown card</b>, select "Title" theme, and type :
+Use <b>markdown card</b>, select "Title" theme and type :
 
 <pre>## &lt;b&gt;YOU TITLE HERE&lt;/b&gt;</pre>
 
