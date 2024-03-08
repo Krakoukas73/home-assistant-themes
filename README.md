@@ -53,3 +53,6 @@ Card toogles transparent and uses special large fonts and CSS Effects
 
 - Strange glitches sometimes
 - Canceled glow/animate/shadow CSS effect (consuming too much CPU even with modern devices)
+
+![glow](https://github.com/Krakoukas73/home-assistant-dark-light/assets/54374596/ddba224d-51ed-4ca6-96d8-017dc35e6ce1)
+
