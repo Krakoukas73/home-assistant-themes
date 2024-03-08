@@ -249,7 +249,6 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-card:before {
           
-          # background: url('/hacsfiles/themes/piregwan-light/concrete.jpg');
           
           # border-radius: 5px;
 
@@ -802,7 +801,6 @@ DO NOT USE (card-mod): &card-mod-css
 
     paper-icon-item:before {
 
-          # background: url('/hacsfiles/themes/piregwan-light/concrete.jpg');
           # background-color: #f0f0f0;
           
           # border-radius: 5px;
