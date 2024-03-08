@@ -3,7 +3,6 @@ DO NOT USE (colors): &piregwan-colors
   
   piregwan-space-white: "#f5f6fa"
   piregwan-green: "#6CAC4B"
-  # piregwan-blue: "#4455ff"
   piregwan-yellow: "#EFAC1D"
   piregwan-orange: "#ff7700"
   piregwan-text-purple: "#cc77ff"
@@ -11,6 +10,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-sunflower: "#66cc99"
   piregwan-gray: "#1C1C1C"
   
+  # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
   piregwan-nuit: "#BBB"
 
   piregwan-error: "#ff2200"
@@ -18,18 +18,20 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-medium-gray: "#B6B6C1"
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
+  
+  piregwan-background: rgba(236,233,228,1)
     
   piregwan-font: Calibri
   
   # MSD Colors:
-  msd-bright: "#fff1ab"
-  msd-medium: var(--piregwan-yellow) ### "#ffcc33"
-  msd-normal: var(--piregwan-orange) ### "#ff7700"
-  msd-dark: var(--piregwan-october-sunset) ### "#ff4400"
-  msd-ra-bright: "#dca29e"
-  msd-ra-medium: "#e97369"
-  msd-ra-normal: "#ff1100"
-  msd-ra-dark: "#7f0800"
+  # msd-bright: "#fff1ab"
+  # msd-medium: var(--piregwan-yellow)
+  # msd-normal: var(--piregwan-orange) 
+  # msd-dark: "#ff4400"
+  # msd-ra-bright: "#dca29e"
+  # msd-ra-medium: "#e97369"
+  # msd-ra-normal: "#ff1100"
+  # msd-ra-dark: "#7f0800"
   
   # Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/piregwan-light/clear-night.svg")
@@ -65,7 +67,7 @@ DO NOT USE (customizations): &base
 
   
   
-  primary-background-color: black
+  primary-background-color: var(--piregwan-background)
   secondary-background-color: var(--piregwan-card-button)
   
   divider-color: transparent
@@ -118,7 +120,7 @@ DO NOT USE (customizations): &base
   label-badge-text-color: black
   label-badge-red: rgba(255, 159, 9, 0.7)
   # Cards
-  card-background-color: rgba(0,0,0,0.65)
+  card-background-color: var(--piregwan-background)
   paper-listbox-background-color: pink
   ha-card-border-radius: 7px
   ha-card-background: var(--piregwan-card-button);
@@ -139,7 +141,7 @@ DO NOT USE (customizations): &base
   paper-dialog-background-color: rgba(55, 55, 55)
   paper-item-icon-color: var(--piregwan-medium-gray)
   more-info-header-background: rgba(25, 25, 25)
-  app-header-background-color: black
+  app-header-background-color: var(--piregwan-background)
   
   state-switch-active-color: var(--piregwan-red)
   state-switch-on-color: var(--piregwan-red)
@@ -158,11 +160,11 @@ DO NOT USE (customizations): &base
   mdc-theme-primary: white
   mdc-theme-secondary: var(--piregwan-orange)
   round-slider-bar-color: var(--piregwan-red)
-  app-header-edit-background-color: transparent
+  app-header-edit-background-color: var(--piregwan-background)
   switch-unchecked-track-color: var(--piregwan-text-gray)
   switch-unchecked-button-color: var(--piregwan-text-gray)
   header-height: 43px
-  app-header-text-color: white
+  app-header-text-color: black
   paper-tabs-selection-bar-color: transparent
   mdc-button-outline-color: transparent
   ha-config-card-border-radius: var(--ha-card-border-radius)
@@ -511,8 +513,8 @@ DO NOT USE (card-mod): &card-mod-css
 
     a[aria-selected=true] paper-icon-item  {
       # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       border: 5px solid #FF4444; 
       border-radius: 11px !important; 
     }
@@ -535,17 +537,18 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-listbox a {
-        margin-bottom: 12px;
+        margin-bottom: 22px;
         border: 0;
     }
     
     paper-listbox {
-        height: calc( 100% - var(--header-height) - 147px - env(safe-area-inset-bottom)) !important;
+        height: calc( 100% - var(--header-height) - 120px - env(safe-area-inset-bottom)) !important;
         border: 0;
         width: 150%;
     }
     
     # ha-sidebar {
+        # background-color: red; 
     # }
 
 
