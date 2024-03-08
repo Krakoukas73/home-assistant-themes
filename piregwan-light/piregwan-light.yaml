@@ -31,12 +31,7 @@ DO NOT USE (colors): &piregwan-colors
   msd-ra-normal: "#ff1100"
   msd-ra-dark: "#7f0800"
   
-  
-  
-    
-  
-  
-  #Animated icons
+  # Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/piregwan-light/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/piregwan-light/cloudy.svg")
   weather-icon-fog: url("/hacsfiles/themes/piregwan-light/fog.svg")
@@ -194,7 +189,7 @@ DO NOT USE (card-mod): &card-mod-css
       
       
       
-        /* CYBERPUNK RESKIN DES CARDS */
+        /* CYBERPUNK CARDS */
         
 
        
@@ -217,83 +212,12 @@ DO NOT USE (card-mod): &card-mod-css
             0 14.5px 0 0 #dcdcdc, 0 16px 0 0 #cacaca, 0 16px 15.715px 0 #cecece;
 
 
-
-
-            # text-shadow: 0 0.0625em 0 #fff;
-            # font-size: 68px;
-                        
-            # transition: 0.15s ease;
-            # &:active,
-            # &:hover {
-                # translate: 0 0.225em;
-                # box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
-                    # 0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
-                    # 0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;
-            # }
-            
-
-          # border-radius: 7px;
-          # box-shadow:   0 1rem 1rem 0.3rem rgba(0,0,0,0.75),
-                        # rgba(205, 205, 205, 0.17) 0px -6px 12px inset,
-                        # rgba(205, 205, 205, 0.17) 0px 6px 12px inset
-
-          # ;      
-          # background-image: linear-gradient(-25deg, rgb(0,0,0,0.98) 50%, rgb(255,255,255,0.24) 80%);
-          # border: 1px solid #666; 
-          # background-color: transparent;
-          # margin-bottom: 20px;
-
         }
         
-     
-
         ha-card:before {
-          
-          
-          # border-radius: 5px;
-
-          # content: '';
-          # display: block;
-          
-          # position: absolute;
-          # height: calc(100% - 2px);
-          # left: 1.0px;
-          # top: 1.0px;
-          # width: calc(100% - 10px);
-          
-          # border: 4px dashed #666; 
-          # border-bottom-style: none;
-          # border-top-style: none;
-          
-          
-          # opacity: 0.15; 
-          # z-index: -1;
-          
         }
 
-
         ha-card:after {
-            # content: "xxxxx";
-            # margin-bottom: -50px;
-            # clear: both;
-            
-            # background: pink;
-            # width: calc(100% - 100px);
-            # max-width: 40%;
-            # min-height: 70px;
-            # border-radius: 7px 7px 0 0 ;
-            # box-shadow: 
-                # 0 0px 0px 1px rgba(255,255,255,0.1),
-                # 0 0px 8px 6px rgba(255,255,255,0.1)
-            # ;
-       
-  
-            # transform: translateX(-50%);
-            # position: absolute;
-            # bottom: 0px;
-            # display: inline-block;
-            # left: 50%;
-            
         } 
         
         
@@ -306,7 +230,6 @@ DO NOT USE (card-mod): &card-mod-css
             visibility: hidden;
         }
         ha-card.type-custom-html-card {
-            # max-height: 1px; 
             padding: 0;
             margin: 0;
         }
@@ -356,8 +279,6 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card > * {
           z-index: 2;
-          # background-color: pink; 
-          # max-height: calc(100% - 38px);
         }
         
         
@@ -380,7 +301,6 @@ DO NOT USE (card-mod): &card-mod-css
           font-size: 33px;
           font-weight: 500;
 
-          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue" ;
           letter-spacing: 0.5px;
@@ -392,8 +312,6 @@ DO NOT USE (card-mod): &card-mod-css
           text-align: center; 
           margin-bottom: 15px; 
           
-          
-          # background-color: pink; 
           display: inline;
           padding: 0;
           margin: 15px;
@@ -443,22 +361,17 @@ DO NOT USE (card-mod): &card-mod-css
 
 
         ha-markdown-element > h2  {
-          # color: red;
         }
 
         ha-markdown-element   {
-          # text-shadow: black 0px 0px 3px;
-          # text-shadow: 1px 1px 2px black, 0 0 12px white, 0 0 3px white;
         }
 
         ha-markdown-element > pre  {
           font-size: 65px;
           font-weight: 200;
-          # color: red;
         }
 
         ha-markdown-element > blockquote  {
-          # text-shadow: 1px 1px 2px white;
           text-transform: uppercase;
           font-family: "Bebas Neue" ;
           letter-spacing: 0.5px;
@@ -470,9 +383,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-markdown-element > p > img, img  {
           
-          # filter: drop-shadow(0 0 12px  #666);
           filter: drop-shadow(0 3.5px 0px  #ccc);
-          
           border-radius: 7px;
         }
 
@@ -486,41 +397,9 @@ DO NOT USE (card-mod): &card-mod-css
       
       
       
-      
-    
-      
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-      
-      
-      
-      
-      
-      
       
       
 
@@ -540,17 +419,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      # border-right: 0px !important;
-      # border-top-left-radius: 25px;
-      # box-shadow: black 0px -130px 0px 0px;
-      # padding-left: 10px;
-      # margin-right: 30px;
-      # margin-left: 50px; 
-      # width: 100%;
-      # border: 0;
-      
       background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
-      # background-color: red; 
     }   
 
 
@@ -570,67 +439,20 @@ DO NOT USE (card-mod): &card-mod-css
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
-      # text-shadow: 1px 1px 2px black;
-      # text-transform: uppercase;
-      # font-size: 167%; 
-      # font-weight: bold; 
-
           font-size: 33px;
           font-weight: 500;
 
-          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue" ;
-          # font-family: "Roboto condensed" ;
           letter-spacing: 0.5px;
           color: black;
-          
           line-height: 2.1rem;
-
-
-
     }
     
     
     # a[aria-selected=true]  ha-svg-icon {
         # color: pink; 
     # }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -693,20 +515,8 @@ DO NOT USE (card-mod): &card-mod-css
       padding-bottom: 25px;
       border: 5px solid #FF4444; 
       border-radius: 11px !important; 
-
-      # position: absolute;
-      # top: -20.0px;
-      # padding-bottom: -25px;
-
-
     }
     
-    
-    
-    
-    
-    
-
     paper-icon-item:hover span,
     paper-icon-item:hover ha-icon,
     paper-icon-item:hover ha-svg-icon,
@@ -725,31 +535,17 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-listbox a {
-
-        # background: url('/hacsfiles/themes/piregwan-light/pattern-general.png');
-        # background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
-        # background-color: pink; 
-        
-        # margin: 8px 6px 0px 6px ;
         margin-bottom: 12px;
-        # margin-right: 20px; 
         border: 0;
-        
-        
-        
     }
     
     paper-listbox {
-        # background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
-        # background-image: linear-gradient(-8deg, rgb(250,0,0,1) 50%, rgb(0,255,255,1) 90%);
-        # margin-bottom: 12px;
         height: calc( 100% - var(--header-height) - 147px - env(safe-area-inset-bottom)) !important;
         border: 0;
         width: 150%;
     }
     
     # ha-sidebar {
-    # font-size: 200%; 
     # }
 
 
@@ -762,7 +558,7 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-    /* CYBERPUNK MENU CYAN */
+    /* CYBERPUNK MENU */
 
     paper-icon-item {
       
@@ -800,29 +596,6 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-icon-item:before {
-
-          # background-color: #f0f0f0;
-          
-          # border-radius: 5px;
-
-          # content: '';
-          # display: block;
-          
-          # position: absolute;
-          # height: calc(100% - 2px);
-          # left: 1.0px;
-          # top: 1.0px;
-          # width: calc(100% - 10px);
-          
-          # border: 4px dashed #666; 
-          # border-bottom-style: none;
-          # border-top-style: none;
-          
-          
-          # opacity: 0.15; 
-           # z-index: -1;
-
-    
     }
 
     
@@ -833,34 +606,8 @@ DO NOT USE (card-mod): &card-mod-css
 
 
     paper-icon-item:after {
-            # content: "";
-            # background: #000;
-            # width: calc(100% - 100px);
-            # max-width: 40%;
-            # height: 7px;
-            # border-radius: 7px 7px 0 0 ;
-            # box-shadow: 
-                # 0 0px 0px 1px rgba(255,255,255,0.1),
-                # 0 0px 8px 6px rgba(255,255,255,0.1)
-            # ;
-
-
-            # transform: translateX(-50%);
-            # position: absolute;
-            # bottom: 0px;
-            # left: 50%;
     }        
     
-
-         
-
-
-
-
-
-
-
-
 
 
     div.tooltip {
@@ -875,11 +622,7 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-# ===THEMES================================================
-# To create your own theme, copy this piregwan Default section
-# to the bottom of the file and change the piregwan-ui-* and
-# piregwan-card-* variables to your liking, using the color
-# references at the top of this file, or define your own.
+
 Piregwan Light:
   card-mod-theme: Piregwan Light
   <<: *piregwan-colors

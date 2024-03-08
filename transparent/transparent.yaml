@@ -1,6 +1,4 @@
 
-
-
 DO NOT USE (card-mod): &card-mod-css 
   card-mod-card-yaml: &card-mod-card |
     .: |
@@ -28,7 +26,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         
 
-  # Toolbar and dashboard modifications
+  
   card-mod-root-yaml: &card-mod-root |
     .: |
 
@@ -55,8 +53,6 @@ DO NOT USE (card-mod): &card-mod-css
 
 Transparent:
   card-mod-theme: Transparent
-  # <<: *piregwan-colors
-  # <<: *base
   <<: *card-mod-css
   
   
