@@ -68,3 +68,6 @@ Card toogles transparent and uses special large fonts and CSS Effects
 
 [![Watch the video](https://img.youtube.com/vi/mXbC1O6ndGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mXbC1O6ndGA)
 
+<h1>Buy me a coffee </h1>
+
+[Thank you !](https://www.buymeacoffee.com/li08jg7kmc) 🙏
