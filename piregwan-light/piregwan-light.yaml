@@ -1,11 +1,9 @@
 
 DO NOT USE (colors): &piregwan-colors
   
-  piregwan-space-white: "#f5f6fa"
   piregwan-green: "#6CAC4B"
   piregwan-yellow: "#EFAC1D"
   piregwan-orange: "#ff7700"
-  piregwan-text-purple: "#cc77ff"
   piregwan-red: "#ff4444"
   piregwan-sunflower: "#66cc99"
   piregwan-gray: "#1C1C1C"
@@ -13,6 +11,10 @@ DO NOT USE (colors): &piregwan-colors
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
   piregwan-nuit: "#BBB"
   
+  # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
+  piregwan-separator-display: "none"
+  piregwan-separator-visibility: "hidden"
+
   piregwan-error: "#ff2200"
   piregwan-text-gray: "#888"
   piregwan-medium-gray: "#888"
@@ -213,16 +215,16 @@ DO NOT USE (card-mod): &card-mod-css
         
       
 
-        ha-card.type-custom-html-card:after, 
-        ha-card.type-custom-mini-graph-card:after
-        {
-            display: none;
-            visibility: hidden;
-        }
-        ha-card.type-custom-html-card {
-            padding: 0;
-            margin: 0;
-        }
+        # ha-card.type-custom-html-card:after, 
+        # ha-card.type-custom-mini-graph-card:after
+        # {
+            # display: none;
+            # visibility: hidden;
+        # }
+        # ha-card.type-custom-html-card {
+            # padding: 0;
+            # margin: 0;
+        # }
 
         
        
@@ -232,6 +234,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card.type-entities, 
         ha-card.type-custom-apexcharts-card, 
+        ha-card.type-custom-html-card, 
         ha-card.type-button,
         ha-card.type-markdown, 
         ha-card.type-statistics-graph, 
@@ -248,11 +251,16 @@ DO NOT USE (card-mod): &card-mod-css
         {
                     max-height: calc(100% - 25px);
         }
+
         ha-card.type-markdown,
         ha-card.type-custom-button-card, 
         ha-card.type-button
         {
                     margin: 16px 5px 0 5px ; 
+        }
+        ha-card.type-custom-html-card
+        {
+                    margin: 16px 5px 26px 5px ; 
         }
         
         

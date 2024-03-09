@@ -1,17 +1,19 @@
 
 DO NOT USE (colors): &piregwan-colors
   
-  piregwan-space-white: "#f5f6fa"
   piregwan-green: "#6CAC4B"
   piregwan-yellow: "#EFAC1D"
   piregwan-orange: "#ff7700"
-  piregwan-text-purple: "#cc77ff"
   piregwan-red: "#ff4444"
   piregwan-sunflower: "#66cc99"
   piregwan-gray: "#1C1C1C"
   
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
   piregwan-nuit: "rgba(0,0,0,1)"
+
+  # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
+  piregwan-separator-display: "inline-block"
+  piregwan-separator-visibility: "visible"
 
   piregwan-error: "#ff2200"
   piregwan-text-gray: "#d3d3d3"
