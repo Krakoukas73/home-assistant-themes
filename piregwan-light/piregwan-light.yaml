@@ -21,7 +21,8 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
   
-  piregwan-background: rgba(236,233,228,1)
+  # HEAD AND SIDE BACKGROUND
+  piregwan-background: rgba(225,222,217,1)
     
   piregwan-font: Calibri
   
@@ -176,6 +177,26 @@ DO NOT USE (customizations): &base
   mdc-shape-small: var(--ha-card-border-radius)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
@@ -262,6 +283,10 @@ DO NOT USE (card-mod): &card-mod-css
         {
                     margin: 16px 5px 26px 5px ; 
         }
+        ha-card.type-entities {
+                    margin: 26px 5px 26px 5px ; 
+        }
+        
         
         
         
@@ -549,6 +574,10 @@ DO NOT USE (card-mod): &card-mod-css
     # ha-sidebar {
         # background-color: red; 
     # }
+
+
+
+
 
 
 
