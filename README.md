@@ -54,7 +54,7 @@ Card becomes transparent and uses special large fonts and CSS Effects
 
 ![image](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/708c1cfa-9573-4367-81f9-85872954195a)
 
-See wiki for more **title features** :
+See wiki for more **title features** and **tricks** :
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/adfd0149-c279-44d9-a8c7-b387206c2131)
 
