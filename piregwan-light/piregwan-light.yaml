@@ -9,7 +9,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-gray: "#1C1C1C"
   
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
-  piregwan-nuit: "#BBB"
+  piregwan-nuit: "#CCC"
   
   # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
   piregwan-separator-display: "none"
@@ -22,7 +22,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-red: "#66cc99"
   
   # HEAD AND SIDE BACKGROUND
-  piregwan-background: rgba(225,222,217,1)
+  piregwan-background: "#EFECE7"
     
   piregwan-font: Calibri
   
@@ -273,6 +273,16 @@ DO NOT USE (card-mod): &card-mod-css
                     max-height: calc(100% - 25px);
         }
 
+        ha-card.type-picture-entity {
+            padding: 12px 10px 5px 10px;
+        }
+        
+        ha-card > hui-image #image, 
+        img #image {
+          border-radius: 14px;
+        }
+        
+        
         ha-card.type-markdown,
         ha-card.type-custom-button-card, 
         ha-card.type-button
@@ -310,7 +320,7 @@ DO NOT USE (card-mod): &card-mod-css
         #TITRES DES CARDS
 
         ha-card h2 {
-          font-size: 45px;
+          font-size: 42px;
           font-weight: 500;
 
           text-shadow: 1px 1px 2px black;
@@ -321,7 +331,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 33px;
+          font-size: 31px;
           font-weight: 500;
 
           text-transform: uppercase;
@@ -340,6 +350,13 @@ DO NOT USE (card-mod): &card-mod-css
           margin: 15px;
         }
         
+    hui-image:
+      $: |
+        
+        img {
+          border-radius: 11px;
+        }
+
     ha-markdown:
       $: |
         
@@ -433,6 +450,7 @@ DO NOT USE (card-mod): &card-mod-css
             # border-right-width: unset !important;
             # border-right-style: unset !important;
             background-color: red; 
+            
       }
 
    
@@ -458,6 +476,7 @@ DO NOT USE (card-mod): &card-mod-css
       # margin-bottom: -23px;
       text-transform: uppercase;
       color: var(--piregwan-text-gray); 
+      
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
@@ -469,6 +488,7 @@ DO NOT USE (card-mod): &card-mod-css
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
+          
     }
     
     
@@ -538,6 +558,7 @@ DO NOT USE (card-mod): &card-mod-css
       border: 5px solid #FF4444; 
       border-radius: 11px !important; 
       
+      
     }
     
 
@@ -563,12 +584,13 @@ DO NOT USE (card-mod): &card-mod-css
     paper-listbox a {
         margin-bottom: 22px;
         border: 0;
+        
     }
     
     paper-listbox {
-        height: calc( 100% - var(--header-height) - 120px - env(safe-area-inset-bottom)) !important;
+        height: calc( 100% - var(--header-height) - 150px - env(safe-area-inset-bottom)) !important;
         border: 0;
-        width: 150%;
+        width: 250%;
     }
     
     # ha-sidebar {
@@ -595,9 +617,9 @@ DO NOT USE (card-mod): &card-mod-css
       
             background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
 
-            font: inherit;
+            # font: inherit;
             border: 0;
-            border-radius: 14px;
+            # border-radius: 14px;
             margin: 26px 5px 0px 5px ; 
             padding: 0px;
             font-weight: 600;
@@ -605,29 +627,20 @@ DO NOT USE (card-mod): &card-mod-css
             0 4.6867px 0 0 #ececec, 0 9.5px 0 0 #e0e0e0, 0 14px 0 0 #dedede,
             0 14.5px 0 0 #dcdcdc, 0 16px 0 0 #cacaca, 0 16px 15.715px 0 #cecece;
 
-          z-index: 1000; 
-          margin-bottom: 50px;
-          padding-top: 10px;
-          padding-bottom: -10px;
-          border-radius: 14px !important;
+            z-index: 1000; 
+            margin-bottom: 50px;
+            padding-top: 17px;
+            padding-bottom: 7px;
+            max-width: 235px;
+            border-radius: 14px !important;
+            
     }
     
     a[aria-selected=true] paper-icon-item:before {
           top: 2.0px;
     }
 
-    paper-icon-item:before {
-    }
-
-    
-    paper-icon-item,
-    paper-icon-item:before {
-      transition: background-color 100ms ease-out, color 100ms ease-out; 
-    }
-
-
-    paper-icon-item:after {
-    }        
+     
     
 
 
