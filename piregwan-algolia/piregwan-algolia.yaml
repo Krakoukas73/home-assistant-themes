@@ -14,34 +14,46 @@ DO NOT USE (colors): &piregwan-colors
   # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
   piregwan-separator-display: "none"
   piregwan-separator-visibility: "hidden"
+  
 
   piregwan-error: "#ff2200"
   piregwan-text-gray: "#888"
   piregwan-medium-gray: "#888"
-  piregwan-dark-gray: "#3e3e3e"
+  piregwan-dark-gray: "#222222"
   piregwan-dark-red: "#66cc99"
   
+  card-mod-icon-color: var(--piregwan-dark-gray)
+  piregwan-alert: var(--piregwan-red)
+
+  # RED ALERTS
+  piregwan-alert-border-bottom-left-radius: 4px;
+  piregwan-alert-border-bottom-right-radius: 4px;
+  piregwan-alert-border-top-left-radius: 4px;
+  piregwan-alert-border-top-right-radius: 4px;
+  piregwan-alert-border: "0px solid  var(--piregwan-red)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,0.07) 20%, rgba(0,0,0,0) 100%)"
+
   # HEAD AND SIDE BACKGROUND
   piregwan-background: "#EFECE7"
     
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-azure/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-azure/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-azure/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-azure/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-azure/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-azure/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-azure/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-azure/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-azure/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-azure/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-azure/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-azure/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-azure/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-azure/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-azure/exceptional.svg")  
+  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-algolia/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-algolia/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/piregwan-algolia/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/piregwan-algolia/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-algolia/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-algolia/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/piregwan-algolia/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/piregwan-algolia/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/piregwan-algolia/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/piregwan-algolia/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-algolia/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/piregwan-algolia/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/piregwan-algolia/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-algolia/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-algolia/exceptional.svg")  
 
 
   
@@ -97,7 +109,7 @@ DO NOT USE (customizations): &base
   sidebar-selected-text-color: white
   app-drawer-width: 75px
   # States and Badges
-  state-icon-color: white
+  state-icon-color: pink
   state-icon-active-color: var(--piregwan-text-gray)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
@@ -222,19 +234,19 @@ DO NOT USE (card-mod): &card-mod-css
           border-radius: 4px;
           border-width: 0;
           box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-          box-sizing: border-box;
+          # box-sizing: border-box;
           color: #36395A;
           font-family: monospace;
           line-height: 1;
-          list-style: none;
-          overflow: hidden;
+          # list-style: none;
+          # overflow: hidden;
           padding-left: 16px;
           padding-right: 16px;
           position: relative;
           text-align: left;
-          text-decoration: none;
-          white-space: nowrap;
-          will-change: box-shadow,transform;
+          # text-decoration: none;
+          # white-space: nowrap;
+          # will-change: box-shadow,transform;
           font-size: 13px;
           box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 
@@ -393,7 +405,7 @@ DO NOT USE (card-mod): &card-mod-css
           color: white;
           
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
+          background-color: var(--piregwan-dark-gray);
           border-radius: 7px;
           text-align: center; 
           padding: 4.5px;
@@ -418,7 +430,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
         h3 b {
             text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-            color: #131313;
+            color: var(--piregwan-dark-gray);
             font-size: 55px;
             font-weight: 700;
             font-family: "Bebas Neue" ;
@@ -450,6 +462,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-size: 36px;
           padding: 0;
           margin: 0;
+          font-weight: 900;
         }
 
         ha-markdown-element > p > img, img  {
@@ -491,7 +504,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-azure/transparent.png');      
+      background: url('/hacsfiles/themes/piregwan-algolia/transparent.png');      
     }   
 
 
@@ -561,7 +574,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-azure/transparent.png');      
+        background: url('/hacsfiles/themes/piregwan-algolia/transparent.png');      
     }
     .menu .title {
       visibility: hidden;
@@ -676,7 +689,7 @@ DO NOT USE (card-mod): &card-mod-css
           padding-right: 16px;
           position: relative;
           text-align: left;
-          text-decoration: none;
+          # text-decoration: none;
           # white-space: nowrap;
           # will-change: box-shadow,transform;
           font-size: 13px;

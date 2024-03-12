@@ -21,6 +21,13 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
   
+  # RED ALERTS
+  piregwan-alert-border-bottom-left-radius: 11px;
+  piregwan-alert-border-bottom-right-radius: 11px;
+  piregwan-alert-border-top-left-radius: 11px;
+  piregwan-alert-border-top-right-radius: 11px;
+  piregwan-alert-border: "5px solid  var(--piregwan-red)"
+
   piregwan-font: Calibri
   
   # Animated icons

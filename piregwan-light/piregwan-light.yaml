@@ -21,6 +21,14 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
   
+  # RED ALERTS
+  piregwan-alert-border-bottom-left-radius: 14px;
+  piregwan-alert-border-bottom-right-radius: 14px;
+  piregwan-alert-border-top-left-radius: 14px;
+  piregwan-alert-border-top-right-radius: 14px;
+  piregwan-alert-border: "0px solid  var(--piregwan-red)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,0.08) 20%, rgba(0,0,0,0) 90%)"
+
   # HEAD AND SIDE BACKGROUND
   piregwan-background: "#EFECE7"
     

@@ -21,6 +21,16 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
   
+  card-mod-icon-color: var(--piregwan-dark-gray)
+
+  # RED ALERTS
+  piregwan-alert-border-bottom-left-radius: 0.5rem;
+  piregwan-alert-border-bottom-right-radius: 0.5rem;
+  piregwan-alert-border-top-left-radius: 0.5rem;
+  piregwan-alert-border-top-right-radius: 0.5rem;
+  piregwan-alert-border: "0px solid  var(--piregwan-red)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,0,0,0.08) 20%, #f8eedb 90%)"
+
   # HEAD AND SIDE BACKGROUND
   piregwan-background: "#EFECE7"
     
