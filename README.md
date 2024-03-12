@@ -23,15 +23,18 @@
 
 <h1>Paper theme</h1>
 
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/51359b30-0a70-46f9-8c80-14adaebb3f37)
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/c2ce0e19-931d-4e1b-8833-1c9e06a303aa)
+
 
 <h1>Azure theme</h1>
 
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b6b69cb8-1563-4f3d-9484-a842a48aa66e)
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/58311c47-0b7d-4ceb-a2e4-2a8d99a1e597)
+
 
 <h1>Algolia theme</h1>
 
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/658ae7fa-f9db-4aca-b9a4-8692bd4bea52)
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/ad0807d4-a3e4-4ad2-9079-b26bf36bf340)
+
 
 
 <h1>Installation</h1>
