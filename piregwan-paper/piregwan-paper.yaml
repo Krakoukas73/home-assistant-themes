@@ -7,7 +7,10 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-red: "#ff4444"
   piregwan-sunflower: "#66cc99"
   piregwan-gray: "#1C1C1C"
+  piregwan-blue: "#74CCE7"
   
+  piregwan-theme: "piregwan-paper"
+
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
   piregwan-nuit: "#CCC"
   
@@ -22,26 +25,28 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-red: "#66cc99"
   
   # HEAD AND SIDE BACKGROUND
-  piregwan-background: "#EFECE7"
+  piregwan-background: "#edf0f4"
+  
+  piregwan-blue: "#3399FF"
     
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-light/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-light/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-light/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-light/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-light/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-light/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-light/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-light/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-light/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-light/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-light/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-light/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-light/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-light/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-light/exceptional.svg")  
+  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-paper/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-paper/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/piregwan-paper/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/piregwan-paper/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-paper/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-paper/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/piregwan-paper/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/piregwan-paper/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/piregwan-paper/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/piregwan-paper/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-paper/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/piregwan-paper/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/piregwan-paper/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-paper/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-paper/exceptional.svg")  
 
 
   
@@ -50,7 +55,7 @@ DO NOT USE (colors): &piregwan-colors
 
 DO NOT USE (customizations): &base 
 
-  lovelace-background: "#EFECE7"
+  lovelace-background: var(--piregwan-background)
 
   switch-checked-button-color: var(--piregwan-red)
   
@@ -91,17 +96,17 @@ DO NOT USE (customizations): &base
   # Sidebar Menu
   sidebar-background-color: transparent
   sidebar-icon-color: var(--piregwan-dark-gray)
-  sidebar-text-color: white
+  sidebar-text-color: var(--piregwan-dark-gray)
   sidebar-selected-background-color: transparent
-  sidebar-selected-icon-color: var(--piregwan-red)
-  sidebar-selected-text-color: white
+  sidebar-selected-icon-color: rgba(0,0,0,0)
+  sidebar-selected-text-color: var(--piregwan-dark-gray)
   app-drawer-width: 75px
   # States and Badges
-  state-icon-color: white
+  state-icon-color: var(--piregwan-dark-gray)
   state-icon-active-color: var(--piregwan-text-gray)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
-  paper-slider-knob-color: white
+  paper-slider-knob-color: green
   
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
@@ -117,7 +122,7 @@ DO NOT USE (customizations): &base
   label-badge-red: rgba(255, 159, 9, 0.7)
   # Cards
   card-background-color: var(--piregwan-background)
-  paper-listbox-background-color: pink
+  paper-listbox-background-color: white
   ha-card-border-radius: 7px
   ha-card-background: var(--piregwan-card-button);
   paper-card-background-color: green
@@ -150,7 +155,7 @@ DO NOT USE (customizations): &base
   mini-media-player-base-color: var(--piregwan-text-gray)
   mini-media-player-icon-color: var(--piregwan-text-gray)
   state-lock-unlocked-color: var(--piregwan-dark-red)
-  sidebar-menu-button-text-color: white
+  sidebar-menu-button-text-color: var(--piregwan-dark-gray)
   mdc-typography-button-font-family: var(--piregwan-font)
   mdc-typography-body2-font-family: var(--piregwan-font)
   mdc-theme-primary: white
@@ -160,6 +165,8 @@ DO NOT USE (customizations): &base
   switch-unchecked-track-color: var(--piregwan-text-gray)
   switch-unchecked-button-color: var(--piregwan-text-gray)
   header-height: 43px
+  
+  
   app-header-text-color: var(--piregwan-gray)
   paper-tabs-selection-bar-color: transparent
   mdc-button-outline-color: transparent
@@ -206,25 +213,30 @@ DO NOT USE (card-mod): &card-mod-css
 
       
       
-      
         /* CYBERPUNK CARDS */
         
 
        
         ha-card {
-            
-            background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
-
+            background-color: white;
             font: inherit;
             border: 0;
-            border-radius: 14px;
-            margin: 26px 5px 0px 5px ; 
-            padding: 0px;
             font-weight: 600;
-            box-shadow: inset 0 1.5px 0 0 #f4f4f4, 0 1.5px 0 0 #efefef,
-            0 4.6867px 0 0 #ececec, 0 9.5px 0 0 #e0e0e0, 0 14px 0 0 #dedede,
-            0 14.5px 0 0 #dcdcdc, 0 16px 0 0 #cacaca, 0 16px 15.715px 0 #cecece;
 
+            background-color: #fff;
+            background-image: none;
+            # border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+            border-style: solid;
+            border-width: 3px;
+            color: #41403e;
+            outline: none;
+            border-bottom-left-radius: 15px 255px;
+            border-bottom-right-radius: 225px 15px;
+            border-top-left-radius: 255px 15px;
+            border-top-right-radius: 15px 225px;
+            user-select: none;
+            -webkit-user-select: none;
+            box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
         }
         
         ha-card:before {
@@ -253,29 +265,29 @@ DO NOT USE (card-mod): &card-mod-css
 
         
         
-        ha-card.type-entities, 
-        ha-card.type-custom-apexcharts-card, 
-        ha-card.type-custom-html-card, 
-        ha-card.type-button,
-        ha-card.type-markdown, 
-        ha-card.type-statistics-graph, 
-        ha-card.type-iframe, 
-        ha-card.type-picture-entity, 
-        ha-card.type-statistic, 
-        ha-card.type-history-graph, 
-        ha-card.type-custom-floor3d-card, 
-        ha-card.type-weather-forecast, 
-        ha-card.type-custom-button-card, 
-        ha-card.type-custom-rain-gauge-card, 
-        ha-card.type-custom-horizon-card,
-        ha-card.type-custom-lovelace-multiline-text-input-card
-        {
-                    max-height: calc(100% - 25px);
-        }
+        # ha-card.type-entities, 
+        # ha-card.type-custom-apexcharts-card, 
+        # ha-card.type-custom-html-card, 
+        # ha-card.type-button,
+        # ha-card.type-markdown, 
+        # ha-card.type-statistics-graph, 
+        # ha-card.type-iframe, 
+        # ha-card.type-picture-entity, 
+        # ha-card.type-statistic, 
+        # ha-card.type-history-graph, 
+        # ha-card.type-custom-floor3d-card, 
+        # ha-card.type-weather-forecast, 
+        # ha-card.type-custom-button-card, 
+        # ha-card.type-custom-rain-gauge-card, 
+        # ha-card.type-custom-horizon-card,
+        # ha-card.type-custom-lovelace-multiline-text-input-card
+        # {
+                    # max-height: calc(100% - 25px);
+        # }
 
-        ha-card.type-picture-entity {
-            padding: 12px 10px 5px 10px;
-        }
+        # ha-card.type-picture-entity {
+            # padding: 12px 10px 5px 10px;
+        # }
         
         ha-card > hui-image #image, 
         img #image {
@@ -283,29 +295,29 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         
-        ha-card.type-markdown,
-        ha-card.type-custom-button-card, 
-        ha-card.type-button
-        {
-                    margin: 16px 5px 0 5px ; 
-        }
-        ha-card.type-custom-html-card
-        {
-                    margin: 16px 5px 26px 5px ; 
-        }
-        ha-card.type-entities {
-                    margin: 26px 5px 26px 5px ; 
-        }
+        # ha-card.type-markdown,
+        # ha-card.type-custom-button-card, 
+        # ha-card.type-button
+        # {
+                    # margin: 16px 5px 0 5px ; 
+        # }
+        # ha-card.type-custom-html-card
+        # {
+                    # margin: 16px 5px 26px 5px ; 
+        # }
+        # ha-card.type-entities {
+                    # margin: 26px 5px 26px 5px ; 
+        # }
         
         
         
         
 
-        ha-card.type-button:after,  
-        ha-card.type-custom-mini-graph-card:after 
-        {
-            animation: none; 
-        }
+        # ha-card.type-button:after,  
+        # ha-card.type-custom-mini-graph-card:after 
+        # {
+            # animation: none; 
+        # }
         
         
         
@@ -331,7 +343,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 30px;
+          font-size: 31px;
           font-weight: 500;
 
           text-transform: uppercase;
@@ -352,20 +364,28 @@ DO NOT USE (card-mod): &card-mod-css
         
     hui-image:
       $: |
-        
         img {
           border-radius: 11px;
         }
+        
+    
+
+
+
+
+
+
+
 
     ha-markdown:
       $: |
         
         h1 {
-          font-size: 30px;
+          font-size: 33px;
           font-weight: 500;
         }
         h2 {
-          font-size: 42.5px;
+          font-size: 45px;
           font-weight: 200;
         }
         
@@ -390,30 +410,66 @@ DO NOT USE (card-mod): &card-mod-css
           letter-spacing: 0.5px;
           color: white;
         }
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
         h3 {
-          text-align: center; 
-        }
-        h3 b {
-          # font-size: 45px;
-          # font-family: "Roboto Condensed" ;
-          text-transform: uppercase;
-          # -webkit-background-clip: text;
-          # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
-          # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
+          font-size: 40px;
+          background-color: var(--piregwan-blue);
+          border: 0 solid #E5E7EB;
+          box-sizing: border-box;
+          color: black;
+          # display: flex;
+          # font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+          # font-size: 1rem;
+          font-weight: 700;
+          justify-content: center;
+          line-height: 1.75rem;
+          padding: .75rem 1.65rem;
+          position: relative;
+          text-align: center;
+          text-decoration: none #000000 solid;
+          text-decoration-thickness: auto;
+          width: 100%;
+          # max-width: 460px;
+          position: relative;
+          # cursor: pointer;
+          transform: rotate(-1deg);
+          # user-select: none;
+          # -webkit-user-select: none;
+          # touch-action: manipulation;
 
-            font-size: 50px;
-            text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-            color: #333333;
-            font-weight: 900; 
-            
-        }
+          border-bottom-left-radius: 15px 255px;
+          border-bottom-right-radius: 225px 15px;
+          border-top-left-radius: 255px 15px;
+          border-top-right-radius: 15px 225px;
+          }
+          
+          h3:after {
+              content: '';
+              position: absolute;
+              border: 3px solid #000000;
+              bottom: 4px;
+              left: 4px;
+              width: calc(100% - 1px);
+              height: calc(100% - 1px);
+
+              border-bottom-left-radius: 15px 255px;
+              border-bottom-right-radius: 225px 15px;
+              border-top-left-radius: 255px 15px;
+              border-top-right-radius: 15px 225px;
+          }
+          
+          h3 {
+            text-transform: lowercase;
+          }
+          h3:first-letter {
+            text-transform: uppercase;
+          }
+
+
 
 
 
@@ -467,6 +523,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-root-yaml: &card-mod-root |
     .: |
 
+            
       ha-drawer {
             # border-right-width: unset !important;
             # border-right-style: unset !important;
@@ -475,12 +532,25 @@ DO NOT USE (card-mod): &card-mod-css
       }
 
    
+
+
+
+
+
     ha-tabs$: |
       paper-icon-button { display: none !important; }
+
+
+
+
+
+
+
+
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
+      background: url('/hacsfiles/themes/piregwan-paper/transparent.png');      
     }   
 
 
@@ -496,25 +566,30 @@ DO NOT USE (card-mod): &card-mod-css
       margin-right: 20px;
       # margin-bottom: -23px;
       text-transform: uppercase;
-      color: var(--piregwan-text-gray); 
+      color: var(--piregwan-dark-gray); 
       
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
-          font-size: 33px;
-          font-weight: 500;
+          font-size: 38px;
+          font-weight: 550;
 
-          text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          text-transform: lowercase;
+          # font-family: "Bebas Neue" ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
-          
+          transform: rotate(-1deg);
     }
-    
-    
-    # a[aria-selected=true]  ha-svg-icon {
-        # color: pink; 
+    a[aria-selected=true]:first-letter paper-icon-item .item-text
+    {
+          text-transform: uppercase;
+    }
+
+
+
+    # a[aria-selected=true]  {
+        # background-color: green; 
     # }
 
 
@@ -550,7 +625,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
+        background: url('/hacsfiles/themes/piregwan-paper/transparent.png');      
     }
     .menu .title {
       visibility: hidden;
@@ -563,7 +638,7 @@ DO NOT USE (card-mod): &card-mod-css
 
     paper-icon-item span,
     paper-icon-item:hover span {
-      text-transform: uppercase;
+      # text-transform: uppercase;
       z-index: 100;
     }
 
@@ -573,11 +648,12 @@ DO NOT USE (card-mod): &card-mod-css
 
 
     a[aria-selected=true] paper-icon-item  {
-      # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
+      
       padding-top: 15px;
       padding-bottom: 15px;
-      border: 5px solid #FF4444; 
-      border-radius: 11px !important; 
+      border: 3px solid black; 
+      # border-radius: 11px !important; 
+      background-color:white;
       
       
     }
@@ -603,29 +679,19 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-listbox a {
-        margin-bottom: 22px;
+        margin-bottom: 5px;
         border: 0;
+        
         
     }
     
     paper-listbox {
-        height: calc( 100% - var(--header-height) - 150px - env(safe-area-inset-bottom)) !important;
+        height: calc( 100% - var(--header-height) - 197px - env(safe-area-inset-bottom)) !important;
         border: 0;
         width: 250%;
     }
     
-    # ha-sidebar {
-        # background-color: red; 
-    # }
-
-
-
-
-
-
-
-
-
+  
 
 
 
@@ -635,27 +701,114 @@ DO NOT USE (card-mod): &card-mod-css
     /* CYBERPUNK MENU */
 
     paper-icon-item {
-      
-            background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
-
-            # font: inherit;
+            background-color: white;
+            font: inherit;
             border: 0;
-            # border-radius: 14px;
-            margin: 26px 5px 0px 5px ; 
-            padding: 0px;
             font-weight: 600;
-            box-shadow: inset 0 1.5px 0 0 #f4f4f4, 0 1.5px 0 0 #efefef,
-            0 4.6867px 0 0 #ececec, 0 9.5px 0 0 #e0e0e0, 0 14px 0 0 #dedede,
-            0 14.5px 0 0 #dcdcdc, 0 16px 0 0 #cacaca, 0 16px 15.715px 0 #cecece;
+            background-color: #fff;
+            background-image: none;
+            border-style: solid;
+            border-width: 3px;
+            color: #41403e;
+            outline: none;
+            border-bottom-left-radius: 15px 255px !important;
+            border-bottom-right-radius: 225px 15px !important;
+            border-top-left-radius: 255px 15px !important;
+            border-top-right-radius: 15px 225px !important;
+            user-select: none;
+            -webkit-user-select: none;
+            box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
 
-            z-index: 1000; 
-            margin-bottom: 50px;
-            padding-top: 17px;
-            padding-bottom: 7px;
-            max-width: 235px;
-            border-radius: 14px !important;
-            
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            max-width: 240px;
+
     }
+    
+    
+    
+    
+
+        a[aria-selected=true] paper-icon-item {
+          font-size: 40px;
+          background-color: var(--piregwan-blue);
+          border: 0 solid #E5E7EB;
+          box-sizing: border-box;
+          color: black;
+          # display: flex;
+          # font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+          # font-size: 1rem;
+          font-weight: 700;
+          justify-content: left;
+          line-height: 1.75rem;
+          padding: .75rem 1.65rem;
+          position: relative;
+          text-align: left;
+          text-decoration: none #000000 solid;
+          text-decoration-thickness: auto;
+          width: 100%;
+          # max-width: 460px;
+          position: relative;
+          # cursor: pointer;
+          transform: rotate(-1deg);
+          # user-select: none;
+          # -webkit-user-select: none;
+          # touch-action: manipulation;
+
+          border-bottom-left-radius: 15px 255px;
+          border-bottom-right-radius: 225px 15px;
+          border-top-left-radius: 255px 15px;
+          border-top-right-radius: 15px 225px;
+          
+          margin-top: 15px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          
+          }
+          
+          a[aria-selected=true] paper-icon-item:after {
+              content: '';
+              position: absolute;
+              border: 3px solid #000000;
+              bottom: 4px;
+              left: 4px;
+              width: calc(100% - 1px);
+              height: calc(100% - 1px);
+
+              border-bottom-left-radius: 15px 255px;
+              border-bottom-right-radius: 225px 15px;
+              border-top-left-radius: 255px 15px;
+              border-top-right-radius: 15px 225px;
+          }
+          
+          a[aria-selected=true] paper-icon-item {
+            text-transform: lowercase;
+          }
+          a[aria-selected=true] paper-icon-item:first-letter {
+            text-transform: uppercase;
+          }
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     a[aria-selected=true] paper-icon-item:before {
           top: 2.0px;
@@ -680,8 +833,8 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-Piregwan Light:
-  card-mod-theme: Piregwan Light
+Piregwan Paper:
+  card-mod-theme: Piregwan Paper
   <<: *piregwan-colors
   <<: *base
   <<: *card-mod-css
