@@ -31,7 +31,8 @@
 
 <h1>Algolia theme</h1>
 
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/658ae7fa-f9db-4aca-b9a4-8692bd4bea52)
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/ad0807d4-a3e4-4ad2-9079-b26bf36bf340)
+
 
 
 <h1>Installation</h1>
