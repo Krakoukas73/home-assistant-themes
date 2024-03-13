@@ -39,9 +39,9 @@
 
 <h1>Installation</h1>
 
-- Copy the directories (dark/light/titles/transparent) in /themes/ Home Assistant folder
+- Copy the directories in /themes/ Home Assistant folder
 - Restart Home Assistant
-- Choose "Dark" or "Light" theme (do not use base themes)
+- Choose a theme (do not use base themes)
 
 <h2>Special transparent theme</h2>
 
