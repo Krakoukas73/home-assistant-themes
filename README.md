@@ -47,7 +47,7 @@
 - Restart Home Assistant
 - Choose a theme (do not use base themes)
 
-  <b>OR</b> use HACS
+<b>OR use HACS</b> :
 
 <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Krakoukas73&repository=home-assistant-dark-light-theme&category=theme"><img src="https://my.home-assistant.io/badges/hacs_repository.svg"></a>
 
