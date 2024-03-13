@@ -29,7 +29,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-alert-border-top-left-radius: 0.5rem;
   piregwan-alert-border-top-right-radius: 0.5rem;
   piregwan-alert-border: "0px solid  var(--piregwan-red)"
-  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,0,0,0.08) 20%, #f8eedb 90%)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,0,0,0.08) 45%, #ddd 75%)"
 
   # HEAD AND SIDE BACKGROUND
   piregwan-background: "#EFECE7"
@@ -231,8 +231,8 @@ DO NOT USE (card-mod): &card-mod-css
 
           appearance: button;
           background-color: transparent;
-          background-image: linear-gradient(to bottom, #fff, #f8eedb);
-          border: 0 solid #e5e7eb;
+          background-image: linear-gradient(to bottom, #fff, #ddd);
+          border: 1px solid rgba(0,0,0,0.08);
           border-radius: .5rem;
           box-sizing: border-box;
           color: #482307;
@@ -436,10 +436,12 @@ DO NOT USE (card-mod): &card-mod-css
           # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
           # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
 
-            font-size: 50px;
-            text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-            color: #333333;
-            font-weight: 900; 
+          font-size: 48px;
+          text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+          color: #333333;
+          font-weight: 900; 
+          
+          letter-spacing: 0px;
             
         }
 
@@ -675,7 +677,6 @@ DO NOT USE (card-mod): &card-mod-css
       
 
             # font: inherit;
-            border: 0;
             # border-radius: 14px;
             margin: 26px 5px 0px 5px ; 
             padding: 0px;
@@ -690,8 +691,8 @@ DO NOT USE (card-mod): &card-mod-css
 
           appearance: button;
           background-color: transparent;
-          background-image: linear-gradient(to bottom, #fff, #f8eedb);
-          border: 0 solid #e5e7eb;
+          background-image: linear-gradient(to bottom, #fff, #ddd);
+          border: 1px solid rgba(0,0,0,0.08);
           border-radius: .5rem !important;
           box-sizing: border-box;
           color: #482307;

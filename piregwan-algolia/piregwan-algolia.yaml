@@ -437,11 +437,12 @@ DO NOT USE (card-mod): &card-mod-css
         h3 b {
             text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
             color: var(--piregwan-dark-gray);
-            font-size: 55px;
+            font-size: 65px;
             font-weight: 700;
             font-family: "Bebas Neue" ;
             letter-spacing: 3.5px;
-          # justify-content: center;
+            # justify-content: center;
+            letter-spacing: -0px; 
             
         }
 

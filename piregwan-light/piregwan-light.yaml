@@ -411,16 +411,18 @@ DO NOT USE (card-mod): &card-mod-css
         }
         h3 b {
           # font-size: 45px;
-          # font-family: "Roboto Condensed" ;
+          font-family: "Roboto Condensed" ;
           text-transform: uppercase;
           # -webkit-background-clip: text;
           # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
           # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
 
-            font-size: 50px;
-            text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-            color: #333333;
-            font-weight: 900; 
+          font-size: 42px;
+          text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+          color: #333333;
+          font-weight: 900; 
+          
+          letter-spacing: 1px;
             
         }
 
