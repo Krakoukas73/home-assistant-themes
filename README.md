@@ -79,7 +79,7 @@ See wiki for more **title features** and **tricks** :
 
 [![Watch the video](https://img.youtube.com/vi/mXbC1O6ndGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mXbC1O6ndGA)
 
-<h1>License<h1>
+<h1>License</h1>
   
 This project stands under GNU General Public License.
 Contributions to are welcomed. Tell me if you have a good idea for the project or do a pull request.
