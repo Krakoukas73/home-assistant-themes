@@ -33,7 +33,11 @@
 
 <h1>Algolia theme</h1>
 
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/ad0807d4-a3e4-4ad2-9079-b26bf36bf340)
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/8532d42d-60f9-46f5-973f-4bff423f8ca8)
+
+<h1>Glassmorphism theme</h1>
+
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/de20202e-653a-4c92-9e26-73b7b67830e3)
 
 
 
