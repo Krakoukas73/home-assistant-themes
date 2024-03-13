@@ -103,7 +103,7 @@ DO NOT USE (customizations): &base
   sidebar-icon-color: var(--piregwan-dark-gray)
   sidebar-text-color: white
   sidebar-selected-background-color: transparent
-  sidebar-selected-icon-color: var(--piregwan-red)
+  sidebar-selected-icon-color: rgba(0,0,0,0)
   sidebar-selected-text-color: white
   app-drawer-width: 75px
   # States and Badges
@@ -538,6 +538,9 @@ DO NOT USE (card-mod): &card-mod-css
           color: black;
           line-height: 2.1rem;
           
+
+
+
     }
     
     
@@ -605,8 +608,14 @@ DO NOT USE (card-mod): &card-mod-css
       padding-top: 15px;
       padding-bottom: 15px;
       border: 5px solid #FF4444; 
-      border-radius: 11px !important; 
       
+      
+              border: var(--piregwan-alert-border);
+              border-border-bottom-left-radius: var(--piregwan-alert-border-bottom-left-radius);
+              border-border-bottom-right-radius: var(--piregwan-alert-border-bottom-right-radius);
+              border-border-top-left-radius: var(--piregwan-alert-border-top-left-radius);
+              border-border-top-right-radius: var(--piregwan-alert-border-top-right-radius);
+              background-image: var(--piregwan-alert-background-image);
       
     }
     

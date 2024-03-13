@@ -30,8 +30,8 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-alert-border-bottom-right-radius: 4px;
   piregwan-alert-border-top-left-radius: 4px;
   piregwan-alert-border-top-right-radius: 4px;
-  piregwan-alert-border: "0px solid  var(--piregwan-red)"
-  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,0.07) 20%, rgba(0,0,0,0) 100%)"
+  piregwan-alert-border: "0px solid  var(--piregwan-dark-gray)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.09) 20%, rgba(0,0,0,0) 100%)"
 
   # HEAD AND SIDE BACKGROUND
   piregwan-background: "#EFECE7"
@@ -105,7 +105,7 @@ DO NOT USE (customizations): &base
   sidebar-icon-color: var(--piregwan-dark-gray)
   sidebar-text-color: white
   sidebar-selected-background-color: transparent
-  sidebar-selected-icon-color: var(--piregwan-red)
+  sidebar-selected-icon-color: rgba(0,0,0,0)
   sidebar-selected-text-color: white
   app-drawer-width: 75px
   # States and Badges
@@ -240,8 +240,10 @@ DO NOT USE (card-mod): &card-mod-css
           line-height: 1;
           # list-style: none;
           # overflow: hidden;
-          padding-left: 16px;
-          padding-right: 16px;
+          
+          padding-left: 2px;
+          padding-right: 2px;
+          
           position: relative;
           text-align: left;
           # text-decoration: none;
@@ -427,6 +429,10 @@ DO NOT USE (card-mod): &card-mod-css
 
         h3 {
           text-align: center; 
+          # background-image: linear-gradient(180deg, var(--piregwan-background) 99%, black 100%);
+          # background-position: center 50px;
+          # padding-bottom: -150px;
+          # justify-content: center;
         }
         h3 b {
             text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
@@ -435,6 +441,7 @@ DO NOT USE (card-mod): &card-mod-css
             font-weight: 700;
             font-family: "Bebas Neue" ;
             letter-spacing: 3.5px;
+          # justify-content: center;
             
         }
 
@@ -600,8 +607,14 @@ DO NOT USE (card-mod): &card-mod-css
       # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
       padding-top: 15px;
       padding-bottom: 15px;
-      border: 5px solid #FF4444; 
-      border-radius: 11px !important; 
+
+
+              border: var(--piregwan-alert-border);
+              border-border-bottom-left-radius: var(--piregwan-alert-border-bottom-left-radius);
+              border-border-bottom-right-radius: var(--piregwan-alert-border-bottom-right-radius);
+              border-border-top-left-radius: var(--piregwan-alert-border-top-left-radius);
+              border-border-top-right-radius: var(--piregwan-alert-border-top-right-radius);
+              background-image: var(--piregwan-alert-background-image);
       
       
     }
