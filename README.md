@@ -1,7 +1,7 @@
 
 <h1>About</h1>
 
-<b>Dark and light theme</b> (and more) for <a href="https://www.home-assistant.io/">Home Assistant</a> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
+<b>Dark and light theme</b> (and more cool stuff) for <a href="https://www.home-assistant.io/">Home Assistant</a> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
