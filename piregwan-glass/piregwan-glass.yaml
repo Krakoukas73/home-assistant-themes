@@ -1,0 +1,873 @@
+
+DO NOT USE (colors): &piregwan-colors
+  
+  piregwan-green: "#6CAC4B"
+  piregwan-yellow: "#EFAC1D"
+  piregwan-orange: "#ff7700"
+  piregwan-red: "#ff4444"
+  piregwan-sunflower: "#66cc99"
+  piregwan-gray: "#1C1C1C"
+  piregwan-blue: "#74CCE7"
+  
+  piregwan-theme: "piregwan-glass"
+
+  # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
+  piregwan-nuit: "#AAA"
+  
+  # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
+  piregwan-separator-display: "none"
+  piregwan-separator-visibility: "hidden"
+
+  piregwan-error: "#ff2200"
+  piregwan-text-gray: var(--piregwan-dark-gray)
+  piregwan-medium-gray: "#888"
+  piregwan-dark-gray: "#3e3e3e"
+  piregwan-dark-red: "#66cc99"
+  
+  # RED ALERTS
+  # piregwan-alert-border-bottom-left-radius: 15px 255px;
+  # piregwan-alert-border-bottom-right-radius: 225px 15px;
+  # piregwan-alert-border-top-left-radius: 255px 15px;
+  # piregwan-alert-border-top-right-radius: 15px 225px;
+  piregwan-alert-border: "2px solid  var(--piregwan-red)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,0.38) 20%, rgba(0,0,0,0) 90%)"
+
+
+
+  card-mod-icon-color: var(--piregwan-dark-gray)
+
+  # HEAD AND SIDE BACKGROUND
+  piregwan-background: " "
+  
+  piregwan-blue: "#3399FF"
+    
+  piregwan-font: Calibri
+  
+  # Animated icons
+  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-glass/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-glass/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/piregwan-glass/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/piregwan-glass/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-glass/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-glass/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/piregwan-glass/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/piregwan-glass/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/piregwan-glass/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/piregwan-glass/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-glass/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/piregwan-glass/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/piregwan-glass/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-glass/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-glass/exceptional.svg")  
+
+
+  
+  
+  
+
+DO NOT USE (customizations): &base 
+
+  lovelace-background: url('/hacsfiles/themes/piregwan-glass/abstract-green.png') fixed center/cover no-repeat
+  
+
+  switch-checked-button-color: var(--piregwan-red)
+  
+  state-inactive-color: rgba(0,255,0,1)
+  state-color: rgba (0,0,255,1)
+  
+
+  
+  
+  primary-background-color: var(--piregwan-background)
+  secondary-background-color: var(--piregwan-card-button)
+  
+  divider-color: transparent
+  accent-color: var(--piregwan-orange)
+  box-sizing: unset !important
+  # Fonts
+  font-family: "var(--piregwan-font), Segoe UI Variable Static Text, Segoe UI, SegoeUI, -apple-system,BlinkMacSystemFont, system-ui, sans-serif"
+  primary-font-family: var(--font-family)
+  paper-font-common-base_-_font-family: var(--primary-font-family)
+  paper-font-common-code_-_font-family: var(--primary-font-family)
+  paper-font-body1_-_font-family: var(--primary-font-family)
+  paper-font-subhead_-_font-family: var(--primary-font-family)
+  paper-font-headline_-_font-family: var(--primary-font-family)
+  paper-font-caption_-_font-family: var(--primary-font-family)
+  paper-font-title_-_font-family: var(--primary-font-family)
+  ha-card-header-font-family: var(--primary-font-family)
+
+
+
+
+  # Text
+  primary-text-color: var(--piregwan-text-gray)
+  secondary-text-color: var(--piregwan-text-gray)
+  text-primary-color: var(--piregwan-text-gray)
+  disabled-text-color: "#FF4444"
+  text-dark-color: green
+  
+  # Sidebar Menu
+  sidebar-background-color: transparent
+  sidebar-icon-color: var(--piregwan-dark-gray)
+  sidebar-text-color: var(--piregwan-dark-gray)
+  sidebar-selected-background-color: transparent
+  sidebar-selected-icon-color: rgba(0,0,0,0)
+  sidebar-selected-text-color: var(--piregwan-dark-gray)
+  app-drawer-width: 75px
+  # States and Badges
+  state-icon-color: var(--piregwan-dark-gray)
+  state-icon-active-color: var(--piregwan-text-gray)
+  state-icon-unavailable-color: var(--disabled-text-color)
+  # Sliders
+  paper-slider-knob-color: green
+  
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: "#0984ff"
+  paper-slider-secondary-color: var(--paper-slider-knob-color)
+  paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  paper-slider-font-color: black
+  ha-slider-background: none !important
+  
+  # Labels
+  label-badge-background-color: "#23232E"
+  label-badge-text-color: black
+  label-badge-red: rgba(255, 159, 9, 0.7)
+  # Cards
+  card-background-color: var(--piregwan-background)
+  paper-listbox-background-color: white
+  ha-card-border-radius: 7px
+  ha-card-background: var(--piregwan-card-button);
+  paper-card-background-color: green
+  # Toggles
+  paper-toggle-button-checked-button-color: "#484848"
+  paper-toggle-button-checked-bar-color: "#484848"
+  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+  # Table row
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  # Switches
+  # switch-checked-color: var(--piregwan-red)
+  # switch-checked-track-color: var(--piregwan-red)
+  switch-checked-button-color: var(--piregwan-red)
+  # Other
+  paper-dialog-background-color: rgba(55, 55, 55)
+  paper-item-icon-color: var(--piregwan-medium-gray)
+  more-info-header-background: rgba(25, 25, 25)
+  app-header-background-color: var(--piregwan-background)
+  
+  state-switch-active-color: var(--piregwan-red)
+  state-switch-on-color: var(--piregwan-red)
+  state-active-color: var(--piregwan-red)
+  
+  
+  
+  
+  # Custom
+  mini-media-player-base-color: var(--piregwan-text-gray)
+  mini-media-player-icon-color: var(--piregwan-text-gray)
+  state-lock-unlocked-color: var(--piregwan-dark-red)
+  sidebar-menu-button-text-color: var(--piregwan-dark-gray)
+  mdc-typography-button-font-family: var(--piregwan-font)
+  mdc-typography-body2-font-family: var(--piregwan-font)
+  mdc-theme-primary: white
+  mdc-theme-secondary: var(--piregwan-orange)
+  round-slider-bar-color: var(--piregwan-red)
+  app-header-edit-background-color: var(--piregwan-background)
+  switch-unchecked-track-color: var(--piregwan-text-gray)
+  switch-unchecked-button-color: var(--piregwan-text-gray)
+  header-height: 43px
+  
+  
+  app-header-text-color: var(--piregwan-gray)
+  paper-tabs-selection-bar-color: transparent
+  mdc-button-outline-color: transparent
+  ha-config-card-border-radius: var(--ha-card-border-radius)
+  mdc-typography-font-family: Calibri
+  ha-card-border-width: 0px
+  paper-yellow-a100: transparent
+  mdc-theme-on-primary: white
+  mdc-theme-on-secondary: var(--piregwan-text-gray)
+  # mdc-theme-text-primary-on-background: white
+  # mdc-theme-text-secondary-on-background: white
+  data-table-background-color: var(--piregwan-text-dark-gray)
+  rgb-state-media-player-color: var(--paper-item-icon-color)
+  # state-color: var(--piregwan-ui-secondary)
+  mdc-shape-small: var(--ha-card-border-radius)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+DO NOT USE (card-mod): &card-mod-css 
+  card-mod-card-yaml: &card-mod-card |
+    .: |
+
+      
+      
+        /* CYBERPUNK CARDS */
+        
+
+       
+        ha-card {
+            # background-color: white;
+            font: inherit;
+            # border: 0;
+            font-weight: 600;
+
+            position: relative;
+            color: var(--piregwan-dark-gray);
+            font-size: 16px;
+            text-decoration:none;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            outline: 0;
+            margin-left: auto;
+            margin-right: auto;            
+            background: linear-gradient(
+              170deg,
+              rgba(255,255,255,0.8) 0%,
+              rgba(255,255,255,0.6) 20%,
+              rgba(255,255,255,0.1) 50%,
+              rgba(0,0,0,0.0) 50%,
+              rgba(0,0,0,0.0) 100%
+            ); /* W3C */
+            border-color: rgba(255, 255, 255, 0.4);
+            border-image: none;
+            border-style: inset;
+            border-width: 1px;
+            box-shadow:
+              0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
+              0 2px 6px rgba(0, 0, 0, 0.5),
+              0 -4px 8px -1px rgba(255, 255, 255, 0.4) inset;
+            backdrop-filter: blur(15px);
+            
+            
+            
+
+
+        }
+        
+
+        
+        
+      
+
+        # ha-card.type-custom-html-card:after, 
+        # ha-card.type-custom-mini-graph-card:after
+        # {
+            # display: none;
+            # visibility: hidden;
+        # }
+        # ha-card.type-custom-html-card {
+            # padding: 0;
+            # margin: 0;
+        # }
+
+        
+       
+                
+
+        
+        
+        # ha-card.type-entities, 
+        # ha-card.type-custom-apexcharts-card,
+        # ha-card.type-custom-html-card, 
+        # ha-card.type-button,
+        # ha-card.type-markdown, 
+        # ha-card.type-statistics-graph, 
+        # ha-card.type-iframe, 
+        # ha-card.type-picture-entity, 
+        # ha-card.type-statistic, 
+        # ha-card.type-history-graph, 
+        # ha-card.type-custom-floor3d-card, 
+        # ha-card.type-weather-forecast, 
+        # ha-card.type-custom-button-card, 
+        # ha-card.type-custom-rain-gauge-card, 
+        # ha-card.type-custom-horizon-card,
+        # ha-card.type-custom-lovelace-multiline-text-input-card
+        # {
+                   
+        # }
+
+        # ha-card.type-picture-entity {
+            # padding: 12px 10px 5px 10px;
+        # }
+        
+        ha-card > hui-image #image, 
+        img #image {
+          border-radius: 14px;
+        }
+        
+        
+        # ha-card.type-markdown,
+        # ha-card.type-custom-button-card, 
+        # ha-card.type-button
+        # {
+                    # margin: 16px 5px 0 5px ; 
+        # }
+        # ha-card.type-custom-html-card
+        # {
+                    # margin: 16px 5px 26px 5px ; 
+        # }
+        # ha-card.type-entities {
+                    # margin: 26px 5px 26px 5px ; 
+        # }
+        
+        
+        
+        
+
+        # ha-card.type-button:after,  
+        # ha-card.type-custom-mini-graph-card:after 
+        # {
+            # animation: none; 
+        # }
+        
+        
+        
+        
+        ha-card > * {
+          z-index: 2;
+        }
+        
+        
+
+
+        #TITRES DES CARDS
+
+        ha-card h2 {
+          font-size: 42px;
+          font-weight: 500;
+
+          text-shadow: 1px 1px 2px black;
+          text-transform: uppercase;
+          font-family: "Bebas Neue" ;
+          letter-spacing: 0.5px;
+          color: black;
+        }
+
+        ha-card h1, ha-card h1.card-header {
+          font-size: 31px;
+          font-weight: 500;
+
+          text-transform: uppercase;
+          font-family: "Bebas Neue" ;
+          letter-spacing: 0.5px;
+          color: white;
+
+          /* NEW POUR H1 */
+          background-color: rgba(21, 21, 21, 1);
+          border-radius: 7px;
+          text-align: center; 
+          margin-bottom: 15px; 
+          
+          display: inline;
+          padding: 0;
+          margin: 15px;
+        }
+        
+    hui-image:
+      $: |
+        img {
+          border-radius: 11px;
+        }
+        
+    
+
+
+
+
+
+
+
+
+    ha-markdown:
+      $: |
+        
+        h1 {
+          font-size: 33px;
+          font-weight: 500;
+        }
+        h2 {
+          font-size: 45px;
+          font-weight: 200;
+        }
+        
+        h1 {
+          text-shadow: 1px 1px 2px black;
+          text-transform: uppercase;
+          font-family: "Bebas Neue" ;
+          letter-spacing: 0.5px;
+          color: white;
+          
+          /* NEW POUR H1 */
+          background-color: rgba(21, 21, 21, 1);
+          border-radius: 7px;
+          text-align: center; 
+          padding: 4.5px;
+        }
+
+        h2 {
+          text-shadow: 1px 1px 2px black;
+          text-transform: uppercase;
+          font-family: "Bebas Neue" ;
+          letter-spacing: 0.5px;
+          color: white;
+        }
+        
+        
+        
+              
+        
+        
+        h3 {
+          text-align: center; 
+        }
+        h3 b {
+            font-size: 65px;
+            font-weight: 700;
+            font-family: "Bebas Neue" ;
+
+            
+            
+            
+            
+            
+            background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+         
+            # color: white;
+            # text-shadow: 1px 1px 1px #957dad,
+             # 1px 2px 1px #957dad,
+             # 1px 3px 1px #957dad,
+             # 1px 4px 1px #957dad,
+             # 1px 5px 1px #957dad,
+             # 1px 6px 1px #957dad,
+             # 1px 10px 5px rgba(16, 16, 16, 0.5),
+             # 1px 15px 10px rgba(16, 16, 16, 0.4),
+             # 1px 20px 30px rgba(16, 16, 16, 0.3),
+             # 1px 25px 50px rgba(16, 16, 16, 0.2);
+            
+        }
+          
+          h3 {
+            text-transform: lowercase;
+          }
+          h3:first-letter {
+            text-transform: uppercase;
+          }
+
+
+
+
+
+
+
+
+        ha-markdown-element > h2  {
+        }
+
+        ha-markdown-element   {
+        }
+
+        ha-markdown-element > pre  {
+          font-size: 65px;
+          font-weight: 200;
+        }
+
+        ha-markdown-element > blockquote  {
+          text-transform: uppercase;
+          font-family: "Bebas Neue" ;
+          letter-spacing: 0.5px;
+          color: black;
+          font-size: 36px;
+          padding: 0;
+          margin: 0;
+        }
+
+        ha-markdown-element > p > img, img  {
+          filter: drop-shadow(0 3.5px 0px  #ccc);
+          border-radius: 7px;
+        }
+
+
+
+
+
+      
+      
+            
+      
+      
+      
+      
+
+
+
+      
+      
+
+  # Toolbar and dashboard modifications
+  card-mod-root-yaml: &card-mod-root |
+    .: |
+
+            
+      ha-drawer {
+            # border-right-width: unset !important;
+            # border-right-style: unset !important;
+            background-color: red; 
+            
+      }
+
+   
+
+
+
+
+
+    ha-tabs$: |
+      paper-icon-button { display: none !important; }
+
+
+
+
+
+
+
+
+  card-mod-sidebar: &card-mod-sidebar |
+    :host {
+      content: "";
+      background: url('/hacsfiles/themes/piregwan-glass/transparent.png');      
+    }   
+
+
+
+
+
+
+
+
+    .item-text {
+      text-align: right;
+      margin-left: auto;
+      margin-right: 20px;
+      # margin-bottom: -23px;
+      text-transform: uppercase;
+      color: var(--piregwan-dark-gray); 
+      
+    }
+    
+    a[aria-selected=true] paper-icon-item .item-text {
+          font-size: 38px;
+          font-weight: 550;
+
+          text-transform: lowercase;
+          # font-family: "Bebas Neue" ;
+          letter-spacing: 0.5px;
+          color: black;
+          line-height: 2.1rem;
+          transform: rotate(-1deg);
+    }
+    a[aria-selected=true]:first-letter paper-icon-item .item-text
+    {
+          text-transform: uppercase;
+    }
+
+
+
+    # a[aria-selected=true]  {
+        # background-color: green; 
+    # }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    
+    
+    .menu {
+        background: url('/hacsfiles/themes/piregwan-glass/transparent.png');      
+    }
+    .menu .title {
+      visibility: hidden;
+      display: none;
+    }
+
+    .menu ha-icon-button {
+      color: white;
+    }
+
+    paper-icon-item span,
+    paper-icon-item:hover span {
+      # text-transform: uppercase;
+      z-index: 100;
+    }
+
+
+
+      
+
+
+    a[aria-selected=true] paper-icon-item  {
+      
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 3px solid black; 
+      # border-radius: 11px !important; 
+      background-color:white;
+      
+      
+    }
+    
+
+
+
+    paper-icon-item:hover span,
+    paper-icon-item:hover ha-icon,
+    paper-icon-item:hover ha-svg-icon,
+    a[aria-selected=true] paper-icon-item span,
+    a[aria-selected=true] paper-icon-item ha-icon,
+    a[aria-selected=true] paper-icon-item ha-svg-icon
+    {
+      color: var(--piregwan-red);
+    }
+
+    paper-icon-item:hover ha-icon,
+    paper-icon-item:hover ha-svg-icon,
+    a[aria-selected=true] paper-icon-item ha-icon,
+    a[aria-selected=true] paper-icon-item ha-svg-icon {
+      animation: blink 250ms infinite alternate
+    }
+
+    paper-listbox a {
+        margin-bottom: 5px;
+        border: 0;
+        
+        
+    }
+    
+    paper-listbox {
+        height: calc( 100% - var(--header-height) - 197px - env(safe-area-inset-bottom)) !important;
+        border: 0;
+        width: 250%;
+    }
+    
+  
+
+
+
+
+
+
+    /* CYBERPUNK MENU */
+
+    paper-icon-item {
+            # background-color: white;
+            font: inherit;
+            position: relative;
+            color: var(--piregwan-dark-gray);
+            font-size: 16px;
+            text-decoration:none;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            outline: 0;
+            margin-left: auto;
+            margin-right: auto;            
+            background: linear-gradient(
+              170deg,
+              rgba(255,255,255,0.8) 0%,
+              rgba(255,255,255,0.6) 20%,
+              rgba(255,255,255,0.1) 50%,
+              rgba(0,0,0,0.0) 50%,
+              rgba(0,0,0,0.0) 100%
+            ); /* W3C */
+            border-color: rgba(255, 255, 255, 0.4);
+            border-image: none;
+            border-style: inset;
+            border-width: 1px;
+            box-shadow:
+              0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
+              0 2px 6px rgba(0, 0, 0, 0.5),
+              0 -4px 8px -1px rgba(255, 255, 255, 0.4) inset;
+            backdrop-filter: blur(40px);
+
+            max-width: 240px;
+
+    }
+    
+    
+    
+    
+
+        a[aria-selected=true] paper-icon-item {
+          # font-size: 40px;
+          # background-color: var(--piregwan-blue);
+          # border: 0 solid #E5E7EB;
+          # box-sizing: border-box;
+          # color: black;
+          # font-weight: 700;
+          # justify-content: left;
+          # line-height: 1.75rem;
+          # padding: .75rem 1.65rem;
+          # position: relative;
+          # text-align: left;
+          # text-decoration: none #000000 solid;
+          # text-decoration-thickness: auto;
+          # width: 100%;
+          # position: relative;
+          # transform: rotate(-1deg);
+          # border-bottom-left-radius: 15px 255px;
+          # border-bottom-right-radius: 225px 15px;
+          # border-top-left-radius: 255px 15px;
+          # border-top-right-radius: 15px 225px;
+          # margin-top: 15px;
+          # padding-top: 20px;
+          # padding-bottom: 20px;
+          }
+          
+          a[aria-selected=true] paper-icon-item:after {
+              # content: '';
+              # position: absolute;
+              # border: 3px solid #000000;
+              # bottom: 4px;
+              # left: 4px;
+              # width: calc(100% - 1px);
+              # height: calc(100% - 1px);
+
+              # border-bottom-left-radius: 15px 255px;
+              # border-bottom-right-radius: 225px 15px;
+              # border-top-left-radius: 255px 15px;
+              # border-top-right-radius: 15px 225px;
+          }
+          
+          a[aria-selected=true] paper-icon-item {
+            text-transform: lowercase;
+          }
+          a[aria-selected=true] paper-icon-item:first-letter {
+            text-transform: uppercase;
+          }
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    a[aria-selected=true] paper-icon-item:before {
+          top: 2.0px;
+    }
+
+     
+    
+
+
+    div.tooltip {
+      color: white;
+      background-color: black;
+      border-radius: 7px; 
+      padding: 3px 15px; 
+    }
+
+
+
+
+
+
+
+
+
+Piregwan Glass:
+  card-mod-theme: Piregwan Glass
+  <<: *piregwan-colors
+  <<: *base
+  <<: *card-mod-css
+  
+  # Primary colors
+  
+  piregwan-ui-primary: var(--piregwan-gray)
+  piregwan-ui-secondary: var(--piregwan-red)
+  piregwan-ui-tertiary: var(--piregwan-gray)
+  
+  # piregwan-ui-app-header-background-color: "#272727"
+  piregwan-ui-app-header-text-color: "#FFF"
+  # Card colors
+  piregwan-card-top-color: var(--piregwan-gray)
+  piregwan-card-mid-left-color: var(--piregwan-red)
+  
+  # piregwan-card-button: var(--piregwan-gray)
+  piregwan-card-button: var(--piregwan-gray)
+  
+  piregwan-card-bottom-color: var(--piregwan-gray)
+  # Misc
+  success-color: var(--piregwan-green)
+  warning-color: var(--piregwan-sunflower)
+  error-color: var(--piregwan-red)
+
