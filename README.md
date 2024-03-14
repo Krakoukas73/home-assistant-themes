@@ -45,9 +45,11 @@
 
 <h1>Installation</h1>
 
-- Copy the directories in /themes/ Home Assistant folder
+<b>Manual</b> :
+
+- Copy all directories in /themes/ Home Assistant folder
 - Restart Home Assistant
-- Choose a theme (do not use base themes)
+- Choose a theme (<i>do not use base themes</i>)
 
 <b>OR use HACS</b> :
 
@@ -63,7 +65,7 @@ Use <b>markdown card</b>, add picture and select "_Transparent_" theme :
 
 ![picture-dark](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/d4111762-be78-45bd-a8a4-d5ff478bb2ed)
 
-See wiki for more **title features** and **tricks** :
+See wiki for more **title features** and **fun tricks** :
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/adfd0149-c279-44d9-a8c7-b387206c2131)
 
