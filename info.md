@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 <h1>About</h1>
 
 <b>Dark and light theme</b> (and more cool stuff) for <a href="https://www.home-assistant.io/">Home Assistant</a> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
@@ -38,6 +38,8 @@
 <h1>Glassmorphism theme</h1>
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/de20202e-653a-4c92-9e26-73b7b67830e3)
+
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e2c43e65-7214-4a3f-b153-d188eafe81de)
 
 
 
