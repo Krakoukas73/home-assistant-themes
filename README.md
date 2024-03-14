@@ -39,6 +39,8 @@
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/de20202e-653a-4c92-9e26-73b7b67830e3)
 
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e2c43e65-7214-4a3f-b153-d188eafe81de)
+
 
 
 <h1>Installation</h1>
