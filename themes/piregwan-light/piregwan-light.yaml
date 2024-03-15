@@ -22,10 +22,10 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-red: "#66cc99"
   
   # RED ALERTS
-  piregwan-alert-border-bottom-left-radius: 14px;
-  piregwan-alert-border-bottom-right-radius: 14px;
-  piregwan-alert-border-top-left-radius: 14px;
-  piregwan-alert-border-top-right-radius: 14px;
+  piregwan-alert-border-bottom-left-radius: "14px"
+  piregwan-alert-border-bottom-right-radius: "14px"
+  piregwan-alert-border-top-left-radius: "14px"
+  piregwan-alert-border-top-right-radius: "14px"
   piregwan-alert-border: "0px solid  var(--piregwan-red)"
   # piregwan-alert-background-image: "linear-gradient(180deg, #EDD8CE 20%, rgba(255,255,255,1) 90%)"
   piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.10) 20%, rgba(0,0,0,0) 100%)"
@@ -422,7 +422,7 @@ DO NOT USE (card-mod): &card-mod-css
           color: #333333;
           font-weight: 900; 
           
-          letter-spacing: 1px;
+          letter-spacing: -1px;
             
         }
 

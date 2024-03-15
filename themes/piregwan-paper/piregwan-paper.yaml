@@ -25,10 +25,10 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-red: "#66cc99"
   
   # RED ALERTS
-  piregwan-alert-border-bottom-left-radius: 15px 255px;
-  piregwan-alert-border-bottom-right-radius: 225px 15px;
-  piregwan-alert-border-top-left-radius: 255px 15px;
-  piregwan-alert-border-top-right-radius: 15px 225px;
+  piregwan-alert-border-bottom-left-radius: "15px 255px"
+  piregwan-alert-border-bottom-right-radius: "225px 15px"
+  piregwan-alert-border-top-left-radius: "255px 15px"
+  piregwan-alert-border-top-right-radius: "15px 225px"
   piregwan-alert-border: "4px solid  var(--piregwan-red)"
   piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,0.08) 20%, rgba(0,0,0,0) 90%)"
 
@@ -258,81 +258,12 @@ DO NOT USE (card-mod): &card-mod-css
         } 
         
         
-      
 
-        # ha-card.type-custom-html-card:after, 
-        # ha-card.type-custom-mini-graph-card:after
-        # {
-            # display: none;
-            # visibility: hidden;
-        # }
-        # ha-card.type-custom-html-card {
-            # padding: 0;
-            # margin: 0;
-        # }
-
-        
-       
-                
-
-        
-        
-        # ha-card.type-entities, 
-        # ha-card.type-custom-apexcharts-card, 
-        # ha-card.type-custom-html-card, 
-        # ha-card.type-button,
-        # ha-card.type-markdown, 
-        # ha-card.type-statistics-graph, 
-        # ha-card.type-iframe, 
-        # ha-card.type-picture-entity, 
-        # ha-card.type-statistic, 
-        # ha-card.type-history-graph, 
-        # ha-card.type-custom-floor3d-card, 
-        # ha-card.type-weather-forecast, 
-        # ha-card.type-custom-button-card, 
-        # ha-card.type-custom-rain-gauge-card, 
-        # ha-card.type-custom-horizon-card,
-        # ha-card.type-custom-lovelace-multiline-text-input-card
-        # {
-                    # max-height: calc(100% - 25px);
-        # }
-
-        # ha-card.type-picture-entity {
-            # padding: 12px 10px 5px 10px;
-        # }
         
         ha-card > hui-image #image, 
         img #image {
           border-radius: 14px;
         }
-        
-        
-        # ha-card.type-markdown,
-        # ha-card.type-custom-button-card, 
-        # ha-card.type-button
-        # {
-                    # margin: 16px 5px 0 5px ; 
-        # }
-        # ha-card.type-custom-html-card
-        # {
-                    # margin: 16px 5px 26px 5px ; 
-        # }
-        # ha-card.type-entities {
-                    # margin: 26px 5px 26px 5px ; 
-        # }
-        
-        
-        
-        
-
-        # ha-card.type-button:after,  
-        # ha-card.type-custom-mini-graph-card:after 
-        # {
-            # animation: none; 
-        # }
-        
-        
-        
         
         ha-card > * {
           z-index: 2;
@@ -433,9 +364,6 @@ DO NOT USE (card-mod): &card-mod-css
           border: 0 solid #E5E7EB;
           box-sizing: border-box;
           color: black;
-          # display: flex;
-          # font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-          # font-size: 1rem;
           font-weight: 700;
           justify-content: center;
           line-height: 1.75rem;
@@ -445,13 +373,8 @@ DO NOT USE (card-mod): &card-mod-css
           text-decoration: none #000000 solid;
           text-decoration-thickness: auto;
           width: 100%;
-          # max-width: 460px;
           position: relative;
-          # cursor: pointer;
           transform: rotate(-1deg);
-          # user-select: none;
-          # -webkit-user-select: none;
-          # touch-action: manipulation;
 
           border-bottom-left-radius: 15px 255px;
           border-bottom-right-radius: 225px 15px;
@@ -576,7 +499,6 @@ DO NOT USE (card-mod): &card-mod-css
       text-align: right;
       margin-left: auto;
       margin-right: 20px;
-      # margin-bottom: -23px;
       text-transform: uppercase;
       color: var(--piregwan-dark-gray); 
       
@@ -598,11 +520,6 @@ DO NOT USE (card-mod): &card-mod-css
           text-transform: uppercase;
     }
 
-
-
-    # a[aria-selected=true]  {
-        # background-color: green; 
-    # }
 
 
 
@@ -650,7 +567,6 @@ DO NOT USE (card-mod): &card-mod-css
 
     paper-icon-item span,
     paper-icon-item:hover span {
-      # text-transform: uppercase;
       z-index: 100;
     }
 
@@ -664,7 +580,6 @@ DO NOT USE (card-mod): &card-mod-css
       padding-top: 15px;
       padding-bottom: 15px;
       border: 3px solid black; 
-      # border-radius: 11px !important; 
       background-color:white;
       
       

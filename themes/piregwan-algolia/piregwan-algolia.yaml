@@ -26,10 +26,10 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-alert: var(--piregwan-red)
 
   # RED ALERTS
-  piregwan-alert-border-bottom-left-radius: 4px;
-  piregwan-alert-border-bottom-right-radius: 4px;
-  piregwan-alert-border-top-left-radius: 4px;
-  piregwan-alert-border-top-right-radius: 4px;
+  piregwan-alert-border-bottom-left-radius: "4px"
+  piregwan-alert-border-bottom-right-radius: "4px"
+  piregwan-alert-border-top-left-radius: "4px"
+  piregwan-alert-border-top-right-radius: "4px"
   piregwan-alert-border: "1px dotted var(--piregwan-red)"
   piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.09) 20%, rgba(255,0,0,0) 100%)"
 
@@ -233,31 +233,16 @@ DO NOT USE (card-mod): &card-mod-css
           background-color: #FCFCFD;
           border-radius: 4px;
           border-width: 0;
-          # box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-          # box-sizing: border-box;
           color: #36395A;
           font-family: monospace;
           line-height: 1;
-          # list-style: none;
-          # overflow: hidden;
-          
           padding-left: 2px;
           padding-right: 2px;
-          
           position: relative;
           text-align: left;
-          # text-decoration: none;
-          # white-space: nowrap;
-          # will-change: box-shadow,transform;
           font-size: 13px;
           
           box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-          
-          # box-shadow: 
-             # 1px 10px 5px rgba(45, 35, 66, 0.2),
-             # 1px 12px 7px rgba(45, 35, 66, 0.15),
-             # 1px 15px 15px rgba(45, 35, 66, 0.10),
-             # 1px 20px 20px rgba(45, 35, 66, 0.07), #D6D6E7 0 -3px 0 inset ;
 
 
         }
@@ -270,27 +255,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-card:after {
         } 
-        
-        
-      
 
-        # ha-card.type-custom-html-card:after, 
-        # ha-card.type-custom-mini-graph-card:after
-        # {
-            # display: none;
-            # visibility: hidden;
-        # }
-        # ha-card.type-custom-html-card {
-            # padding: 0;
-            # margin: 0;
-        # }
-
-        
-       
-                
-
-        
-        
         ha-card.type-entities, 
         ha-card.type-custom-apexcharts-card, 
         ha-card.type-custom-html-card, 
@@ -442,16 +407,6 @@ DO NOT USE (card-mod): &card-mod-css
             font-size: 65px;
             font-weight: 700;
             font-family: "Bebas Neue" ;
-
-            
-            
-            
-            
-            
-            # background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
-            # color: transparent;
-            # background-clip: text;
-            # -webkit-background-clip: text;
          
             color: white;
             text-shadow: 1px 1px 1px #957dad,
@@ -528,8 +483,6 @@ DO NOT USE (card-mod): &card-mod-css
     .: |
 
       ha-drawer {
-            # border-right-width: unset !important;
-            # border-right-style: unset !important;
             background-color: red; 
             
       }
@@ -633,7 +586,6 @@ DO NOT USE (card-mod): &card-mod-css
 
 
     a[aria-selected=true] paper-icon-item  {
-      # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
       padding-top: 15px;
       padding-bottom: 15px;
 
@@ -701,45 +653,28 @@ DO NOT USE (card-mod): &card-mod-css
     /* CYBERPUNK MENU */
 
     paper-icon-item {
-      
-
-            # font: inherit;
-            border: 0;
-            # border-radius: 14px;
-            margin: 50px 5px 0px 5px ; 
-            padding: 0px;
-            font-weight: 600;
-
-            z-index: 1000; 
-            # margin-bottom: 50px;
-            padding-top: 10px;
-            padding-bottom: 7px;
-            max-width: 235px;
-            
-
+          border: 0;
+          margin: 50px 5px 0px 5px ; 
+          padding: 0px;
+          font-weight: 600;
+          z-index: 1000; 
+          padding-top: 10px;
+          padding-bottom: 7px;
+          max-width: 235px;
           background-color: #FCFCFD;
           border-radius: 4px;
           border-width: 0;
           box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-          # box-sizing: border-box;
           color: #36395A;
           font-family: monospace;
           line-height: 1;
-          # list-style: none;
           overflow: hidden;
           padding-left: 16px;
           padding-right: 16px;
           position: relative;
           text-align: left;
-          # text-decoration: none;
-          # white-space: nowrap;
-          # will-change: box-shadow,transform;
           font-size: 13px;
           box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-
-
-
-            
     }
     
     a[aria-selected=true] paper-icon-item:before {

@@ -24,10 +24,10 @@ DO NOT USE (colors): &piregwan-colors
   card-mod-icon-color: var(--piregwan-dark-gray)
 
   # RED ALERTS
-  piregwan-alert-border-bottom-left-radius: 0.5rem;
-  piregwan-alert-border-bottom-right-radius: 0.5rem;
-  piregwan-alert-border-top-left-radius: 0.5rem;
-  piregwan-alert-border-top-right-radius: 0.5rem;
+  piregwan-alert-border-bottom-left-radius: "0.5rem"
+  piregwan-alert-border-bottom-right-radius: "0.5rem"
+  piregwan-alert-border-top-left-radius: "0.5rem"
+  piregwan-alert-border-top-right-radius: "0.5rem"
   piregwan-alert-border: "0px solid  var(--piregwan-red)"
   piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,255,255,0.5) 1px, rgba(255,0,0,0.06) 2px, rgba(255,255,255,0.4) 50%, #ebebeb 85%)"
 
@@ -229,7 +229,7 @@ DO NOT USE (card-mod): &card-mod-css
           padding: 0px;
 
           appearance: button;
-          background-color: transparent;
+          background-color: var(--piregwan-red);
           background-image: linear-gradient(to bottom, #fff, #ebebeb);
           border: 1px solid rgba(0,0,0,0.08);
           border-radius: .5rem;
@@ -403,12 +403,7 @@ DO NOT USE (card-mod): &card-mod-css
           text-align: center; 
         }
         h3 b {
-          # font-size: 45px;
-          # font-family: "Roboto Condensed" ;
           text-transform: uppercase;
-          # -webkit-background-clip: text;
-          # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
-          # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
 
           font-size: 48px;
           text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
@@ -471,8 +466,6 @@ DO NOT USE (card-mod): &card-mod-css
     .: |
 
       ha-drawer {
-            # border-right-width: unset !important;
-            # border-right-style: unset !important;
             background-color: red; 
             
       }
@@ -670,21 +663,11 @@ DO NOT USE (card-mod): &card-mod-css
           box-sizing: border-box;
           color: #482307;
           column-gap: 1rem;
-          # cursor: pointer;
-          # display: flex;
-          # font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
           font-size: 100%;
           font-weight: 700;
           line-height: 24px;
-          # margin: 0;
           outline: 2px solid transparent;
-          # padding: 1rem 1.5rem;
-          # text-align: center;
           text-transform: none;
-          # transition: all .1s cubic-bezier(.4, 0, .2, 1);
-          # user-select: none;
-          # -webkit-user-select: none;
-          # touch-action: manipulation;
           box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
 
 
