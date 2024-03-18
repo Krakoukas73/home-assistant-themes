@@ -269,6 +269,10 @@ DO NOT USE (card-mod): &card-mod-css
           z-index: 2;
         }
         
+        ha-card.type-button
+        {
+                    margin:0 0 7px 0; 
+        }
         
 
 

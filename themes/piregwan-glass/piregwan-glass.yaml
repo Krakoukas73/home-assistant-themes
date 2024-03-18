@@ -280,6 +280,10 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         
+        ha-card.type-button
+        {
+                    margin:0 0 7px 0; 
+        }
 
 
         #TITRES DES CARDS

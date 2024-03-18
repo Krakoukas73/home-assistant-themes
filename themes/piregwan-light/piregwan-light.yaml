@@ -224,15 +224,25 @@ DO NOT USE (card-mod): &card-mod-css
             
             background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
 
+
             font: inherit;
             border: 0;
-            border-radius: 14px;
-            margin: 26px 5px 0px 5px ; 
+            # margin: 26px 5px 0px 5px ; 
             padding: 0px;
             font-weight: 600;
-            box-shadow: inset 0 1.5px 0 0 #f4f4f4, 0 1.5px 0 0 #efefef,
-            0 4.6867px 0 0 #ececec, 0 9.5px 0 0 #e0e0e0, 0 14px 0 0 #dedede,
-            0 14.5px 0 0 #dcdcdc, 0 16px 0 0 #cacaca, 0 16px 15.715px 0 #cecece;
+            border-radius: 14px;
+            # margin-bottom: 22px;
+
+            box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #cecece 0 -8px 0 inset;
+
+            # box-shadow: inset 0 1.5px 0 0 #f4f4f4, 
+                        # 0 1.5px 0 0 #efefef,
+                        # 0 4.5px 0 0 #ececec, 
+                        # 0 10px 0 0 #e0e0e0, 
+                        # 0 14px 0 0 #dedede,
+                        # 0 14.5px 0 0 #dcdcdc, 
+                        # 0 16px 0 0 #cacaca, 
+                        # 0 16px 15.5px 0 #cecece;
 
         }
         
@@ -262,24 +272,9 @@ DO NOT USE (card-mod): &card-mod-css
 
         
         
-        ha-card.type-entities, 
-        ha-card.type-custom-apexcharts-card, 
-        ha-card.type-custom-html-card, 
-        ha-card.type-button,
-        ha-card.type-markdown, 
-        ha-card.type-statistics-graph, 
-        ha-card.type-iframe, 
-        ha-card.type-picture-entity, 
-        ha-card.type-statistic, 
-        ha-card.type-history-graph, 
-        ha-card.type-custom-floor3d-card, 
-        ha-card.type-weather-forecast, 
-        ha-card.type-custom-button-card, 
-        ha-card.type-custom-rain-gauge-card, 
-        ha-card.type-custom-horizon-card,
-        ha-card.type-custom-lovelace-multiline-text-input-card
+        ha-card.type-button
         {
-                    max-height: calc(100% - 25px);
+                    margin:0 0 20px 0; 
         }
 
         ha-card.type-picture-entity {
@@ -292,19 +287,19 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         
-        ha-card.type-markdown,
-        ha-card.type-custom-button-card, 
-        ha-card.type-button
-        {
-                    margin: 16px 5px 0 5px ; 
-        }
-        ha-card.type-custom-html-card
-        {
-                    margin: 16px 5px 26px 5px ; 
-        }
-        ha-card.type-entities {
-                    margin: 26px 5px 26px 5px ; 
-        }
+        # ha-card.type-markdown,
+        # ha-card.type-custom-button-card, 
+        # ha-card.type-button
+        # {
+                    # margin: 16px 5px 0 5px ; 
+        # }
+        # ha-card.type-custom-html-card
+        # {
+                    # margin: 16px 5px 26px 5px ; 
+        # }
+        # ha-card.type-entities {
+                    # margin: 26px 5px 26px 5px ; 
+        # }
         
         
         
