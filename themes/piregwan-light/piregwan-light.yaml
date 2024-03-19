@@ -28,7 +28,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-alert-border-top-right-radius: "14px"
   piregwan-alert-border: "0px solid  var(--piregwan-red)"
   # piregwan-alert-background-image: "linear-gradient(180deg, #EDD8CE 20%, rgba(255,255,255,1) 90%)"
-  piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.10) 20%, rgba(0,0,0,0) 100%)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.22) 12%, rgba(0,0,0,0) 80%)"
 
   # HEAD AND SIDE BACKGROUND
   piregwan-background: "#EFECE7"
@@ -230,10 +230,16 @@ DO NOT USE (card-mod): &card-mod-css
             # margin: 26px 5px 0px 5px ; 
             padding: 0px;
             font-weight: 600;
-            border-radius: 14px;
+            border-radius: 7px 7px 12px 12px;
             # margin-bottom: 22px;
 
-            box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #cecece 0 -8px 0 inset;
+            box-shadow: 
+                        rgba(45, 35, 66, 0.4) 0 4px 8px, 
+                        rgba(66, 66, 66, 0.3) 0 7px 13px -3px, 
+                        0 16px 15.5px 0 #cecece,
+                        #dedede 0 -9px 0 inset, 
+                        inset 0 1.3px 0 0 #f4f4f4 ,
+                        inset 0 18px 12px rgba(210,210,210,0.8) ;
 
             # box-shadow: inset 0 1.5px 0 0 #f4f4f4, 
                         # 0 1.5px 0 0 #efefef,
@@ -283,7 +289,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card > hui-image #image, 
         img #image {
-          border-radius: 14px;
+          border-radius: 12px;
         }
         
         
@@ -329,7 +335,7 @@ DO NOT USE (card-mod): &card-mod-css
 
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
         }
@@ -339,12 +345,12 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 500;
 
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
 
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
+          background-color: rgba(61, 61, 61, 1);
           border-radius: 7px;
           text-align: center; 
           margin-bottom: 15px; 
@@ -376,12 +382,12 @@ DO NOT USE (card-mod): &card-mod-css
         h1 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
           
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
+          background-color: rgba(61, 61, 61, 1);
           border-radius: 7px;
           text-align: center; 
           padding: 4.5px;
@@ -390,7 +396,7 @@ DO NOT USE (card-mod): &card-mod-css
         h2 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
         }
@@ -406,7 +412,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
         h3 b {
           # font-size: 45px;
-          font-family: "Roboto Condensed" ;
+          font-family: "Roboto Condensed", Calibri ;
           text-transform: uppercase;
           # -webkit-background-clip: text;
           # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
@@ -418,6 +424,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 900; 
           
           letter-spacing: -1px;
+          line-height: 38px;
             
         }
 
@@ -439,7 +446,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-markdown-element > blockquote  {
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           font-size: 36px;
@@ -511,7 +518,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 500;
 
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
@@ -583,7 +590,7 @@ DO NOT USE (card-mod): &card-mod-css
       padding-top: 23px;
       padding-bottom: 15px;
       border: 5px solid #FF4444; 
-      border-radius: 14px !important; 
+      border-radius: 12px !important; 
 
 
               border: var(--piregwan-alert-border);
@@ -617,7 +624,7 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-listbox a {
-        margin-bottom: 22px;
+        margin-bottom: 3px;
         border: 0;
         
     }
@@ -654,20 +661,26 @@ DO NOT USE (card-mod): &card-mod-css
 
             # font: inherit;
             border: 0;
-            # border-radius: 14px;
-            margin: 26px 5px 0px 5px ; 
+            
+            # margin: 26px 5px 0px 5px ; 
             padding: 0px;
             font-weight: 600;
-            box-shadow: inset 0 1.5px 0 0 #f4f4f4, 0 1.5px 0 0 #efefef,
-            0 4.6867px 0 0 #ececec, 0 9.5px 0 0 #e0e0e0, 0 14px 0 0 #dedede,
-            0 14.5px 0 0 #dcdcdc, 0 16px 0 0 #cacaca, 0 16px 15.715px 0 #cecece;
+            box-shadow: 
+                        rgba(45, 35, 66, 0.4) 0 4px 8px, 
+                        
+                        rgba(66, 66, 66, 0.3) 0 7px 13px -3px, 
+                        0 16px 15.5px 0 #cecece,
+                        
+                        #dedede 0 -9px 0 inset, 
+                        inset 0 1.3px 0 0 #f4f4f4 ,
+                        inset 0 18px 12px rgba(210,210,210,0.8) ;
 
             z-index: 1000; 
             margin-bottom: 50px;
-            padding-top: 17px;
-            padding-bottom: 7px;
+            padding-top: 20px;
+            padding-bottom: 17px;
             max-width: 235px;
-            border-radius: 14px !important;
+            border-radius: 7px 7px 12px 12px !important;
             
     }
     

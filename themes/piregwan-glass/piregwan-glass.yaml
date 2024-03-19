@@ -294,7 +294,7 @@ DO NOT USE (card-mod): &card-mod-css
 
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
         }
@@ -304,7 +304,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 500;
 
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
 
@@ -349,7 +349,7 @@ DO NOT USE (card-mod): &card-mod-css
         h1 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
           
@@ -363,7 +363,7 @@ DO NOT USE (card-mod): &card-mod-css
         h2 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
         }
@@ -379,12 +379,14 @@ DO NOT USE (card-mod): &card-mod-css
         h3 b {
             font-size: 65px;
             font-weight: 700;
-            font-family: "Bebas Neue" ;
+            font-family: "Bebas Neue", "Calibri", sans-serif ;
             
             background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
             color: transparent;
             background-clip: text;
             -webkit-background-clip: text;
+            
+            line-height: 55px;
          
         }
           
@@ -410,7 +412,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-markdown-element > blockquote  {
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           font-size: 36px;
@@ -419,7 +421,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-markdown-element > p > img, img  {
-          filter: drop-shadow(0 3.5px 0px  #ccc);
+          filter: drop-shadow(0 0 7px #FFFFFF);
           border-radius: 7px;
         }
 
@@ -496,7 +498,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 550;
 
           text-transform: lowercase;
-          # font-family: "Bebas Neue" ;
+          # font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;

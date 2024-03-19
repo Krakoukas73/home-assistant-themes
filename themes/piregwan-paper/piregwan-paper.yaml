@@ -284,31 +284,64 @@ DO NOT USE (card-mod): &card-mod-css
 
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 31px;
-          font-weight: 500;
 
-          text-transform: uppercase;
-          font-family: "Bebas Neue" ;
-          letter-spacing: 0.5px;
-          color: white;
 
+          font-size: 40px;
+          background-color: #f1f1f1;
+          # border: 0 solid #E5E7EB;
+          box-sizing: border-box;
+          color: black;
+          font-weight: 700;
+          justify-content: center;
+          line-height: 1.75rem;
+          # padding: .75rem 1.65rem;
+          position: relative;
+          text-align: center;
+          text-decoration: none #000000 solid;
+          text-decoration-thickness: auto;
+          # width: 100%;
+          position: relative;
+          transform: rotate(-1deg);
+
+          border-bottom-left-radius: 15px 255px;
+          border-bottom-right-radius: 225px 15px;
+          border-top-left-radius: 255px 15px;
+          border-top-right-radius: 15px 225px;
+
+          # text-shadow: 1px 1px 2px black;
+          # text-transform: uppercase;
+          # font-family: "Bebas Neue", "Calibri", sans-serif ;
+          # letter-spacing: 0.5px;
+          # color: white;
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
-          border-radius: 7px;
           text-align: center; 
-          margin-bottom: 15px; 
+          padding: 0.3em;
+          margin: 25px 25px 25px 15px; 
           
-          display: inline;
-          padding: 0;
-          margin: 15px;
+
         }
         
+
+        ha-card h1:after, ha-card h1.card-header:after{
+              content: '';
+              position: absolute;
+              border: 3px solid #000000;
+              bottom: 0px;
+              left: 0px;
+              width: calc(100% - 1px);
+              height: calc(100% - 1px);
+
+              border-bottom-left-radius: 15px 255px;
+              border-bottom-right-radius: 225px 15px;
+              border-top-left-radius: 255px 15px;
+              border-top-right-radius: 15px 225px;
+        }        
     hui-image:
       $: |
         img {
@@ -337,23 +370,58 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         h1 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue" ;
-          letter-spacing: 0.5px;
-          color: white;
-          
+          font-size: 40px;
+          background-color: #f1f1f1;
+          # border: 0 solid #E5E7EB;
+          box-sizing: border-box;
+          color: black;
+          font-weight: 700;
+          justify-content: center;
+          line-height: 1.75rem;
+          # padding: .75rem 1.65rem;
+          position: relative;
+          text-align: center;
+          text-decoration: none #000000 solid;
+          text-decoration-thickness: auto;
+          width: 100%;
+          position: relative;
+          transform: rotate(-1deg);
+
+          border-bottom-left-radius: 15px 255px;
+          border-bottom-right-radius: 225px 15px;
+          border-top-left-radius: 255px 15px;
+          border-top-right-radius: 15px 225px;
+
+          # text-shadow: 1px 1px 2px black;
+          # text-transform: uppercase;
+          # font-family: "Bebas Neue", "Calibri", sans-serif ;
+          # letter-spacing: 0.5px;
+          # color: white;
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
-          border-radius: 7px;
           text-align: center; 
           padding: 4.5px;
         }
+        
+        h1:after {
+              content: '';
+              position: absolute;
+              border: 3px solid #000000;
+              bottom: 0px;
+              left: 0px;
+              width: calc(100% - 1px);
+              height: calc(100% - 1px);
+
+              border-bottom-left-radius: 15px 255px;
+              border-bottom-right-radius: 225px 15px;
+              border-top-left-radius: 255px 15px;
+              border-top-right-radius: 15px 225px;
+        }
+        
 
         h2 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
         }
@@ -370,8 +438,8 @@ DO NOT USE (card-mod): &card-mod-css
           color: black;
           font-weight: 700;
           justify-content: center;
-          line-height: 1.75rem;
-          padding: .75rem 1.65rem;
+          # line-height: 1.75rem;
+          padding: .75rem ;
           position: relative;
           text-align: center;
           text-decoration: none #000000 solid;
@@ -384,6 +452,8 @@ DO NOT USE (card-mod): &card-mod-css
           border-bottom-right-radius: 225px 15px;
           border-top-left-radius: 255px 15px;
           border-top-right-radius: 15px 225px;
+          
+          line-height: 30px;
           }
           
           h3:after {
@@ -428,7 +498,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-markdown-element > blockquote  {
           text-transform: uppercase;
-          font-family: "Bebas Neue" ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           font-size: 36px;
@@ -513,7 +583,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 550;
 
           text-transform: lowercase;
-          # font-family: "Bebas Neue" ;
+          # font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
