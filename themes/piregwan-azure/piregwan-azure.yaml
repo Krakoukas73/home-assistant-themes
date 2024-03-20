@@ -86,8 +86,12 @@ DO NOT USE (customizations): &base
   paper-font-headline_-_font-family: var(--primary-font-family)
   paper-font-caption_-_font-family: var(--primary-font-family)
   paper-font-title_-_font-family: var(--primary-font-family)
-  ha-card-header-font-family: var(--primary-font-family)
+  
 
+  # HEADER APEX
+  ha-card-header-font-family: "DS-Digital, var(--piregwan-font), sans-serif"
+  ha-card-header-font-size: 30px
+  ha-card-header-color: black
 
 
 
@@ -230,7 +234,7 @@ DO NOT USE (card-mod): &card-mod-css
 
           appearance: button;
           background-color: var(--piregwan-red);
-          background-image: linear-gradient(to bottom, #fff, #ebebeb);
+          background-image: linear-gradient(to bottom, #fff, #E2ECF1);
           border: 1px solid rgba(0,0,0,0.08);
           border-radius: .5rem;
           box-sizing: border-box;
@@ -241,7 +245,7 @@ DO NOT USE (card-mod): &card-mod-css
           line-height: 24px;
           outline: 2px solid transparent;
           text-transform: none;
-          box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+          box-shadow: -6px 8px 10px rgba(11,41,81,0.1),0px 2px 2px rgba(11,41,81,0.2);
 
         }
         
@@ -312,7 +316,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card.type-button
         {
-                    margin:0 0 10px 0; 
+                    margin:0 0 14px 0; 
         }
         
         
@@ -331,7 +335,7 @@ DO NOT USE (card-mod): &card-mod-css
 
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "DS-Digital", "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
         }
@@ -341,9 +345,9 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 500;
 
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "DS-Digital", "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
-          color: white;
+          color: #E2ECF1;
 
           /* NEW POUR H1 */
           background-color: rgba(21, 21, 21, 1);
@@ -378,9 +382,9 @@ DO NOT USE (card-mod): &card-mod-css
         h1 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "DS-Digital", "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
-          color: white;
+          color: #E2ECF1;
           
           /* NEW POUR H1 */
           background-color: rgba(21, 21, 21, 1);
@@ -392,9 +396,9 @@ DO NOT USE (card-mod): &card-mod-css
         h2 {
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "DS-Digital", "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
-          color: white;
+          color: #E2ECF1;
         }
 
 
@@ -409,12 +413,13 @@ DO NOT USE (card-mod): &card-mod-css
         h3 b {
           text-transform: uppercase;
 
-          font-size: 48px;
+          font-size: 52px;
           text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
           color: #333333;
           font-weight: 900; 
-          letter-spacing: 0px;
-          line-height: 40px; 
+          letter-spacing: 0.5px;
+          line-height: 48px; 
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
             
         }
 
@@ -436,7 +441,7 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-markdown-element > blockquote  {
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "DS-Digital", "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           font-size: 36px;
@@ -506,7 +511,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 500;
 
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "DS-Digital", "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
@@ -613,7 +618,7 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-listbox a {
-        margin-bottom: 12px;
+        margin-bottom: 2px;
         border: 0;
         
     }
@@ -624,11 +629,7 @@ DO NOT USE (card-mod): &card-mod-css
         width: 250%;
     }
     
-    # ha-sidebar {
-        # background-color: red; 
-    # }
-
-
+   
 
 
 
@@ -662,7 +663,7 @@ DO NOT USE (card-mod): &card-mod-css
 
           appearance: button;
           background-color: transparent;
-          background-image: linear-gradient(to bottom, #fff, #ebebeb);
+          background-image: linear-gradient(to bottom, #fff, #E2ECF1);
           border: 1px solid rgba(0,0,0,0.08);
           border-radius: .5rem !important;
           box-sizing: border-box;
@@ -673,7 +674,7 @@ DO NOT USE (card-mod): &card-mod-css
           line-height: 24px;
           outline: 2px solid transparent;
           text-transform: none;
-          box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+          box-shadow: -6px 8px 10px rgba(11,41,81,0.1),0px 2px 2px rgba(11,41,81,0.2);
 
 
             

@@ -81,7 +81,12 @@ DO NOT USE (customizations): &base
   paper-font-headline_-_font-family: var(--primary-font-family)
   paper-font-caption_-_font-family: var(--primary-font-family)
   paper-font-title_-_font-family: var(--primary-font-family)
-  ha-card-header-font-family: var(--primary-font-family)
+
+  # HEADER APEX
+  ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
+  ha-card-header-font-size: 29px
+  ha-card-header-color: white
+  
 
 
 
@@ -186,9 +191,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-card-yaml: &card-mod-card |
     .: |
 
-      
-      
-      
+        
         /* CYBERPUNK CARDS */
           
        
@@ -333,15 +336,15 @@ DO NOT USE (card-mod): &card-mod-css
           font-size: 42px;
           font-weight: 500;
 
+          letter-spacing: 0.5px;
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
           color: white;
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 31px;
+          font-size: 29px;
           font-weight: 500;
 
           text-shadow: 1px 1px 2px black;
@@ -362,11 +365,14 @@ DO NOT USE (card-mod): &card-mod-css
           margin: 15px;
         }
         
+    
+
+
     ha-markdown:
       $: |
         
         h1 {
-          font-size: 31px;
+          font-size: 29px;
           font-weight: 500;
         }
         h2 {

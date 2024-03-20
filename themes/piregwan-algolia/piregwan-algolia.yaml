@@ -88,8 +88,11 @@ DO NOT USE (customizations): &base
   paper-font-headline_-_font-family: var(--primary-font-family)
   paper-font-caption_-_font-family: var(--primary-font-family)
   paper-font-title_-_font-family: var(--primary-font-family)
-  ha-card-header-font-family: var(--primary-font-family)
-
+  
+  # HEADER APEX
+  ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
+  ha-card-header-font-size: 29px
+  ha-card-header-color: black
 
 
 
@@ -277,7 +280,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card.type-button
         {
-                    margin:0 0 10px 0; 
+                    margin:0 0 15px 0; 
         }
         
         
@@ -312,7 +315,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 30px;
+          font-size: 29px;
           font-weight: 500;
 
           text-transform: uppercase;
@@ -342,7 +345,7 @@ DO NOT USE (card-mod): &card-mod-css
       $: |
         
         h1 {
-          font-size: 30px;
+          font-size: 29px;
           font-weight: 500;
         }
         h2 {

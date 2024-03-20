@@ -93,8 +93,12 @@ DO NOT USE (customizations): &base
   paper-font-headline_-_font-family: var(--primary-font-family)
   paper-font-caption_-_font-family: var(--primary-font-family)
   paper-font-title_-_font-family: var(--primary-font-family)
-  ha-card-header-font-family: var(--primary-font-family)
+  
 
+  # HEADER APEX
+  ha-card-header-font-family: "Chilanka Regular, var(--piregwan-font), sans-serif"
+  ha-card-header-font-size: 36px
+  ha-card-header-color: black
 
 
 
@@ -271,7 +275,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card.type-button
         {
-                    margin:0 0 7px 0; 
+                    margin:0 0 16px 0; 
         }
         
 
@@ -292,14 +296,14 @@ DO NOT USE (card-mod): &card-mod-css
         ha-card h1, ha-card h1.card-header {
 
 
-          font-size: 40px;
+          font-size: 36px;
           background-color: #f1f1f1;
           # border: 0 solid #E5E7EB;
           box-sizing: border-box;
           color: black;
-          font-weight: 700;
+          font-weight: 500;
           justify-content: center;
-          line-height: 1.75rem;
+          # line-height: 1.75rem;
           # padding: .75rem 1.65rem;
           position: relative;
           text-align: center;
@@ -316,12 +320,12 @@ DO NOT USE (card-mod): &card-mod-css
 
           # text-shadow: 1px 1px 2px black;
           # text-transform: uppercase;
-          # font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family:  "Chilanka Regular", "Calibri", sans-serif ;
           # letter-spacing: 0.5px;
           # color: white;
           /* NEW POUR H1 */
           text-align: center; 
-          padding: 0.3em;
+          padding: 0.3em 0 0.1em 0;
           margin: 25px 25px 25px 15px; 
           
 
@@ -360,22 +364,18 @@ DO NOT USE (card-mod): &card-mod-css
     ha-markdown:
       $: |
         
-        h1 {
-          font-size: 33px;
-          font-weight: 500;
-        }
         h2 {
           font-size: 45px;
           font-weight: 200;
         }
         
         h1 {
-          font-size: 40px;
+          font-size: 36px;
           background-color: #f1f1f1;
           # border: 0 solid #E5E7EB;
           box-sizing: border-box;
           color: black;
-          font-weight: 700;
+          font-weight: 500;
           justify-content: center;
           line-height: 1.75rem;
           # padding: .75rem 1.65rem;
@@ -392,6 +392,8 @@ DO NOT USE (card-mod): &card-mod-css
           border-top-left-radius: 255px 15px;
           border-top-right-radius: 15px 225px;
 
+          font-family:  "Chilanka Regular", "Calibri", sans-serif ;
+
           # text-shadow: 1px 1px 2px black;
           # text-transform: uppercase;
           # font-family: "Bebas Neue", "Calibri", sans-serif ;
@@ -399,7 +401,7 @@ DO NOT USE (card-mod): &card-mod-css
           # color: white;
           /* NEW POUR H1 */
           text-align: center; 
-          padding: 4.5px;
+          padding: 0.3em 0 0.1em 0;
         }
         
         h1:after {
@@ -436,17 +438,19 @@ DO NOT USE (card-mod): &card-mod-css
           border: 0 solid #E5E7EB;
           box-sizing: border-box;
           color: black;
-          font-weight: 700;
+          font-weight: 500;
           justify-content: center;
           # line-height: 1.75rem;
           padding: .75rem ;
           position: relative;
           text-align: center;
           text-decoration: none #000000 solid;
-          text-decoration-thickness: auto;
+          # text-decoration-thickness: auto;
           width: 100%;
           position: relative;
           transform: rotate(-1deg);
+
+          font-family:  "Chilanka Regular", "Calibri", sans-serif ;
 
           border-bottom-left-radius: 15px 255px;
           border-bottom-right-radius: 225px 15px;
@@ -703,7 +707,7 @@ DO NOT USE (card-mod): &card-mod-css
 
     paper-icon-item {
             background-color: white;
-            font: inherit;
+            # font: inherit;
             border: 0;
             font-weight: 600;
             background-color: #fff;
@@ -716,8 +720,8 @@ DO NOT USE (card-mod): &card-mod-css
             border-bottom-right-radius: 225px 15px !important;
             border-top-left-radius: 255px 15px !important;
             border-top-right-radius: 15px 225px !important;
-            user-select: none;
-            -webkit-user-select: none;
+            # user-select: none;
+            # -webkit-user-select: none;
             box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
 
             padding-top: 20px;
@@ -732,30 +736,21 @@ DO NOT USE (card-mod): &card-mod-css
     
 
         a[aria-selected=true] paper-icon-item {
+          font-weight: 500;
           font-size: 40px;
           background-color: var(--piregwan-blue);
           border: 0 solid #E5E7EB;
           box-sizing: border-box;
           color: black;
-          # display: flex;
-          # font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-          # font-size: 1rem;
-          font-weight: 700;
+          font-family:  "Chilanka Regular", "Calibri", sans-serif ;
           justify-content: left;
           line-height: 1.75rem;
           padding: .75rem 1.65rem;
           position: relative;
           text-align: left;
-          text-decoration: none #000000 solid;
-          text-decoration-thickness: auto;
+          # text-decoration: none;
           width: 100%;
-          # max-width: 460px;
-          position: relative;
-          # cursor: pointer;
           transform: rotate(-1deg);
-          # user-select: none;
-          # -webkit-user-select: none;
-          # touch-action: manipulation;
 
           border-bottom-left-radius: 15px 255px;
           border-bottom-right-radius: 225px 15px;

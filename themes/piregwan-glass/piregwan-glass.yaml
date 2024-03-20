@@ -94,8 +94,11 @@ DO NOT USE (customizations): &base
   paper-font-headline_-_font-family: var(--primary-font-family)
   paper-font-caption_-_font-family: var(--primary-font-family)
   paper-font-title_-_font-family: var(--primary-font-family)
-  ha-card-header-font-family: var(--primary-font-family)
 
+  # HEADER APEX
+  ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
+  ha-card-header-font-size: 29px
+  ha-card-header-color: var(--piregwan-dark-gray)
 
 
 
@@ -282,7 +285,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card.type-button
         {
-                    margin:0 0 7px 0; 
+                    margin:0 0 15px 0; 
         }
 
 
@@ -300,7 +303,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 31px;
+          font-size: 29px;
           font-weight: 500;
 
           text-transform: uppercase;
@@ -338,7 +341,7 @@ DO NOT USE (card-mod): &card-mod-css
       $: |
         
         h1 {
-          font-size: 33px;
+          font-size: 29px;
           font-weight: 500;
         }
         h2 {
@@ -494,15 +497,15 @@ DO NOT USE (card-mod): &card-mod-css
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
-          font-size: 38px;
+          font-size: 35px;
           font-weight: 550;
 
           text-transform: lowercase;
-          # font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
-          transform: rotate(-1deg);
+          # transform: rotate(-1deg);
     }
     a[aria-selected=true]:first-letter paper-icon-item .item-text
     {
