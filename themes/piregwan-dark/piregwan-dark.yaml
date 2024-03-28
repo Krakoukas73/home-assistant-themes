@@ -123,7 +123,7 @@ DO NOT USE (customizations): &base
   label-badge-text-color: black
   label-badge-red: rgba(255, 159, 9, 0.7)
   # Cards
-  card-background-color: rgba(0,0,0,0.65)
+  card-background-color: rgba(10,10,10,1)
   paper-listbox-background-color: pink
   ha-card-border-radius: 7px
   ha-card-background: var(--piregwan-card-button);
@@ -334,20 +334,20 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-card h2 {
           font-size: 42px;
-          font-weight: 500;
+          font-weight: 200;
 
-          letter-spacing: 0.5px;
-          text-shadow: 1px 1px 2px black;
+          letter-spacing: 1.5px;
+          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           color: white;
         }
 
         ha-card h1, ha-card h1.card-header {
-          font-size: 29px;
+          font-size: 24px;
           font-weight: 500;
 
-          text-shadow: 1px 1px 2px black;
+          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
@@ -357,12 +357,9 @@ DO NOT USE (card-mod): &card-mod-css
           background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
-          margin-bottom: 15px; 
-          
-          # background-color: pink; 
           display: inline;
           padding: 0;
-          margin: 15px;
+          margin: 15px 12px;
         }
         
     
@@ -372,7 +369,7 @@ DO NOT USE (card-mod): &card-mod-css
       $: |
         
         h1 {
-          font-size: 29px;
+          font-size: 24px;
           font-weight: 500;
         }
         h2 {
@@ -381,7 +378,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         h1 {
-          text-shadow: 1px 1px 2px black;
+          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
@@ -391,8 +388,9 @@ DO NOT USE (card-mod): &card-mod-css
           background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
-          padding: 4.5px;
-          # background-color: magenta; 
+          padding: 8px;
+          margin: 15px 0px;
+          
         }
 
 
@@ -406,10 +404,10 @@ DO NOT USE (card-mod): &card-mod-css
 
 
         h2 {
-          text-shadow: 1px 1px 2px black;
+          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
+          letter-spacing: 1.5px;
           color: white;
         }
 
@@ -437,7 +435,7 @@ DO NOT USE (card-mod): &card-mod-css
           
         }
         h3 b {
-          font-size: 45px;
+          font-size: 44px;
           font-family: "Roboto Condensed", Calibri ;
           text-transform: uppercase;
           -webkit-background-clip: text;
@@ -447,19 +445,6 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
 
-
-
-
-
-
-        ha-markdown-element > h2  {
-          # color: red;
-        }
-
-        ha-markdown-element   {
-          # text-shadow: black 0px 0px 3px;
-          # text-shadow: 1px 1px 2px black, 0 0 12px white, 0 0 3px white;
-        }
 
         ha-markdown-element > pre  {
           font-size: 65px;
@@ -627,31 +612,37 @@ DO NOT USE (card-mod): &card-mod-css
 
     paper-icon-item {
       
-          border-radius: 7px;
-
           box-shadow:   0 1rem 1rem 0.3rem rgba(0,0,0,0.75),
                         rgba(205, 205, 205, 0.17) 0px -6px 12px inset,
                         rgba(205, 205, 205, 0.17) 0px 6px 12px inset
-
           ;      
           background-image: linear-gradient(-25deg, rgb(0,0,0,0.98) 50%, rgb(255,255,255,0.24) 80%);
           border: 1px solid #666; 
-          
           background-color: transparent;
           margin-bottom: 20px;
            
-      z-index: 1000; 
-      margin-bottom: 50px;
-
-      padding-top: 10px;
-      padding-bottom: 10px;
-
-      
-
-      border-radius: 7px !important;
+          z-index: 1000; 
+          margin-bottom: 50px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-radius: 7px !important;
 
     }
+
+    a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item, a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item {
+          background-color: var(--piregwan-red);
+    }
+    a:nth-child(10) paper-icon-item, a:nth-child(11) paper-icon-item {
+          background-color: var(--piregwan-green);
+    }
+    a:nth-child(6) paper-icon-item, a:nth-child(7) paper-icon-item, a:nth-child(8) paper-icon-item, a:nth-child(9) paper-icon-item {
+          background-color: var(--piregwan-yellow);
+    }
+    a:nth-child(18) paper-icon-item {
+          background-color: white;
+    }
     
+
     a[aria-selected=true] paper-icon-item:before {
           top: 2.0px;
     }

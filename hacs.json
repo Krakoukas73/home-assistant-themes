@@ -1,7 +1,6 @@
 {
   "name": "Piregwan themes and cool stuff for Home Assistant",
-  "country": ["FR"],
-  "domains": ["theme"],
+  "domains": "theme",
   "documentation": "https://github.com/Krakoukas73/home-assistant-dark-light-theme",
   "homeassistant": "0.99.0"
 }
