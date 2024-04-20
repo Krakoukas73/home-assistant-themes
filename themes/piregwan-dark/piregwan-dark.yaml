@@ -124,7 +124,7 @@ DO NOT USE (customizations): &base
   label-badge-red: rgba(255, 159, 9, 0.7)
   # Cards
   card-background-color: rgba(10,10,10,1)
-  paper-listbox-background-color: pink
+  paper-listbox-background-color: var(--piregwan-dark-gray)
   ha-card-border-radius: 7px
   ha-card-background: var(--piregwan-card-button);
   paper-card-background-color: green
