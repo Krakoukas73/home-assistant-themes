@@ -182,6 +182,8 @@ DO NOT USE (customizations): &base
   rgb-state-media-player-color: var(--paper-item-icon-color)
   # state-color: var(--piregwan-ui-secondary)
   mdc-shape-small: var(--ha-card-border-radius)
+  
+  mdc-icon-size: 33px
 
 
   
@@ -205,8 +207,10 @@ DO NOT USE (card-mod): &card-mod-css
 
           ;      
           
-          background-image: linear-gradient(-25deg, rgb(0,0,0,0.98) 50%, rgb(85,85,85,0.85) 80%);
-          # background: radial-gradient(ellipse farthest-corner at right bottom, rgb(0,0,0,0.98) 60%, rgb(255,255,255,0.28) 88%);
+          background-image: linear-gradient(-20deg, rgb(0,0,0,1) 55%, rgb(85,85,85,0.90) 90%);
+          
+          # background-image: linear-gradient(175deg, rgb(85,85,85,0.85), rgb(85,85,85,0.85) 95px, rgb(0,0,0,1) 150px, rgb(0,0,0,1));
+          
           
           
           border: 1px solid #666; 
@@ -278,10 +282,31 @@ DO NOT USE (card-mod): &card-mod-css
             padding: 0;
             margin: 0;
         }
+        
+        
+        
+        
+        
 
         
        
                 
+        
+        /* LES RESUMES */
+        .item-left {
+            # width: 75px; 
+            margin-right: 17px !important; 
+        }
+        state-badge {
+            margin-left: 3px !important;
+            margin-top: 2px !important;
+            
+            width: 35px; 
+
+        }
+        
+
+
 
         
 
@@ -289,6 +314,9 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
+        ha-card.type-custom-home-feed-card, 
+        ha-card.type-custom-atomic-calendar-revive,
+        ha-card.type-calendar, 
         ha-card.type-markdown, 
         ha-card.type-custom-meteofrance-weather-card,
         ha-card.type-custom-weather-chart-card,
@@ -328,6 +356,8 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         
+        
+
 
 
         #TITRES DES CARDS
@@ -360,6 +390,33 @@ DO NOT USE (card-mod): &card-mod-css
           display: inline;
           padding: 0;
           margin: 15px 12px;
+        }
+        
+
+
+
+
+        .event-title {
+          
+          font-weight: 700;
+          # padding: 7px 7px -10px 7px;
+          # margin: 0;
+          font-size: 15px; 
+          # font-family: "quicksand", "Calibri", sans-serif ;
+          letter-spacing: -0.25px;
+          # text-decoration: underline !important;
+          
+          # color: var(--piregwan-red) !important; 
+          color: white; 
+
+          text-transform: uppercase;
+          color: white;
+
+          /* NEW POUR H1 */
+          # background-color: rgba(0, 0, 0, 0.25);
+          # border-radius: 7px;
+          # text-align: center; 
+          # display: inline;
         }
         
     
@@ -629,17 +686,20 @@ DO NOT USE (card-mod): &card-mod-css
 
     }
 
-    a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item, a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item {
+    a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item, a:nth-child(6) paper-icon-item {
           background-color: var(--piregwan-red);
     }
-    a:nth-child(10) paper-icon-item, a:nth-child(11) paper-icon-item {
+    a:nth-child(7) paper-icon-item, a:nth-child(8) paper-icon-item {
           background-color: var(--piregwan-green);
     }
-    a:nth-child(6) paper-icon-item, a:nth-child(7) paper-icon-item, a:nth-child(8) paper-icon-item, a:nth-child(9) paper-icon-item {
+    a:nth-child(9) paper-icon-item, a:nth-child(10) paper-icon-item, a:nth-child(11) paper-icon-item, a:nth-child(12) paper-icon-item {
           background-color: var(--piregwan-yellow);
     }
-    a:nth-child(18) paper-icon-item {
+    a:nth-child(20) paper-icon-item {
           background-color: white;
+    }
+    a:nth-child(18) paper-icon-item, a:nth-child(19) paper-icon-item {
+          background-color: blue;
     }
     
 
