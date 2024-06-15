@@ -292,21 +292,26 @@ DO NOT USE (card-mod): &card-mod-css
        
                 
         
-        /* LES RESUMES */
+        /* LES RESUMES & ACTUALITES */
         .item-left {
             # width: 75px; 
-            margin-right: 17px !important; 
+            margin-right: 10px !important; 
+            
         }
         state-badge {
-            margin-left: 3px !important;
+            margin-left: 0px !important;
             margin-top: 2px !important;
             
-            width: 35px; 
+            width: 37px; 
+            padding-right: 10px !important;
 
         }
         
-
-
+        #notifications {
+                display: flex;
+                flex-direction: column-reverse;
+        }
+            
 
         
 
@@ -373,23 +378,25 @@ DO NOT USE (card-mod): &card-mod-css
           color: white;
         }
 
-        ha-card h1, ha-card h1.card-header {
+        ha-card h1, ha-card h1.card-header, #header .name {
           font-size: 24px;
           font-weight: 500;
-
-          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
-
-          /* NEW POUR H1 */
           background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
           display: inline;
           padding: 0;
-          margin: 15px 12px;
+          margin: 15px 12px 15px 12px;
+          # width: auto; 
+          # height: 50px; 
+        }
+        #header .name {
+            padding: 6px 20px; 
+            width: 100%; 
         }
         
 
