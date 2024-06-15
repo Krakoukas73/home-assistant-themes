@@ -43,7 +43,8 @@
 
 <h1>Spirale theme</h1>
 
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/2d3739a2-a3c6-4b25-ae1e-2f5797e401f6)
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/803d2000-9e73-46d9-a3b3-ff72ed2f0c68)
+
 
 
 
