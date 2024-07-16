@@ -45,6 +45,15 @@
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/803d2000-9e73-46d9-a3b3-ff72ed2f0c68)
 
+<h1>Rounded 1 theme</h1>
+
+![image](https://github.com/user-attachments/assets/bd9d9447-5cbb-4eff-890d-e070ad0219a2)
+
+<h1>Rounded 2 theme</h1>
+
+![image](https://github.com/user-attachments/assets/c88fb0fe-7e60-4d1e-bb01-531126051910)
+
+![image](https://github.com/user-attachments/assets/db779b3d-99ef-4bf2-bb79-a94ecb5a921b)
 
 
 
