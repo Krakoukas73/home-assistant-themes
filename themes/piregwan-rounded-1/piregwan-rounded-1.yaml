@@ -7,56 +7,53 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-red: "#ff4444"
   piregwan-sunflower: "#66cc99"
   piregwan-gray: "#1C1C1C"
-  piregwan-blue: "#3399FF"
   
-  piregwan-theme: "piregwan-glass"
-
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
-  piregwan-nuit: "#AAA"
+  piregwan-nuit: "#CCC"
   
   # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
   piregwan-separator-display: "none"
   piregwan-separator-visibility: "hidden"
 
   piregwan-error: "#ff2200"
-  piregwan-text-gray: var(--piregwan-dark-gray)
-  piregwan-medium-gray: "#888"
+  piregwan-text-gray: "#fff"
+  piregwan-medium-gray: "#fff"
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
   
+  piregwan-clair: "#536B5F"
+  piregwan-fonce: "#435749"
+
   # RED ALERTS
-  # piregwan-alert-border-bottom-left-radius: "15px 255px"
-  # piregwan-alert-border-bottom-right-radius: "225px 15px"
-  # piregwan-alert-border-top-left-radius: "255px 15px"
-  # piregwan-alert-border-top-right-radius: "15px 225px"
-  piregwan-alert-border: "2px solid  var(--piregwan-red)"
-  piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,0.38) 20%, rgba(0,0,0,0) 90%)"
-
-
-
-  card-mod-icon-color: var(--piregwan-dark-gray)
+  piregwan-alert-border-bottom-left-radius: "14px"
+  piregwan-alert-border-bottom-right-radius: "14px"
+  piregwan-alert-border-top-left-radius: "14px"
+  piregwan-alert-border-top-right-radius: "14px"
+  piregwan-alert-border: "0px solid  var(--piregwan-red)"
+  # piregwan-alert-background-image: "linear-gradient(180deg, #EDD8CE 20%, rgba(255,255,255,1) 90%)"
+  piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.22) 12%, rgba(0,0,0,0) 80%)"
 
   # HEAD AND SIDE BACKGROUND
-  piregwan-background: " "
-  
+  piregwan-background: "#EFECE7"
+    
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-glass/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-glass/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-glass/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-glass/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-glass/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-glass/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-glass/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-glass/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-glass/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-glass/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-glass/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-glass/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-glass/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-glass/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-glass/exceptional.svg")  
+  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-rounded-1/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-rounded-1/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/piregwan-rounded-1/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/piregwan-rounded-1/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-rounded-1/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-rounded-1/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/piregwan-rounded-1/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/piregwan-rounded-1/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/piregwan-rounded-1/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/piregwan-rounded-1/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-rounded-1/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/piregwan-rounded-1/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/piregwan-rounded-1/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-rounded-1/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-rounded-1/exceptional.svg")  
 
 
   
@@ -65,8 +62,7 @@ DO NOT USE (colors): &piregwan-colors
 
 DO NOT USE (customizations): &base 
 
-  lovelace-background: url('/hacsfiles/themes/piregwan-glass/abstract.jpg') fixed center/cover no-repeat
-  
+  lovelace-background: "#EFECE7"
 
   switch-checked-button-color: var(--piregwan-red)
   
@@ -110,17 +106,17 @@ DO NOT USE (customizations): &base
   # Sidebar Menu
   sidebar-background-color: transparent
   sidebar-icon-color: var(--piregwan-dark-gray)
-  sidebar-text-color: var(--piregwan-dark-gray)
+  sidebar-text-color: white
   sidebar-selected-background-color: transparent
   sidebar-selected-icon-color: rgba(0,0,0,0)
-  sidebar-selected-text-color: var(--piregwan-dark-gray)
+  sidebar-selected-text-color: white
   app-drawer-width: 75px
   # States and Badges
-  state-icon-color: var(--piregwan-dark-gray)
+  state-icon-color: white
   state-icon-active-color: var(--piregwan-text-gray)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
-  paper-slider-knob-color: green
+  paper-slider-knob-color: white
   
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
@@ -136,7 +132,7 @@ DO NOT USE (customizations): &base
   label-badge-red: rgba(255, 159, 9, 0.7)
   # Cards
   card-background-color: var(--piregwan-background)
-  paper-listbox-background-color: white
+  paper-listbox-background-color: var(--piregwan-dark-gray)
   ha-card-border-radius: 7px
   ha-card-background: var(--piregwan-card-button);
   paper-card-background-color: green
@@ -151,7 +147,7 @@ DO NOT USE (customizations): &base
   # Switches
   # switch-checked-color: var(--piregwan-red)
   # switch-checked-track-color: var(--piregwan-red)
-  # switch-checked-button-color: var(--piregwan-red)
+  switch-checked-button-color: var(--piregwan-red)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55)
   paper-item-icon-color: var(--piregwan-medium-gray)
@@ -169,7 +165,7 @@ DO NOT USE (customizations): &base
   mini-media-player-base-color: var(--piregwan-text-gray)
   mini-media-player-icon-color: var(--piregwan-text-gray)
   state-lock-unlocked-color: var(--piregwan-dark-red)
-  sidebar-menu-button-text-color: var(--piregwan-dark-gray)
+  sidebar-menu-button-text-color: white
   mdc-typography-button-font-family: var(--piregwan-font)
   mdc-typography-body2-font-family: var(--piregwan-font)
   mdc-theme-primary: white
@@ -179,8 +175,6 @@ DO NOT USE (customizations): &base
   switch-unchecked-track-color: var(--piregwan-text-gray)
   switch-unchecked-button-color: var(--piregwan-text-gray)
   header-height: 43px
-  
-  
   app-header-text-color: var(--piregwan-gray)
   paper-tabs-selection-bar-color: transparent
   mdc-button-outline-color: transparent
@@ -227,64 +221,98 @@ DO NOT USE (card-mod): &card-mod-css
 
       
       
+      
         /* CYBERPUNK CARDS */
         
 
        
         ha-card {
-            font: inherit;
-            # border: 0;
-            font-weight: 600;
-
+            
+            color: white;
+            background: var(--piregwan-clair);
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding: 10px 0 20px;
+            margin: 0 auto;
+            border: 2px solid white;
+            border-radius: 12px 12px;
+            box-shadow: 0px 8px 6px rgba(0,0,0,0.3);
             position: relative;
-            color: var(--piregwan-dark-gray);
-            font-size: 16px;
-            text-decoration:none;
-            border-radius: 8px;
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            outline: 0;
-            margin-left: auto;
-            margin-right: auto;            
-            background: linear-gradient(
-              170deg,
-              rgba(255,255,255,0.8) 0%,
-              rgba(255,255,255,0.6) 20%,
-              rgba(255,255,255,0.1) 50%,
-              rgba(0,0,0,0.0) 50%,
-              rgba(0,0,0,0.0) 100%
-            ); /* W3C */
-            border-color: rgba(255, 255, 255, 0.4);
-            border-image: none;
-            border-style: inset;
-            border-width: 1px;
-            box-shadow:
-              0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
-              0 2px 6px rgba(0, 0, 0, 0.5),
-              0 -4px 8px -1px rgba(255, 255, 255, 0.4) inset;
-            backdrop-filter: blur(15px);
-            
-            
-            
-
+            z-index: 1;
 
         }
         
+        ha-card:before {
 
+           content: "";
+            background: linear-gradient(to right,var(--piregwan-fonce) 50%,var(--piregwan-clair) 50%);
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            border-radius: 7px 7px;
+            transform: translateX(-50%) translateY(-50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,1);
+            z-index: -1;
+        }
+
+        ha-card:after {
+        } 
+        
+        
+      
+                
+
+        
+        
+        ha-card.type-button
+        {
+                    margin:0 0 20px 0; 
+        }
+
+        ha-card.type-picture-entity {
+            padding: 12px 10px 5px 10px;
+        }
+        
         ha-card > hui-image #image, 
         img #image {
-          border-radius: 14px;
+          border-radius: 12px;
         }
+        
+        
+        # ha-card.type-markdown,
+        # ha-card.type-custom-button-card, 
+        # ha-card.type-button
+        # {
+                    # margin: 16px 5px 0 5px ; 
+        # }
+        # ha-card.type-custom-html-card
+        # {
+                    # margin: 16px 5px 26px 5px ; 
+        # }
+        # ha-card.type-entities {
+                    # margin: 26px 5px 26px 5px ; 
+        # }
+        
+        
+        
+        
+
+        ha-card.type-button:after,  
+        ha-card.type-custom-mini-graph-card:after 
+        {
+            animation: none; 
+        }
+        
+        
+        
         
         ha-card > * {
           z-index: 2;
         }
         
         
-        ha-card.type-button
-        {
-                    margin:0 0 15px 0; 
-        }
 
 
         #TITRES DES CARDS
@@ -310,7 +338,7 @@ DO NOT USE (card-mod): &card-mod-css
           color: white;
 
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
+          background-color: rgba(61, 61, 61, 1);
           border-radius: 7px;
           text-align: center; 
           margin-bottom: 15px; 
@@ -322,18 +350,10 @@ DO NOT USE (card-mod): &card-mod-css
         
     hui-image:
       $: |
+        
         img {
           border-radius: 11px;
         }
-        
-    
-
-
-
-
-
-
-
 
     ha-markdown:
       $: |
@@ -343,7 +363,7 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 500;
         }
         h2 {
-          font-size: 45px;
+          font-size: 42.5px;
           font-weight: 200;
         }
         
@@ -355,7 +375,7 @@ DO NOT USE (card-mod): &card-mod-css
           color: white;
           
           /* NEW POUR H1 */
-          background-color: rgba(21, 21, 21, 1);
+          background-color: rgba(61, 61, 61, 1);
           border-radius: 7px;
           text-align: center; 
           padding: 4.5px;
@@ -368,35 +388,36 @@ DO NOT USE (card-mod): &card-mod-css
           letter-spacing: 0.5px;
           color: white;
         }
-        
-        
-        
-              
-        
-        
+
+
+
+
+
+
+
         h3 {
           text-align: center; 
         }
         h3 b {
-            font-size: 65px;
-            font-weight: 700;
-            font-family: "Bebas Neue", "Calibri", sans-serif ;
-            
-            background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
-            color: transparent;
-            background-clip: text;
-            -webkit-background-clip: text;
-            
-            line-height: 55px;
-         
-        }
+          # font-size: 45px;
+          font-family: "Roboto Condensed", Calibri ;
+          text-transform: uppercase;
+          # -webkit-background-clip: text;
+          # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
+          # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
+
+          font-size: 42px;
+          text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+          color: #333333;
+          font-weight: 900; 
           
-          h3 {
-            text-transform: lowercase;
-          }
-          h3:first-letter {
-            text-transform: uppercase;
-          }
+          letter-spacing: -1px;
+          line-height: 38px;
+            
+        }
+
+
+
 
 
 
@@ -422,7 +443,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-markdown-element > p > img, img  {
-          filter: drop-shadow(0 0 7px #FFFFFF);
+          filter: drop-shadow(0 3.5px 0px  #ccc);
           border-radius: 7px;
         }
 
@@ -447,7 +468,6 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-root-yaml: &card-mod-root |
     .: |
 
-            
       ha-drawer {
             # border-right-width: unset !important;
             # border-right-style: unset !important;
@@ -456,25 +476,12 @@ DO NOT USE (card-mod): &card-mod-css
       }
 
    
-
-
-
-
-
     ha-tabs$: |
       paper-icon-button { display: none !important; }
-
-
-
-
-
-
-
-
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-glass/transparent.png');      
+      background: url('/hacsfiles/themes/piregwan-rounded-1/transparent.png');      
     }   
 
 
@@ -490,25 +497,42 @@ DO NOT USE (card-mod): &card-mod-css
       margin-right: 20px;
       # margin-bottom: -23px;
       text-transform: uppercase;
-      color: var(--piregwan-dark-gray); 
+      color: var(--piregwan-text-gray); 
       
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
-          font-size: 35px;
-          font-weight: 550;
+          font-size: 33px;
+          font-weight: 500;
 
-          text-transform: lowercase;
+          text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: black;
           line-height: 2.1rem;
-          # transform: rotate(-1deg);
+          
     }
-    a[aria-selected=true]:first-letter paper-icon-item .item-text
-    {
-          text-transform: uppercase;
-    }
+    
+    
+    # a[aria-selected=true]  ha-svg-icon {
+        # color: pink; 
+    # }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -527,7 +551,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-glass/transparent.png');      
+        background: url('/hacsfiles/themes/piregwan-rounded-1/transparent.png');      
     }
     .menu .title {
       visibility: hidden;
@@ -540,7 +564,7 @@ DO NOT USE (card-mod): &card-mod-css
 
     paper-icon-item span,
     paper-icon-item:hover span {
-      # text-transform: uppercase;
+      text-transform: uppercase;
       z-index: 100;
     }
 
@@ -550,12 +574,19 @@ DO NOT USE (card-mod): &card-mod-css
 
 
     a[aria-selected=true] paper-icon-item  {
-      
-      padding-top: 15px;
+      # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
+      padding-top: 23px;
       padding-bottom: 15px;
-      border: 3px solid black; 
-      # border-radius: 11px !important; 
-      background-color:white;
+      border: 5px solid #FF4444; 
+      border-radius: 12px !important; 
+
+
+              border: var(--piregwan-alert-border);
+              border-border-bottom-left-radius: var(--piregwan-alert-border-bottom-left-radius);
+              border-border-bottom-right-radius: var(--piregwan-alert-border-bottom-right-radius);
+              border-border-top-left-radius: var(--piregwan-alert-border-top-left-radius);
+              border-border-top-right-radius: var(--piregwan-alert-border-top-right-radius);
+              background-image: var(--piregwan-alert-background-image);
       
       
     }
@@ -581,19 +612,29 @@ DO NOT USE (card-mod): &card-mod-css
     }
 
     paper-listbox a {
-        margin-bottom: 5px;
+        margin-bottom: 3px;
         border: 0;
-        
         
     }
     
     paper-listbox {
-        height: calc( 100% - var(--header-height) - 197px - env(safe-area-inset-bottom)) !important;
+        height: calc( 100% - var(--header-height) - 150px - env(safe-area-inset-bottom)) !important;
         border: 0;
         width: 250%;
     }
     
-  
+    # ha-sidebar {
+        # background-color: red; 
+    # }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -603,54 +644,49 @@ DO NOT USE (card-mod): &card-mod-css
     /* CYBERPUNK MENU */
 
     paper-icon-item {
-            # background-color: white;
-            font: inherit;
+      
+            color: white;
+            background: var(--piregwan-clair);
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding: 10px 0 20px;
+            margin: 0 auto;
+            border: 2px solid white;
+            border-radius: 12px 12px !important;
+            box-shadow: 0px 8px 6px rgba(0,0,0,0.3);
             position: relative;
-            color: var(--piregwan-dark-gray);
-            font-size: 16px;
-            text-decoration:none;
-            border-radius: 8px;
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            outline: 0;
-            margin-left: auto;
-            margin-right: auto;            
-            background: linear-gradient(
-              170deg,
-              rgba(255,255,255,0.8) 0%,
-              rgba(255,255,255,0.6) 20%,
-              rgba(255,255,255,0.1) 50%,
-              rgba(0,0,0,0.0) 50%,
-              rgba(0,0,0,0.0) 100%
-            ); /* W3C */
-            border-color: rgba(255, 255, 255, 0.4);
-            border-image: none;
-            border-style: inset;
-            border-width: 1px;
-            box-shadow:
-              0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
-              0 2px 6px rgba(0, 0, 0, 0.5),
-              0 -4px 8px -1px rgba(255, 255, 255, 0.4) inset;
-            backdrop-filter: blur(40px);
-
-            max-width: 240px;
-
+            z-index: 1;
+            
     }
-  
-          
-          a[aria-selected=true] paper-icon-item {
-            text-transform: lowercase;
-          }
-          a[aria-selected=true] paper-icon-item:first-letter {
-            text-transform: uppercase;
-          }
+    
+    
+    paper-icon-item:before {
+    
+           content: "";
+            background: linear-gradient(to right,var(--piregwan-fonce) 50%,var(--piregwan-clair) 50%);
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            border-radius: 7px 7px;
+            transform: translateX(-50%) translateY(-50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,1);
+            z-index: -1;
+    }
 
 
+
+    
+    
     a[aria-selected=true] paper-icon-item:before {
           top: 2.0px;
     }
 
      
+    
+
+
     div.tooltip {
       color: white;
       background-color: black;
@@ -661,8 +697,13 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-Piregwan Glass:
-  card-mod-theme: Piregwan Glass
+
+
+
+
+
+Piregwan Rounded 1:
+  card-mod-theme: Piregwan Rounded 1
   <<: *piregwan-colors
   <<: *base
   <<: *card-mod-css

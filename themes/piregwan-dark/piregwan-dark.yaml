@@ -292,10 +292,11 @@ DO NOT USE (card-mod): &card-mod-css
        
                 
         
-        /* LES RESUMES & ACTUALITES */
+        /* ALERTES */
         .item-left {
             # width: 75px; 
             margin-right: 10px !important; 
+            # text-transform: none; 
             
         }
         state-badge {
@@ -306,11 +307,27 @@ DO NOT USE (card-mod): &card-mod-css
             padding-right: 10px !important;
 
         }
-        
         #notifications {
                 display: flex;
                 flex-direction: column-reverse;
         }
+        
+        
+        
+        /* CALENDRIERS */
+        .event-left  {
+            display: flex; 
+        }
+        .event-date-week-day {
+            order: 1;
+        }
+        .event-date-month {
+            order: 3;
+        }
+        .event-date-day {
+            order: 2;
+        }
+        
             
 
         
@@ -319,6 +336,9 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
+        ha-card.regular, 
+        ha-card.narrow, 
+        ha-card.type-undefined, 
         ha-card.type-custom-home-feed-card, 
         ha-card.type-custom-atomic-calendar-revive,
         ha-card.type-calendar, 
@@ -405,19 +425,16 @@ DO NOT USE (card-mod): &card-mod-css
 
         .event-title {
           
-          font-weight: 700;
+          # font-weight: 700;
           # padding: 7px 7px -10px 7px;
           # margin: 0;
-          font-size: 15px; 
+          # font-size: 15px; 
           # font-family: "quicksand", "Calibri", sans-serif ;
-          letter-spacing: -0.25px;
+          # letter-spacing: -0.25px;
           # text-decoration: underline !important;
           
-          # color: var(--piregwan-red) !important; 
-          color: white; 
-
-          text-transform: uppercase;
-          color: white;
+          # text-transform: uppercase;
+          # color: white;
 
           /* NEW POUR H1 */
           # background-color: rgba(0, 0, 0, 0.25);
@@ -425,6 +442,8 @@ DO NOT USE (card-mod): &card-mod-css
           # text-align: center; 
           # display: inline;
         }
+        
+        
         
     
 
@@ -693,21 +712,24 @@ DO NOT USE (card-mod): &card-mod-css
 
     }
 
-    a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item, a:nth-child(6) paper-icon-item {
-          background-color: var(--piregwan-red);
+    a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item {
+          background-color: rgba(255,0,0,0.5);
     }
-    a:nth-child(7) paper-icon-item, a:nth-child(8) paper-icon-item {
+    a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item {
           background-color: var(--piregwan-green);
     }
-    a:nth-child(9) paper-icon-item, a:nth-child(10) paper-icon-item, a:nth-child(11) paper-icon-item, a:nth-child(12) paper-icon-item {
+    a:nth-child(6) paper-icon-item, a:nth-child(7) paper-icon-item {
           background-color: var(--piregwan-yellow);
     }
-    a:nth-child(20) paper-icon-item {
-          background-color: white;
+    a:nth-child(8) paper-icon-item, a:nth-child(9) paper-icon-item, a:nth-child(10) paper-icon-item {
+          background-color: rgba(255,255,255,0.45);
     }
-    a:nth-child(18) paper-icon-item, a:nth-child(19) paper-icon-item {
-          background-color: blue;
+    a:nth-child(11) paper-icon-item, a:nth-child(12) paper-icon-item , a:nth-child(13) paper-icon-item {
+          background-color: rgba(0,0,255,0.3);
     }
+    # a:nth-child(15) paper-icon-item {
+          # background-color: pink;
+    # }
     
 
     a[aria-selected=true] paper-icon-item:before {

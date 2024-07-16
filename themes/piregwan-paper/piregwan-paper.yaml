@@ -153,7 +153,6 @@ DO NOT USE (customizations): &base
   # Switches
   # switch-checked-color: var(--piregwan-red)
   # switch-checked-track-color: var(--piregwan-red)
-  switch-checked-button-color: var(--piregwan-red)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55)
   paper-item-icon-color: var(--piregwan-medium-gray)
