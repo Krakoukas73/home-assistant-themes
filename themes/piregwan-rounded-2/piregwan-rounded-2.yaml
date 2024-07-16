@@ -192,6 +192,7 @@ DO NOT USE (customizations): &base
   mdc-shape-small: var(--ha-card-border-radius)
 
 
+  mdc-icon-size: 33px
 
 
 
@@ -242,9 +243,12 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-card:before, ha-card:after {
 
+            border: 7px solid #252D36;
+
+
+
             content: "";
             border-radius: 22px;
-            border: 10px solid #252D36;
             clip-path: polygon(65% 0, 100% 0, 100% 35%, 35% 100%, 0 100%, 0 65%);
             position: absolute;
             top: 0;
@@ -255,7 +259,9 @@ DO NOT USE (card-mod): &card-mod-css
 
         ha-card:after {
 
-               border-width: 3px;
+               border-width: 2px;
+               
+               
                 clip-path: polygon(0 0, 60% 0, 55% 5%, 96% 44%, 100% 40%, 100% 100%, 40% 100%, 43% 95%, 5% 55%, 0 60%);
                 top: 3px;
                 bottom: 3px;
@@ -699,7 +705,7 @@ DO NOT USE (card-mod): &card-mod-css
     
             content: "";
             border-radius: 22px !important;
-            border: 10px solid #252D36;
+            border: 7px solid #252D36;
             clip-path: polygon(65% 0, 100% 0, 100% 35%, 35% 100%, 0 100%, 0 65%);
             position: absolute;
             top: 0;
@@ -710,7 +716,7 @@ DO NOT USE (card-mod): &card-mod-css
     }
     
     paper-icon-item:after {
-               border-width: 3px;
+               border-width: 2px;
                 clip-path: polygon(0 0, 60% 0, 55% 5%, 96% 44%, 100% 40%, 100% 100%, 40% 100%, 43% 95%, 5% 55%, 0 60%);
                 top: 3px;
                 bottom: 3px;

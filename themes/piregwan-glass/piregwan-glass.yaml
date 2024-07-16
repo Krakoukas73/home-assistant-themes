@@ -198,6 +198,7 @@ DO NOT USE (customizations): &base
   mdc-shape-small: var(--ha-card-border-radius)
 
 
+  mdc-icon-size: 33px
 
 
 

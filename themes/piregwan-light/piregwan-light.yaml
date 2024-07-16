@@ -193,7 +193,7 @@ DO NOT USE (customizations): &base
 
 
 
-
+  mdc-icon-size: 33px
 
 
 
@@ -235,6 +235,9 @@ DO NOT USE (card-mod): &card-mod-css
             font-weight: 600;
             border-radius: 7px 7px 12px 12px;
             # margin-bottom: 22px;
+            
+            # margin: 8px  !important;
+            
 
             box-shadow: 
                         rgba(45, 35, 66, 0.4) 0 4px 8px, 
@@ -704,6 +707,8 @@ DO NOT USE (card-mod): &card-mod-css
             
             # margin: 26px 5px 0px 5px ; 
             padding: 0px;
+            
+            # margin: 8px  !important;
             font-weight: 600;
             box-shadow: 
                         rgba(45, 35, 66, 0.4) 0 4px 8px, 

@@ -200,6 +200,7 @@ DO NOT USE (customizations): &base
 
 
 
+  mdc-icon-size: 33px
 
 
 
@@ -366,7 +367,7 @@ DO NOT USE (card-mod): &card-mod-css
           # color: white;
           /* NEW POUR H1 */
           text-align: center; 
-          padding: 0.3em 0 0.1em 0;
+          padding: 0.3em 0.4em 0.1em 0.4em;
           margin: 25px 25px 25px 15px; 
           
 

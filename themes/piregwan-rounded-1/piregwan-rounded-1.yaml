@@ -21,8 +21,8 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
   
-  piregwan-clair: "#536B5F"
-  piregwan-fonce: "#435749"
+  piregwan-clair: "#769C97"
+  piregwan-fonce: "#668783"
 
   # RED ALERTS
   piregwan-alert-border-bottom-left-radius: "14px"
@@ -191,6 +191,7 @@ DO NOT USE (customizations): &base
   # state-color: var(--piregwan-ui-secondary)
   mdc-shape-small: var(--ha-card-border-radius)
 
+  mdc-icon-size: 33px
 
 
 
