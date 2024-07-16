@@ -84,7 +84,7 @@ DO NOT USE (customizations): &base
 
   # HEADER APEX
   ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
-  ha-card-header-font-size: 29px
+  ha-card-header-font-size: 24px
   ha-card-header-color: white
   
 
@@ -330,7 +330,6 @@ DO NOT USE (card-mod): &card-mod-css
         
             
 
-        
 
         
 
@@ -451,29 +450,28 @@ DO NOT USE (card-mod): &card-mod-css
     ha-markdown:
       $: |
         
-        h1 {
-          font-size: 24px;
-          font-weight: 500;
-        }
-        h2 {
-          font-size: 42px;
-          font-weight: 200;
+        h1, h2 {
+          font-size: 24px !important;
+          font-weight: 500 !important;
         }
         
-        h1 {
+        h1, h2 {
           # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "Bebas Neue", "Calibri", sans-serif !important;
           letter-spacing: 0.5px;
           color: white;
           
           /* NEW POUR H1 */
+          
+        }
+        
+        h1 {
           background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
           padding: 8px;
           margin: 15px 0px;
-          
         }
 
 
@@ -486,13 +484,13 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-        h2 {
+        # h2 {
           # text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 1.5px;
-          color: white;
-        }
+          # text-transform: uppercase;
+          # font-family: "Bebas Neue", "Calibri", sans-serif ;
+          # letter-spacing: 1.70px;
+          # color: white;
+        # }
 
 
 
@@ -712,7 +710,7 @@ DO NOT USE (card-mod): &card-mod-css
 
     }
 
-    a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item {
+    a:nth-child(1) paper-icon-item, a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item {
           background-color: rgba(255,0,0,0.5);
     }
     a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item {

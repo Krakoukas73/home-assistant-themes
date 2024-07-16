@@ -18,7 +18,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-error: "#ff2200"
   piregwan-text-gray: "#555"
   piregwan-medium-gray: "#555"
-  piregwan-dark-gray: "#3e3e3e"
+  piregwan-dark-gray: "#333"
   piregwan-dark-red: "#66cc99"
   
   piregwan-clair: "#536B5F"
@@ -231,24 +231,24 @@ DO NOT USE (card-mod): &card-mod-css
             
             color: #252D36;
             font-family: 'Poppins', sans-serif;
-            text-align: center;
-            padding: 35px 28px 25px;
+            # text-align: center;
+            padding: 7px;
             position: relative;
             z-index: 1;
             
             background-color: #f0f0f0;
-            border-radius: 22px;
+            border-radius: 18px;
 
         }
         
         ha-card:before, ha-card:after {
 
-            border: 7px solid #252D36;
+            border: 6px solid var(--piregwan-dark-gray);
 
 
 
             content: "";
-            border-radius: 22px;
+            border-radius: 18px;
             clip-path: polygon(65% 0, 100% 0, 100% 35%, 35% 100%, 0 100%, 0 65%);
             position: absolute;
             top: 0;
@@ -304,6 +304,18 @@ DO NOT USE (card-mod): &card-mod-css
                     # margin: 26px 5px 26px 5px ; 
         # }
         
+        
+        ha-card.type-custom-home-feed-card #header {
+        
+          font-size: 24px !important;
+          font-weight: 500 !important;
+        
+          text-transform: uppercase;
+          font-family: "Bebas Neue", "Calibri", sans-serif !important;
+          letter-spacing: 0.5px;
+          color: var(--piregwan-dark-gray); 
+          text-align: left; 
+        }
         
         
         
@@ -361,14 +373,14 @@ DO NOT USE (card-mod): &card-mod-css
         #TITRES DES CARDS
 
         ha-card h2 {
-          font-size: 42px;
+          font-size: 42px !important;
           font-weight: 500;
 
           text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
-          color: black;
+          color: var(--piregwan-dark-gray);
         }
 
         ha-card h1, ha-card h1.card-header {
@@ -401,36 +413,30 @@ DO NOT USE (card-mod): &card-mod-css
     ha-markdown:
       $: |
         
-        h1 {
-          font-size: 29px;
-          font-weight: 500;
-        }
-        h2 {
-          font-size: 42.5px;
-          font-weight: 200;
+        h1, h2 {
+          font-size: 24px !important;
+          font-weight: 500 !important;
+        
+          # text-shadow: 1px 1px 2px black;
+          text-transform: uppercase;
+          font-family: "Bebas Neue", "Calibri", sans-serif !important;
+          letter-spacing: 0.5px;
+          
         }
         
         h1 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-          
-          /* NEW POUR H1 */
-          background-color: rgba(61, 61, 61, 1);
+          background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
-          padding: 4.5px;
+          padding: 8px;
+          margin: 15px 0px;
+          color: white; 
+        }
+        h2 {
+          color: var(--piregwan-dark-gray); 
+          text-align: left; 
         }
 
-        h2 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-        }
 
 
 
@@ -442,23 +448,30 @@ DO NOT USE (card-mod): &card-mod-css
           text-align: center; 
         }
         h3 b {
-          # font-size: 45px;
-          font-family: "Roboto Condensed", Calibri ;
-          text-transform: uppercase;
-          # -webkit-background-clip: text;
-          # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
-          # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
+            
+            font-family: "Bebas Neue", "Calibri", sans-serif ;
+            font-weight: 700, 900;
+            font-size: 56px;
+            letter-spacing: 0px;
 
-          font-size: 42px;
-          text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-          color: #333333;
-          font-weight: 900; 
-          
-          letter-spacing: -1px;
-          line-height: 38px;
+            text-transform: uppercase;
+         
+            color: white;
+            text-shadow: 1px 1px 1px #957dad,
+             1px 2px 1px rgba(45, 35, 66, 0.1),
+             1px 3px 1px rgba(45, 35, 66, 0.1),
+             1px 4px 1px rgba(45, 35, 66, 0.1),
+             1px 5px 1px rgba(45, 35, 66, 0.1),
+             1px 6px 1px rgba(45, 35, 66, 0.1),
+             
+             1px 10px 5px rgba(45, 35, 66, 0.5),
+             1px 15px 10px rgba(45, 35, 66, 0.4),
+             1px 20px 30px rgba(45, 35, 66, 0.3),
+             1px 25px 50px rgba(45, 35, 66, 0.2);
+             
+             line-height: 53px;
             
         }
-
 
 
 
@@ -479,7 +492,7 @@ DO NOT USE (card-mod): &card-mod-css
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0px;
-          color: black;
+          color: var(--piregwan-dark-gray);
           font-size: 30px;
           padding: 0;
           margin: 0;
@@ -690,13 +703,14 @@ DO NOT USE (card-mod): &card-mod-css
       
             color: #252D36;
             font-family: 'Poppins', sans-serif;
-            text-align: center;
-            padding: 35px 28px 25px;
+            # text-align: center;
+            padding: 18px 7px;
             position: relative;
             z-index: 1;
 
             background-color: #f0f0f0;
-            border-radius: 22px;
+            
+            border-radius: 18px !important;
             
     }
     
@@ -704,8 +718,8 @@ DO NOT USE (card-mod): &card-mod-css
     paper-icon-item:before, paper-icon-item:after {
     
             content: "";
-            border-radius: 22px !important;
-            border: 7px solid #252D36;
+            border-radius: 18px !important;
+            border: 6px solid var(--piregwan-dark-gray);
             clip-path: polygon(65% 0, 100% 0, 100% 35%, 35% 100%, 0 100%, 0 65%);
             position: absolute;
             top: 0;
@@ -738,7 +752,7 @@ DO NOT USE (card-mod): &card-mod-css
 
     div.tooltip {
       color: white;
-      background-color: black;
+      background-color: var(--piregwan-dark-gray);
       border-radius: 7px; 
       padding: 3px 15px; 
     }

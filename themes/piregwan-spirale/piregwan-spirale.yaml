@@ -392,36 +392,30 @@ DO NOT USE (card-mod): &card-mod-css
     ha-markdown:
       $: |
         
-        h1 {
-          font-size: 29px;
-          font-weight: 500;
-        }
-        h2 {
-          font-size: 42.5px;
-          font-weight: 200;
+        h1, h2 {
+          font-size: 24px !important;
+          font-weight: 500 !important;
+        
+          # text-shadow: 1px 1px 2px black;
+          text-transform: uppercase;
+          font-family: "Bebas Neue", "Calibri", sans-serif !important;
+          letter-spacing: 0.5px;
+          
         }
         
         h1 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-          
-          /* NEW POUR H1 */
-          background-color: rgba(21,21,21,1);
+          background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
-          padding: 4.5px;
+          padding: 8px;
+          margin: 15px 0px;
+          color: white; 
+        }
+        h2{
+          color: black; 
+          text-align: left; 
         }
 
-        h2 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-        }
 
 
 
@@ -458,12 +452,12 @@ DO NOT USE (card-mod): &card-mod-css
             
         }
           
-          h3 {
-            text-transform: lowercase;
-          }
-          h3:first-letter {
-            text-transform: uppercase;
-          }
+          # h3 {
+            # text-transform: lowercase;
+          # }
+          # h3:first-letter {
+            # text-transform: uppercase;
+          # }
 
 
 
@@ -560,10 +554,6 @@ DO NOT USE (card-mod): &card-mod-css
     }
     
     
-    # a[aria-selected=true]  ha-svg-icon {
-        # color: pink; 
-    # }
-    
 
 
 
@@ -620,16 +610,16 @@ DO NOT USE (card-mod): &card-mod-css
 
 
     a[aria-selected=true] paper-icon-item  {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      # padding-top: 15px;
+      # padding-bottom: 15px;
 
 
-              border: var(--piregwan-alert-border);
-              border-border-bottom-left-radius: var(--piregwan-alert-border-bottom-left-radius);
-              border-border-bottom-right-radius: var(--piregwan-alert-border-bottom-right-radius);
-              border-border-top-left-radius: var(--piregwan-alert-border-top-left-radius);
-              border-border-top-right-radius: var(--piregwan-alert-border-top-right-radius);
-              background-image: var(--piregwan-alert-background-image);
+              # border: var(--piregwan-alert-border);
+              # border-border-bottom-left-radius: var(--piregwan-alert-border-bottom-left-radius);
+              # border-border-bottom-right-radius: var(--piregwan-alert-border-bottom-right-radius);
+              # border-border-top-left-radius: var(--piregwan-alert-border-top-left-radius);
+              # border-border-top-right-radius: var(--piregwan-alert-border-top-right-radius);
+              # background-image: var(--piregwan-alert-background-image);
       
       
     }

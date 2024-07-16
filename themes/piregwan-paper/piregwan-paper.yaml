@@ -409,6 +409,7 @@ DO NOT USE (card-mod): &card-mod-css
         h2 {
           font-size: 45px;
           font-weight: 200;
+          font-family:  "Chilanka Regular", "Calibri", sans-serif ;
         }
         
         h1 {
@@ -463,11 +464,11 @@ DO NOT USE (card-mod): &card-mod-css
         
 
         h2 {
-          text-shadow: 1px 1px 2px black;
+          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
+          # font-family: "Bebas Neue", "Calibri", sans-serif ;
+          # letter-spacing: 0.5px;
+          # color: white;
         }
         
         
@@ -625,12 +626,12 @@ DO NOT USE (card-mod): &card-mod-css
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
-          font-size: 38px;
-          font-weight: 550;
+          font-size: 40px;
+          font-weight: 750;
 
           text-transform: lowercase;
           # font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
+          letter-spacing: -0.75px;
           color: black;
           line-height: 2.1rem;
           transform: rotate(-1deg);
