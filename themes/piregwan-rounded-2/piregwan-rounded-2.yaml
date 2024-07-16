@@ -316,7 +316,41 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         
+        /* ALERTES */
+        .item-left {
+            # width: 75px; 
+            margin-right: 10px !important; 
+            # text-transform: none; 
+            
+        }
+        state-badge {
+            margin-left: 0px !important;
+            margin-top: 2px !important;
+            
+            width: 37px; 
+            padding-right: 10px !important;
 
+        }
+        #notifications {
+                display: flex;
+                flex-direction: column-reverse;
+        }
+        
+        
+        
+        /* CALENDRIERS */
+        .event-left  {
+            display: flex; 
+        }
+        .event-date-week-day {
+            order: 1;
+        }
+        .event-date-month {
+            order: 3;
+        }
+        .event-date-day {
+            order: 2;
+        }
 
         #TITRES DES CARDS
 
