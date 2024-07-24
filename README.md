@@ -7,17 +7,32 @@
 
 ![HA thèmes Dark et Light copy](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b437a34b-d784-4520-90be-8a67946a5cb5)
 
-<h1>Dark theme</h1>
+
+<h1>Dark clean theme</h1>
 
 ![dark-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/5e753fad-43ba-4f17-9c52-ce8ac6e43185)
 
 ![darky](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/df247a86-2fcd-4acf-8599-64f0e69186f0)
 
-<h1>Light theme</h1>
+
+<h1>Light clean theme</h1>
 
 ![light-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/2fec465a-5622-470b-b730-8564f7ad7637)
 
 ![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
+
+
+<h1>Warcraft & Diablo overload theme</h1>
+
+![image](https://github.com/user-attachments/assets/b127544d-bdd2-4184-97ba-8c0a339829ef)
+
+![image](https://github.com/user-attachments/assets/c9334aaf-cee2-4428-8130-1d611947f89b)
+
+![image](https://github.com/user-attachments/assets/6879bcd0-80d6-487c-b980-2aa194d93d4c)
+
+![image](https://github.com/user-attachments/assets/b4289c41-7878-4060-a73d-e026542f1881)
+
+![image](https://github.com/user-attachments/assets/7f268687-df1a-406c-bace-4c4a679ce0e0)
 
 
 
@@ -35,15 +50,18 @@
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/8532d42d-60f9-46f5-973f-4bff423f8ca8)
 
+
 <h1>Glassmorphism theme</h1>
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/de20202e-653a-4c92-9e26-73b7b67830e3)
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e2c43e65-7214-4a3f-b153-d188eafe81de)
 
+
 <h1>Spirale theme</h1>
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/803d2000-9e73-46d9-a3b3-ff72ed2f0c68)
+
 
 <h1>Rounded 1 theme</h1>
 
