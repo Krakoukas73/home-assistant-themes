@@ -230,14 +230,14 @@ DO NOT USE (card-mod): &card-mod-css
         ha-card {
             
             color: #252D36;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
             # text-align: center;
             padding: 7px;
             position: relative;
             z-index: 1;
             
             background-color: #f0f0f0;
-            border-radius: 18px;
+            border-radius: 16px;
 
         }
         
@@ -248,7 +248,7 @@ DO NOT USE (card-mod): &card-mod-css
 
 
             content: "";
-            border-radius: 18px;
+            border-radius: 16px;
             clip-path: polygon(65% 0, 100% 0, 100% 35%, 35% 100%, 0 100%, 0 65%);
             position: absolute;
             top: 0;
@@ -702,7 +702,7 @@ DO NOT USE (card-mod): &card-mod-css
     paper-icon-item {
       
             color: #252D36;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
             # text-align: center;
             padding: 18px 7px;
             position: relative;
@@ -710,7 +710,7 @@ DO NOT USE (card-mod): &card-mod-css
 
             background-color: #f0f0f0;
             
-            border-radius: 18px !important;
+            border-radius: 16px !important;
             
     }
     
@@ -718,7 +718,7 @@ DO NOT USE (card-mod): &card-mod-css
     paper-icon-item:before, paper-icon-item:after {
     
             content: "";
-            border-radius: 18px !important;
+            border-radius: 16px !important;
             border: 6px solid var(--piregwan-dark-gray);
             clip-path: polygon(65% 0, 100% 0, 100% 35%, 35% 100%, 0 100%, 0 65%);
             position: absolute;
@@ -789,6 +789,6 @@ Piregwan Rounded 2:
   piregwan-card-bottom-color: var(--piregwan-gray)
   # Misc
   success-color: var(--piregwan-green)
-  warning-color: var(--piregwan-sunflower)
+  warning-color: var(--piregwan-orange)
   error-color: var(--piregwan-red)
 

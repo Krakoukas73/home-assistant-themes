@@ -331,10 +331,9 @@ DO NOT USE (card-mod): &card-mod-css
             
 
 
-        
 
-
-
+        ha-card.type-todo-list, 
+        ha-card.has-reader, 
         ha-card.regular, 
         ha-card.narrow, 
         ha-card.type-undefined, 
@@ -410,8 +409,6 @@ DO NOT USE (card-mod): &card-mod-css
           display: inline;
           padding: 0;
           margin: 15px 12px 15px 12px;
-          # width: auto; 
-          # height: 50px; 
         }
         #header .name {
             padding: 6px 20px; 
@@ -824,6 +821,6 @@ Piregwan Dark:
   piregwan-card-bottom-color: var(--piregwan-gray)
   # Misc
   success-color: var(--piregwan-green)
-  warning-color: var(--piregwan-sunflower)
+  warning-color: var(--piregwan-orange)
   error-color: var(--piregwan-red)
 

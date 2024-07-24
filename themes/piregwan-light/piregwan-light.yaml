@@ -88,7 +88,7 @@ DO NOT USE (customizations): &base
 
   # HEADER APEX
   ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
-  ha-card-header-font-size: 29px
+  ha-card-header-font-size: 24px
   ha-card-header-color: var(--piregwan-dark-gray)
 
 
@@ -264,25 +264,16 @@ DO NOT USE (card-mod): &card-mod-css
         ha-card:after {
         } 
         
+          
+          
+
+    
+        
+        
+        
+        
         
       
-
-        # ha-card.type-custom-html-card:after, 
-        # ha-card.type-custom-mini-graph-card:after
-        # {
-            # display: none;
-            # visibility: hidden;
-        # }
-        # ha-card.type-custom-html-card {
-            # padding: 0;
-            # margin: 0;
-        # }
-
-        
-       
-                
-
-        
         
         ha-card.type-button
         {
@@ -383,26 +374,29 @@ DO NOT USE (card-mod): &card-mod-css
           color: black;
         }
 
-        ha-card h1, ha-card h1.card-header {
-          font-size: 29px;
+        ha-card h1, ha-card h1.card-header, #header .name
+        
+        {
+          font-size: 24px;
           font-weight: 500;
-
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
           color: white;
-
-          /* NEW POUR H1 */
-          background-color: rgba(61, 61, 61, 1);
+          background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
-          margin-bottom: 15px; 
-          
           display: inline;
           padding: 0;
-          margin: 15px;
+          margin: 15px 12px 15px 12px;
+        }
+        #header .name {
+            padding: 6px 20px; 
+            width: 100%; 
         }
         
+        
+
     hui-image:
       $: |
         
@@ -413,35 +407,28 @@ DO NOT USE (card-mod): &card-mod-css
     ha-markdown:
       $: |
         
-        h1 {
-          font-size: 29px;
-          font-weight: 500;
-        }
-        h2 {
-          font-size: 42.5px;
-          font-weight: 200;
+        h1, h2 {
+          font-size: 24px !important;
+          font-weight: 500 !important;
+        
+          # text-shadow: 1px 1px 2px black;
+          text-transform: uppercase;
+          font-family: "Bebas Neue", "Calibri", sans-serif !important;
+          letter-spacing: 0.5px;
+          
         }
         
         h1 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-          
-          /* NEW POUR H1 */
-          background-color: rgba(61, 61, 61, 1);
+          background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
           text-align: center; 
-          padding: 4.5px;
+          padding: 8px;
+          margin: 15px 0px;
+          color: white; 
         }
-
         h2 {
-          text-shadow: 1px 1px 2px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
+          color: var(--piregwan-dark-gray); 
+          text-align: left; 
         }
 
 
@@ -776,6 +763,6 @@ Piregwan Light:
   piregwan-card-bottom-color: var(--piregwan-gray)
   # Misc
   success-color: var(--piregwan-green)
-  warning-color: var(--piregwan-sunflower)
+  warning-color: var(--piregwan-orange)
   error-color: var(--piregwan-red)
 

@@ -773,6 +773,6 @@ Piregwan Rounded 1:
   piregwan-card-bottom-color: var(--piregwan-gray)
   # Misc
   success-color: var(--piregwan-green)
-  warning-color: var(--piregwan-sunflower)
+  warning-color: var(--piregwan-orange)
   error-color: var(--piregwan-red)
 
