@@ -8,7 +8,7 @@
 ![HA thèmes Dark et Light copy](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b437a34b-d784-4520-90be-8a67946a5cb5)
 
 
-<h1>Dark clean theme</h1>
+<h1>Dark theme</h1>
 
 ![dark-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/5e753fad-43ba-4f17-9c52-ce8ac6e43185)
 
@@ -22,7 +22,7 @@
 ![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
 
 
-<h1>Warcraft & Diablo overload theme</h1>
+<h1>Warcraft & Diablo overloaded theme</h1>
 
 ![image](https://github.com/user-attachments/assets/b127544d-bdd2-4184-97ba-8c0a339829ef)
 
