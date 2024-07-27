@@ -16,9 +16,11 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-separator-visibility: "hidden"
 
   piregwan-error: "#ff2200"
+  
   piregwan-text-gray: "#d9d3c3"
-  piregwan-medium-gray: "#66cc99"
   piregwan-wow-gray: "#3e3e3e"
+
+  piregwan-medium-gray: "#66cc99"
   piregwan-wow-red: "#66cc99"
   
   # RED ALERTS
@@ -111,7 +113,7 @@ DO NOT USE (customizations): &base
 
   # Text
   primary-text-color: var(--piregwan-text-gray)
-  secondary-text-color: var(--piregwan-text-gray)
+  secondary-text-color: "#8c8c8c"
   text-primary-color: var(--piregwan-text-gray)
   disabled-text-color: "#FF4444"
   text-dark-color: green
@@ -206,6 +208,7 @@ DO NOT USE (customizations): &base
   mdc-icon-size: 33px
   
   
+
   
 
 
@@ -228,9 +231,12 @@ DO NOT USE (card-mod): &card-mod-css
             font: 12.0px / 1.25 sans-serif !important;
             font-family: segoe ui, helvetica neue, Helvetica, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, sans-serif;
             font-weight: 400;
-            color: #8c8c8c;
-            margin: 0;
-            padding: 0px;
+            color: var(--piregwan-text-gray);
+            
+            margin: 0 !important;
+            # padding: 8px !important;
+            padding: 0px !important;
+            
             z-index: 1 !important;
             overflow: visible !important; 
             min-height: 192px;
@@ -242,12 +248,15 @@ DO NOT USE (card-mod): &card-mod-css
               # border-border-bottom-right-radius: 0px !important;
               # border-border-top-left-radius: 0px !important;
               # border-border-top-right-radius: 0px !important;
-              # background-image: none !important;
+              
             
             
         }
         ha-card.type-markdown {
             min-height: 192px;
+        }
+        ha-card.type-button {
+            padding: 8px !important;
         }
                 
         ha-card:before {
@@ -261,6 +270,8 @@ DO NOT USE (card-mod): &card-mod-css
             background-size: cover;
             z-index: -1;
             box-shadow: 0px 0px 20px 16px rgba(0,0,0,0.48) inset;
+
+            # background: pink !important;
         }
         
         ha-card.type-button:before {
@@ -280,11 +291,29 @@ DO NOT USE (card-mod): &card-mod-css
             
             pointer-events: none; 
             
+            # background: rgba(255,0,0,0.5) !important;
+            # ICI LE PROBLEME D'ASCENCEUR
+        }
+        
+        ha-card.type-markdown:after {
+            # background: rgba(0, 255,0,0.5) !important;
+            # ICI LE PROBLEME D'ASCENCEUR
         }
         
 
 
 
+
+
+
+
+
+        
+
+         
+         
+         
+         
          
 
 
@@ -319,15 +348,38 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-
+        /* POUR LES LISTES */
+        .item-container, hr
+        {
+            margin: 5px 12px 5px 12px !important;
+        }
+        .type-custom-home-feed-card
+        {
+            padding-bottom: 15px !important;
+        }
+        hui-timestamp-display, div.state-card-dialog div 
+        {
+            color: var(--secondary-text-color);
+        }
         .column {
             box-sizing: border-box;
             font: 12.0px / 1.25 sans-serif !important;
             font-family: segoe ui, helvetica neue, Helvetica, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, sans-serif;
             font-weight: 400;
-            color: #8c8c8c;
+            color: var(--primary-text-color);
+            padding: 0 8px !important;
         }
-
+        
+        ha-check-list-item .column::first-letter {
+            text-transform: uppercase;
+        }
+        ha-check-list-item$: |
+          mwc-checkbox {
+            # background-color: red; 
+            color: white !important; 
+            margin: -12px !important;
+            padding: 0 !important;
+        }  
 
 
 
@@ -335,20 +387,16 @@ DO NOT USE (card-mod): &card-mod-css
 
         /* BOUTON ROUGE */
 
-              
         
         ha-card.type-button span {
             color: #ffd823;
             font-size: 105%; 
-            
-            
             border-color: transparent transparent transparent transparent;
             padding-top: 7px;
             padding-right: 4px;
             padding-bottom: 10px;
             padding-left: 4px;
             text-align: center;
-            
             text-shadow: 2px 2px 2px #000;
             position: relative;
             border: 0;
@@ -360,16 +408,11 @@ DO NOT USE (card-mod): &card-mod-css
             margin-right: 8px;
             height: 30px;
             box-sizing: border-box;
-
-
             box-shadow:   0 0 0.851rem 0.65rem rgba(0,0,0,0.65);
-            
-           
         }
         ha-card.type-button span::first-letter {
             color: white; /* Couleur de la première lettre */
             font-size: 105%;
-            
         }
         
         ha-card.type-button span:before {
@@ -474,8 +517,7 @@ DO NOT USE (card-mod): &card-mod-css
         
             
 
-
-
+        
         ha-card.type-todo-list:after, 
         ha-card.has-reader:after, 
         ha-card.regular:after, 
@@ -536,22 +578,19 @@ DO NOT USE (card-mod): &card-mod-css
           # border-radius: 7px;
           text-align: center; 
           display: inline;
-          padding: 0;
-          margin: 15px 12px 15px 12px;
-
+          padding: 0 !important;
+          # margin: 15px 12px 15px 12px;
+          margin: 12px 0;
             
-            background: rgba(0, 0, 0, .9);
-            background: #151515;
-            box-shadow: inset 0 0 12px rgba(0, 0, 0, 1);
-            border-radius: 5px;
-            border-top: 1px solid #101010;
-            border-bottom: 1px solid #3f3f3f;
-            border-right-color: #262626;
-            border-left-color: #262626;    
-
-
+          background: rgba(0, 0, 0, .9);
+          background: #151515;
+          box-shadow: inset 0 0 12px rgba(0, 0, 0, 1);
+          border-radius: 5px;
+          border-top: 1px solid #101010;
+          border-bottom: 1px solid #3f3f3f;
+          border-right-color: #262626;
+          border-left-color: #262626;    
         }
-        
         
         
         #header .name {
@@ -561,30 +600,6 @@ DO NOT USE (card-mod): &card-mod-css
         
 
 
-
-
-        .event-title {
-          
-          # font-weight: 700;
-          # padding: 7px 7px -10px 7px;
-          # margin: 0;
-          # font-size: 15px; 
-          # font-family: "quicksand", "Calibri", sans-serif ;
-          # letter-spacing: -0.25px;
-          # text-decoration: underline !important;
-          
-          # text-transform: uppercase;
-          # color: white;
-
-          /* NEW POUR H1 */
-          # background-color: rgba(0, 0, 0, 0.25);
-          # border-radius: 7px;
-          # text-align: center; 
-          # display: inline;
-        }
-        
-        
-        
     
 
 
@@ -593,7 +608,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         h1, h2 {
           font-size: 23px !important;
-          letter-spacing: -2.75px;
+          letter-spacing: -2.75px !important;
           font-weight: 500 !important;
         
           # text-shadow: 1px 1px 2px black;
@@ -609,7 +624,7 @@ DO NOT USE (card-mod): &card-mod-css
           border-radius: 7px;
           text-align: center; 
           padding: 8px;
-          margin: 15px 0px;
+          
 
             background: rgba(0, 0, 0, .9);
             background: #151515;
@@ -618,7 +633,9 @@ DO NOT USE (card-mod): &card-mod-css
             border-top: 1px solid #101010;
             border-bottom: 1px solid #3f3f3f;
             border-right-color: #262626;
-            border-left-color: #262626    
+            border-left-color: #262626;
+            
+          margin: 0px 0 !important;
 
         }
 
