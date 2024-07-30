@@ -56,9 +56,6 @@ DO NOT USE (colors): &piregwan-colors
 DO NOT USE (customizations): &base 
 
   lovelace-background: fixed url('/hacsfiles/themes/piregwan-dark/pattern-general.png')
-
-  switch-checked-button-color: var(--piregwan-red)
-  
   state-inactive-color: rgba(0,255,0,1)
   state-color: rgba (0,0,255,1)
   

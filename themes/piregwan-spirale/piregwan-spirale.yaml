@@ -63,14 +63,8 @@ DO NOT USE (colors): &piregwan-colors
 DO NOT USE (customizations): &base 
 
   lovelace-background: "#fff"
-
-  switch-checked-button-color: var(--piregwan-red)
-  
   state-inactive-color: rgba(0,255,0,1)
   state-color: rgba (0,0,255,1)
-  
-
-  
   
   primary-background-color: var(--piregwan-background)
   secondary-background-color: var(--piregwan-card-button)

@@ -20,8 +20,8 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-text-gray: "#d9d3c3"
   piregwan-wow-gray: "#3e3e3e"
 
-  piregwan-medium-gray: "#66cc99"
-  piregwan-wow-red: "#66cc99"
+  # piregwan-medium-gray: "#66cc99"
+  # piregwan-wow-red: "#66cc99"
   
   # RED ALERTS
   piregwan-alert-border-bottom-left-radius: "19.5px"
@@ -57,7 +57,6 @@ DO NOT USE (colors): &piregwan-colors
 
 DO NOT USE (customizations): &base 
 
-  
   # 100% EN BAS
   # lovelace-background: url('/hacsfiles/themes/piregwan-wow/ciel3.gif') no-repeat center bottom / 100% auto fixed
 
@@ -74,10 +73,6 @@ DO NOT USE (customizations): &base
   # lovelace-background: black url('/hacsfiles/themes/piregwan-wow/ciel4.gif') no-repeat fixed calc(70% - 50vw) top / auto 
   # lovelace-background: black url('/hacsfiles/themes/piregwan-wow/ciel4.gif') no-repeat fixed left calc(0% + 60px) / auto
 
-
-
-
-  switch-checked-button-color: var(--piregwan-red)
   
   state-inactive-color: rgba(0,255,0,1)
   state-color: rgba (0,0,255,1)
@@ -277,6 +272,22 @@ DO NOT USE (card-mod): &card-mod-css
         ha-card.type-button:before {
             background: #202020 url('/hacsfiles/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
         }
+        
+        
+        
+        
+        span.state, span.state:before
+        {
+            background: none !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+            color: var(--piregwan-text-gray) !important;
+        }
+        # ha-card.type-button span::first-letter {
+            # color: white; /* Couleur de la première lettre */
+            # font-size: 105%;
+        # }
+
         
 
         ha-card:after {
@@ -514,6 +525,10 @@ DO NOT USE (card-mod): &card-mod-css
         .event-date-day {
             order: 2;
         }
+        ha-card.type-custom-atomic-calendar-revive
+        {
+            padding: 14px !important; 
+        }
         
             
 
@@ -578,9 +593,8 @@ DO NOT USE (card-mod): &card-mod-css
           # border-radius: 7px;
           text-align: center; 
           display: inline;
-          padding: 0 !important;
-          # margin: 15px 12px 15px 12px;
-          margin: 12px 0;
+          padding: 7px 0 !important;
+          margin: 12px ;
             
           background: rgba(0, 0, 0, .9);
           background: #151515;
