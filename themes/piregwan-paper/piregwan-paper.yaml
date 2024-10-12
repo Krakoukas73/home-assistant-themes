@@ -7,7 +7,7 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-red: "#ff4444"
   piregwan-sunflower: "#66cc99"
   piregwan-gray: "#1C1C1C"
-  piregwan-blue: "#74CCE7"
+  # piregwan-blue: "#74CCE7"
   
   piregwan-theme: "piregwan-paper"
 

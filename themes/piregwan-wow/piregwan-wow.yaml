@@ -239,10 +239,10 @@ DO NOT USE (card-mod): &card-mod-css
             # pointer-events: none; 
 
               # POUR ANNULER LES BORDS ROUGES EN CAS D'ALERTES
-              # border-border-bottom-left-radius: 0px !important;
-              # border-border-bottom-right-radius: 0px !important;
-              # border-border-top-left-radius: 0px !important;
-              # border-border-top-right-radius: 0px !important;
+              border-border-bottom-left-radius: 0px !important;
+              border-border-bottom-right-radius: 0px !important;
+              border-border-top-left-radius: 0px !important;
+              border-border-top-right-radius: 0px !important;
               
             
             

@@ -106,7 +106,7 @@ DO NOT USE (customizations): &base
   sidebar-selected-text-color: white
   app-drawer-width: 75px
   # States and Badges
-  state-icon-color: white
+  state-icon-color: var(--piregwan-dark-gray)
   state-icon-active-color: var(--piregwan-text-gray)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
@@ -144,7 +144,7 @@ DO NOT USE (customizations): &base
   switch-checked-button-color: var(--piregwan-red)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55)
-  paper-item-icon-color: var(--piregwan-medium-gray)
+  paper-item-icon-color: var(--piregwan-dark-gray)
   more-info-header-background: rgba(25, 25, 25)
   app-header-background-color: var(--piregwan-background)
   
@@ -220,6 +220,11 @@ DO NOT USE (card-mod): &card-mod-css
         
 
        
+        # ha-svg-icon {
+         # color: var(--piregwan-red) !important;
+        # }
+        
+        
         ha-card {
             
             background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
@@ -630,7 +635,6 @@ DO NOT USE (card-mod): &card-mod-css
       
     }
     
-
 
 
     paper-icon-item:hover span,
