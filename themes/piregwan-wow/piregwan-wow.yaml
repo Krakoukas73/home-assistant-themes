@@ -34,21 +34,21 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-font: segoe ui
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-wow/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-wow/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-wow/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-wow/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-wow/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-wow/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-wow/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-wow/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-wow/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-wow/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-wow/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-wow/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-wow/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-wow/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-wow/exceptional.svg")  
+  weather-icon-clear-night: url("/local/themes/piregwan-wow/clear-night.svg")
+  weather-icon-cloudy: url("/local/themes/piregwan-wow/cloudy.svg")
+  weather-icon-fog: url("/local/themes/piregwan-wow/fog.svg")
+  weather-icon-lightning: url("/local/themes/piregwan-wow/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/themes/piregwan-wow/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/themes/piregwan-wow/partlycloudy.svg")
+  weather-icon-pouring: url("/local/themes/piregwan-wow/pouring.svg")
+  weather-icon-rainy: url("/local/themes/piregwan-wow/rainy.svg")
+  weather-icon-hail: url("/local/themes/piregwan-wow/hail.svg")
+  weather-icon-snowy: url("/local/themes/piregwan-wow/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/themes/piregwan-wow/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/themes/piregwan-wow/sunny.svg")
+  weather-icon-windy: url("/local/themes/piregwan-wow/windy.svg")
+  weather-icon-windy-variant: url("/local/themes/piregwan-wow/windy-variant.svg")
+  weather-icon-exceptional: url("/local/themes/piregwan-wow/exceptional.svg")  
 
 
   
@@ -58,20 +58,20 @@ DO NOT USE (colors): &piregwan-colors
 DO NOT USE (customizations): &base 
 
   # 100% EN BAS
-  # lovelace-background: url('/hacsfiles/themes/piregwan-wow/ciel3.gif') no-repeat center bottom / 100% auto fixed
+  # lovelace-background: url('/local/themes/piregwan-wow/ciel3.gif') no-repeat center bottom / 100% auto fixed
 
   # 100% EN HAUT
-  # lovelace-background: black url('/hacsfiles/themes/piregwan-wow/top-background.png') repeat-x 0 -70px / auto 300px fixed 
+  # lovelace-background: black url('/local/themes/piregwan-wow/top-background.png') repeat-x 0 -70px / auto 300px fixed 
   
   # 100% DE COUVERTURE DE PAGE
-  # lovelace-background: url('/hacsfiles/themes/piregwan-wow/ciel12.gif') no-repeat center center / cover fixed
+  # lovelace-background: url('/local/themes/piregwan-wow/ciel12.gif') no-repeat center center / cover fixed
 
   # 100% DE COUVERTURE DE PAGE
-  lovelace-background: black url('/hacsfiles/themes/piregwan-wow/ciel14.gif') repeat 0 0
+  lovelace-background: black url('/local/themes/piregwan-wow/ciel14.gif') repeat 0 0
   
   # BOULE DE FEU PARTIELLE ET DECALEE
-  # lovelace-background: black url('/hacsfiles/themes/piregwan-wow/ciel4.gif') no-repeat fixed calc(70% - 50vw) top / auto 
-  # lovelace-background: black url('/hacsfiles/themes/piregwan-wow/ciel4.gif') no-repeat fixed left calc(0% + 60px) / auto
+  # lovelace-background: black url('/local/themes/piregwan-wow/ciel4.gif') no-repeat fixed calc(70% - 50vw) top / auto 
+  # lovelace-background: black url('/local/themes/piregwan-wow/ciel4.gif') no-repeat fixed left calc(0% + 60px) / auto
 
   
   state-inactive-color: rgba(0,255,0,1)
@@ -220,7 +220,7 @@ DO NOT USE (card-mod): &card-mod-css
        
         ha-card {
             border: 19.5px solid black;
-            border-image: url('/hacsfiles/themes/piregwan-wow/metal-border2.png') 38 repeat !important;
+            border-image: url('/local/themes/piregwan-wow/metal-border2.png') 38 repeat !important;
             position: relative;	
             box-sizing: border-box;
             font: 12.0px / 1.25 sans-serif !important;
@@ -261,7 +261,7 @@ DO NOT USE (card-mod): &card-mod-css
             left: 0px;
             bottom: 0px;
             right: 0px;
-            background: #202020 url('/hacsfiles/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
+            background: #202020 url('/local/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
             background-size: cover;
             z-index: -1;
             box-shadow: 0px 0px 20px 16px rgba(0,0,0,0.48) inset;
@@ -270,7 +270,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
         ha-card.type-button:before {
-            background: #202020 url('/hacsfiles/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
+            background: #202020 url('/local/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
         }
         
         
@@ -298,7 +298,7 @@ DO NOT USE (card-mod): &card-mod-css
             background-size: 104px auto, 112px auto, 146px auto, 155px auto !important;
             position: absolute ;
             content: '' ;
-            background: url('/hacsfiles/themes/piregwan-wow/metal-border2-top-left.png') no-repeat top left, url('/hacsfiles/themes/piregwan-wow/metal-border2-top-right.png') no-repeat top right, url('/hacsfiles/themes/piregwan-wow/metal-border2-bottom-left.png') no-repeat bottom left, url('/hacsfiles/themes/piregwan-wow/metal-border2-bottom-right.png') no-repeat bottom right ;
+            background: url('/local/themes/piregwan-wow/metal-border2-top-left.png') no-repeat top left, url('/local/themes/piregwan-wow/metal-border2-top-right.png') no-repeat top right, url('/local/themes/piregwan-wow/metal-border2-bottom-left.png') no-repeat bottom left, url('/local/themes/piregwan-wow/metal-border2-bottom-right.png') no-repeat bottom right ;
             
             pointer-events: none; 
             
@@ -340,7 +340,7 @@ DO NOT USE (card-mod): &card-mod-css
         .petite
         {
             border: 6px solid #000;
-            border-image: url('/hacsfiles/themes/piregwan-wow/metal-border3.png') 6 repeat !important;
+            border-image: url('/local/themes/piregwan-wow/metal-border3.png') 6 repeat !important;
             position: relative;
             min-height: 0 !important;
         }
@@ -357,7 +357,7 @@ DO NOT USE (card-mod): &card-mod-css
             bottom: -5.5px;
             right: -5.5px;
             
-            background: url('/hacsfiles/themes/piregwan-wow/metal-border3-top-left.png') no-repeat top left, url('/hacsfiles/themes/piregwan-wow/metal-border3-top-right.png') no-repeat top right, url('/hacsfiles/themes/piregwan-wow/metal-border3-bottom-left.png') no-repeat bottom left, url('/hacsfiles/themes/piregwan-wow/metal-border3-bottom-right.png') no-repeat bottom right !important;        
+            background: url('/local/themes/piregwan-wow/metal-border3-top-left.png') no-repeat top left, url('/local/themes/piregwan-wow/metal-border3-top-right.png') no-repeat top right, url('/local/themes/piregwan-wow/metal-border3-bottom-left.png') no-repeat bottom left, url('/local/themes/piregwan-wow/metal-border3-bottom-right.png') no-repeat bottom right !important;        
         }
         
 
@@ -415,7 +415,7 @@ DO NOT USE (card-mod): &card-mod-css
             text-shadow: 2px 2px 2px #000;
             position: relative;
             border: 0;
-            background: url('/hacsfiles/themes/piregwan-wow/red-button-middle.png') repeat-x;
+            background: url('/local/themes/piregwan-wow/red-button-middle.png') repeat-x;
             background-size: auto 30px;
             margin-top: 15px;
             # margin-bottom: -20px;
@@ -437,7 +437,7 @@ DO NOT USE (card-mod): &card-mod-css
             left: -10px;
             right: -10px;
             bottom: 0;
-            background: url('/hacsfiles/themes/piregwan-wow/red-button-left.png') no-repeat left, url('/hacsfiles/themes/piregwan-wow/red-button-right.png') no-repeat right;
+            background: url('/local/themes/piregwan-wow/red-button-left.png') no-repeat left, url('/local/themes/piregwan-wow/red-button-right.png') no-repeat right;
             background-size: auto 30px;
             z-index: -1;
         }
@@ -765,7 +765,7 @@ DO NOT USE (card-mod): &card-mod-css
             
      
             border: 19.0px solid #000;
-            border-image: url('/hacsfiles/themes/piregwan-wow/metal-border2.png') 38 repeat;
+            border-image: url('/local/themes/piregwan-wow/metal-border2.png') 38 repeat;
             font: 12.0px / 1.25 sans-serif !important;
             font-family: segoe ui, helvetica neue, Helvetica, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, sans-serif;
             font-weight: 400;
@@ -793,7 +793,7 @@ DO NOT USE (card-mod): &card-mod-css
             left: 0px;
             bottom: 0px;
             right: 0px;
-            background: #202020 url('/hacsfiles/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
+            background: #202020 url('/local/themes/piregwan-wow/pierres-empilees-noir-6-contraste.png') no-repeat center center ;
             background-size: cover;
             z-index: -1;
             box-shadow: 0px 0px 20px 16px rgba(0,0,0,0.48) inset;
@@ -810,12 +810,12 @@ DO NOT USE (card-mod): &card-mod-css
             # background-size:  112px auto,  155px auto !important;
             position: absolute ;
             content: '' ;
-            # background:  url('/hacsfiles/themes/piregwan-wow/metal-border2-top-right.png') no-repeat top right,  url('/hacsfiles/themes/piregwan-wow/metal-border2-bottom-right.png') no-repeat bottom right ;
+            # background:  url('/local/themes/piregwan-wow/metal-border2-top-right.png') no-repeat top right,  url('/local/themes/piregwan-wow/metal-border2-bottom-right.png') no-repeat bottom right ;
             
-        background: url('/hacsfiles/themes/piregwan-wow/metal-border2-top-left.png') no-repeat top left,
-                    url('/hacsfiles/themes/piregwan-wow/metal-border2-top-right.png') no-repeat top right,
-                    url('/hacsfiles/themes/piregwan-wow/metal-border2-bottom-left.png') no-repeat bottom left,
-                    url('/hacsfiles/themes/piregwan-wow/metal-border2-bottom-right.png') no-repeat bottom right;
+        background: url('/local/themes/piregwan-wow/metal-border2-top-left.png') no-repeat top left,
+                    url('/local/themes/piregwan-wow/metal-border2-top-right.png') no-repeat top right,
+                    url('/local/themes/piregwan-wow/metal-border2-bottom-left.png') no-repeat bottom left,
+                    url('/local/themes/piregwan-wow/metal-border2-bottom-right.png') no-repeat bottom right;
         background-size: 104px auto, 112px auto, 146px auto, 155px auto;
             
     
@@ -880,7 +880,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        # background: url('/hacsfiles/themes/piregwan-wow/transparent.png');      
+        # background: url('/local/themes/piregwan-wow/transparent.png');      
         # background-color: pink !important;
     }
     .menu .title {
@@ -1006,7 +1006,7 @@ DO NOT USE (card-mod): &card-mod-css
           
 
             # border: 6px solid #000;
-            # border-image: url('/hacsfiles/themes/piregwan-wow/metal-border3.png') 6 repeat !important;
+            # border-image: url('/local/themes/piregwan-wow/metal-border3.png') 6 repeat !important;
             # position: relative;
 
             min-height: 0 !important;

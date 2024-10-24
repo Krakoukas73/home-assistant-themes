@@ -9,14 +9,14 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-gray: "#1C1C1C"
   
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
-  piregwan-nuit: "rgba(0,0,0,1)"
+  piregwan-nuit: "rgba(150,150,150,0.16)"
 
   # USE THIS TO SHOW/HIDE ELEMENTS ACCORDING THE CHOSEN THEME
-  piregwan-separator-display: "inline-block"
-  piregwan-separator-visibility: "visible"
+  piregwan-separator-display: "none"
+  piregwan-separator-visibility: "hidden"
 
   piregwan-error: "#ff2200"
-  piregwan-text-gray: "#d3d3d3"
+  piregwan-text-gray: "#333"
   piregwan-medium-gray: "#B6B6C1"
   piregwan-dark-gray: "#3e3e3e"
   piregwan-dark-red: "#66cc99"
@@ -32,21 +32,21 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-dark/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-dark/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-dark/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-dark/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-dark/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-dark/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-dark/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-dark/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-dark/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-dark/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-dark/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-dark/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-dark/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-dark/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-dark/exceptional.svg")  
+  weather-icon-clear-night: url("/local/themes/piregwan-western/clear-night.svg")
+  weather-icon-cloudy: url("/local/themes/piregwan-western/cloudy.svg")
+  weather-icon-fog: url("/local/themes/piregwan-western/fog.svg")
+  weather-icon-lightning: url("/local/themes/piregwan-western/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/themes/piregwan-western/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/themes/piregwan-western/partlycloudy.svg")
+  weather-icon-pouring: url("/local/themes/piregwan-western/pouring.svg")
+  weather-icon-rainy: url("/local/themes/piregwan-western/rainy.svg")
+  weather-icon-hail: url("/local/themes/piregwan-western/hail.svg")
+  weather-icon-snowy: url("/local/themes/piregwan-western/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/themes/piregwan-western/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/themes/piregwan-western/sunny.svg")
+  weather-icon-windy: url("/local/themes/piregwan-western/windy.svg")
+  weather-icon-windy-variant: url("/local/themes/piregwan-western/windy-variant.svg")
+  weather-icon-exceptional: url("/local/themes/piregwan-western/exceptional.svg")  
 
 
   
@@ -55,14 +55,14 @@ DO NOT USE (colors): &piregwan-colors
 
 DO NOT USE (customizations): &base 
 
-  lovelace-background: fixed url('/local/themes/piregwan-dark/pattern-general.png')
+  lovelace-background: "#666666"
   state-inactive-color: rgba(0,255,0,1)
   state-color: rgba (0,0,255,1)
   
 
   
   
-  primary-background-color: black
+  primary-background-color: "#666666"
   secondary-background-color: var(--piregwan-card-button)
   
   divider-color: transparent
@@ -80,9 +80,9 @@ DO NOT USE (customizations): &base
   paper-font-title_-_font-family: var(--primary-font-family)
 
   # HEADER APEX
-  ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
-  ha-card-header-font-size: 24px
-  ha-card-header-color: white
+  ha-card-header-font-family: "Marlboro, var(--piregwan-font), sans-serif"
+  ha-card-header-font-size: 34px
+  ha-card-header-color: var(--piregwan-text-gray)
   
 
 
@@ -95,7 +95,7 @@ DO NOT USE (customizations): &base
   disabled-text-color: "#FF4444"
   text-dark-color: green
   # Sidebar Menu
-  sidebar-background-color: transparent
+  sidebar-background-color: "#666666"
   sidebar-icon-color: white
   sidebar-text-color: white
   sidebar-selected-background-color: transparent
@@ -120,7 +120,7 @@ DO NOT USE (customizations): &base
   label-badge-text-color: black
   label-badge-red: rgba(255, 159, 9, 0.7)
   # Cards
-  card-background-color: rgba(10,10,10,1)
+  card-background-color: "#666666"
   paper-listbox-background-color: var(--piregwan-dark-gray)
   ha-card-border-radius: 7px
   ha-card-background: var(--piregwan-card-button);
@@ -160,7 +160,7 @@ DO NOT USE (customizations): &base
   mdc-theme-primary: white
   mdc-theme-secondary: var(--piregwan-orange)
   round-slider-bar-color: var(--piregwan-red)
-  app-header-edit-background-color: black
+  app-header-edit-background-color: var(--piregwan-text-gray)
   switch-unchecked-track-color: var(--piregwan-text-gray)
   switch-unchecked-button-color: var(--piregwan-text-gray)
   header-height: 43px
@@ -196,74 +196,76 @@ DO NOT USE (card-mod): &card-mod-css
        
         ha-card {
 
-          border-radius: 7px;
+            width: 100%;
+            background-color: rgba(255,0,0,0); 
+            border-style: solid;
+            box-sizing: border-box; 
+            filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
+            
+            # border-image: url('/local/themes/piregwan-western/board.png') 70 fill; 
+            # border-width: 30px; 
 
-          box-shadow:   0 1rem 1rem 0.3rem rgba(0,0,0,0.75),
-                        rgba(205, 205, 205, 0.17) 0px -6px 12px inset,
-                        rgba(205, 205, 205, 0.17) 0px 6px 12px inset
-
-          ;      
-          
-          background-image: linear-gradient(-20deg, rgb(0,0,0,1) 55%, rgb(85,85,85,0.90) 90%);
-          
-          # background-image: linear-gradient(175deg, rgb(85,85,85,0.85), rgb(85,85,85,0.85) 95px, rgb(0,0,0,1) 150px, rgb(0,0,0,1));
-          
-          
-          
-          border: 1px solid #666; 
-          
-          # background-color: transparent;
-          margin-bottom: 20px;
-
-           # z-index: 2;
+            # border-image: url('/local/themes/piregwan-western/ui-board-board.png') 40 fill; 
+            # border-width: 30px; 
+            
+            border-image: url('/local/themes/piregwan-western/ui-board-parchment-with-nails.png') 85 fill; 
+            border-width: 6px ; 
+            border-image-width: 28px;
+            
+            background-image: none ; 
+            
         }
         
+        # .text-divider span {
+            # background: red !important; 
+        # }
+        
 
-        ha-card:before {
+        # ha-card:before {
           
-          background: url('/local/themes/piregwan-dark/concrete.jpg');
+          # background: url('/local/themes/piregwan-western/concrete.jpg');
           
-          border-radius: 5px;
+          # border-radius: 5px;
 
-          content: '';
-          display: block;
+          # content: '';
+          # display: block;
           
-          position: absolute;
-          height: calc(100% - 2px);
-          left: 1.0px;
-          top: 1.0px;
-          width: calc(100% - 10px);
+          # position: absolute;
+          # height: calc(100% - 2px);
+          # left: 1.0px;
+          # top: 1.0px;
+          # width: calc(100% - 10px);
           
-          border: 4px dotted #555; 
-          border-bottom-style: none;
-          border-top-style: none;
+          # border: 4px dotted #555; 
+          # border-bottom-style: none;
+          # border-top-style: none;
           
           
-          opacity: 0.15; 
-          z-index: -1;
+          # opacity: 0.15; 
+          # z-index: -1;
           
-        }
+        # }
 
 
-        ha-card:after {
-            content: "";
-            background: black;
-            width: calc(100% - 100px);
-            max-width: 40%;
-            height: 7px;
-            border-radius: 7px 7px 0 0 ;
-            box-shadow: 
-                0 0px 0px 1px rgba(255,255,255,0.1),
-                0 0px 8px 6px rgba(255,255,255,0.1)
-            ;
+        # ha-card:after {
+            # content: "";
+            # background: black;
+            # width: calc(100% - 100px);
+            # max-width: 40%;
+            # height: 7px;
+            # border-radius: 7px 7px 0 0 ;
+            # box-shadow: 
+                # 0 0px 0px 1px rgba(255,255,255,0.1),
+                # 0 0px 8px 6px rgba(255,255,255,0.1)
+            # ;
        
   
-            transform: translateX(-50%);
-            position: absolute;
-            bottom: 0px;
-            left: 50%;
+            # transform: translateX(-50%);
+            # position: absolute;
+            # bottom: 0px;
+            # left: 50%;
             
-        } 
+        # } 
         
         
       
@@ -356,10 +358,10 @@ DO NOT USE (card-mod): &card-mod-css
         ha-card.type-custom-horizon-card,
         ha-card.type-custom-lovelace-multiline-text-input-card
         {
-          backdrop-filter: blur(0px);
+          # backdrop-filter: blur(0px);
           # box-shadow:   0.33rem 1rem 0.6rem rgba(10, 10, 10, 0.88),
                         # 0 -1rem 1rem rgba (255,0,0,1) inset;
-        }
+        # }
         
 
         ha-card.type-button:after,  
@@ -394,14 +396,14 @@ DO NOT USE (card-mod): &card-mod-css
         }
 
         ha-card h1, ha-card h1.card-header, #header .name {
-          font-size: 24px;
+          font-size: 32px;
           font-weight: 500;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-          background-color: rgba(21, 21, 21, 1);
-          border-radius: 7px;
+          font-family: "Marlboro", "Calibri", sans-serif ;
+          letter-spacing: -1px;
+          color: var(--piregwan-text-gray);
+          # background-color: rgba(21, 21, 21, 1);
+          # border-radius: 7px;
           text-align: center; 
           display: inline;
           padding: 0;
@@ -416,26 +418,6 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-        .event-title {
-          
-          # font-weight: 700;
-          # padding: 7px 7px -10px 7px;
-          # margin: 0;
-          # font-size: 15px; 
-          # font-family: "quicksand", "Calibri", sans-serif ;
-          # letter-spacing: -0.25px;
-          # text-decoration: underline !important;
-          
-          # text-transform: uppercase;
-          # color: white;
-
-          /* NEW POUR H1 */
-          # background-color: rgba(0, 0, 0, 0.25);
-          # border-radius: 7px;
-          # text-align: center; 
-          # display: inline;
-        }
-        
         
         
     
@@ -445,102 +427,98 @@ DO NOT USE (card-mod): &card-mod-css
       $: |
         
         h1, h2 {
-          font-size: 24px !important;
+          font-size: 35px !important;
           font-weight: 500 !important;
         }
         
         h1, h2 {
           # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif !important;
-          letter-spacing: 0.5px;
-          color: white;
-          
-          /* NEW POUR H1 */
-          
+          font-family: "Marlboro", "Calibri", sans-serif !important;
+          letter-spacing: -2px;
+          color: var(--piregwan-text-gray);
         }
         
         h1 {
-          background-color: rgba(21, 21, 21, 1);
-          border-radius: 7px;
+          # background-color: rgba(0, 0, 0, 0.06);
+          # border-radius: 8px;
           text-align: center; 
-          padding: 8px;
-          margin: 15px 0px;
+          # padding: 0px;
+          # margin: 0px ;
+
+
+
+          color: black; 
+          background-color: rgba(255,0,0,0); 
+          border-style: solid;
+          box-sizing: border-box; 
+          filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
+          # border-image: url('/local/themes/piregwan-western/board.png') 50 fill; 
+          # border-width: 15px; 
+          border-image: url('/local/themes/piregwan-western/ui-button-big.png') 15 fill; 
+          border-width: 7px; 
+          z-index: 1000; 
+          margin-bottom: 50px;
+          padding-top: 0px;
+          padding-bottom: 10px;
+          
+          
+          
+
+
+
         }
-
-
-
-
-
-
-
         
-
-
-
-        # h2 {
-          # text-shadow: 1px 1px 2px black;
-          # text-transform: uppercase;
-          # font-family: "Bebas Neue", "Calibri", sans-serif ;
-          # letter-spacing: 1.70px;
-          # color: white;
-        # }
-
-
-
-
-
-
-
         h3 {
-          
-          /* TITRE GLOW */
-          -webkit-text-fill-color: transparent;
-          -webkit-text-stroke: 0.1vw #f1f1f1;
           text-align: center;
-          
           position: relative;
           width: auto;
           display: block;
           padding: 0;
-          border-radius: 10px;
-          
           padding-top: 10px; 
           max-height: 50px;
-          
+          filter: none !important;
         }
         h3 b {
-          font-size: 44px;
-          font-family: "Roboto Condensed", Calibri ;
+          font-size: 60px;
+          font-family: "Marlboro", Calibri ;
           text-transform: uppercase;
-          -webkit-background-clip: text;
-          background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
-          -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
-          line-height: 43px;
+          filter: none !important;
+          
+          
+          color: black; 
+          background-color: rgba(255,0,0,0); 
+          border-style: solid;
+          box-sizing: border-box; 
+          filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
+          # border-image: url('/local/themes/piregwan-western/board.png') 50 fill; 
+          # border-width: 15px; 
+          border-image: url('/local/themes/piregwan-western/ui-button-big.png') 15 fill; 
+          border-width: 7px; 
+          z-index: 1000; 
+          margin-bottom: 50px;
+          padding-top: 0px;
+          padding-bottom: 80px;
+          padding-left: 30px;
+          padding-right: 30px;
+          
         }
-
-
-
         ha-markdown-element > pre  {
           font-size: 65px;
           font-weight: 200;
         }
-
         ha-markdown-element > blockquote  {
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0px;
-          color: white;
-          font-size: 30px;
+          font-family: "Marlboro", "Calibri", sans-serif ;
+          letter-spacing: -2px;
+          font-size: 40px;
           padding: 0;
           margin: 0;
-          
-          color: #FFFFFF;
-          text-shadow:  1px 6px 6px #000;
+          color: var(--piregwan-text-gray);
         }
 
         ha-markdown-element > p > img, img  {
-          filter: drop-shadow(0 0 12px  #BBB);
+          filter: drop-shadow(0 5px 4px black) !important;
           border-radius: 7px;
         }
 
@@ -565,39 +543,28 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/local/themes/piregwan-dark/transparent.png');      
+      background: url('/local/themes/piregwan-western/transparent.png');      
     }   
-
-
-
-
-
 
 
 
     .item-text {
       text-align: right;
       margin-left: auto;
-      margin-right: 20px;
-      # margin-bottom: -23px;
+      margin-right: 15px;
       text-transform: uppercase;
     }
     
     a[aria-selected=true] paper-icon-item .item-text {
 
-          font-size: 33px;
+          font-size: 28px;
           font-weight: 500;
-
-          text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          letter-spacing: 0.5px;
-          color: white;
-          line-height: 2.1rem;
+          font-family: "Marlboro", "Calibri", sans-serif ;
+          letter-spacing: -0.30px;
     }
     
-    
-  
+      
     @-webkit-keyframes blink {
       0% {
         opacity: 1;
@@ -612,7 +579,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/local/themes/piregwan-dark/transparent.png');      
+        background: url('/local/themes/piregwan-western/transparent.png');      
     }
     .menu .title {
       visibility: hidden;
@@ -631,21 +598,6 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-      
-
-
-    a[aria-selected=true] paper-icon-item  {
-      # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
-      padding-top: 25px;
-      padding-bottom: 25px;
-      border: 5px solid #FF4444; 
-      border-radius: 11px !important; 
-    }
-    
-    
-    
-    
-    
     
 
     paper-icon-item:hover span,
@@ -678,109 +630,29 @@ DO NOT USE (card-mod): &card-mod-css
    
 
 
-
-
-
-
-
     /* CYBERPUNK MENU */
 
     paper-icon-item {
       
-          box-shadow:   0 1rem 1rem 0.3rem rgba(0,0,0,0.75),
-                        rgba(205, 205, 205, 0.17) 0px -6px 12px inset,
-                        rgba(205, 205, 205, 0.17) 0px 6px 12px inset
-          ;      
-          background-image: linear-gradient(-25deg, rgb(0,0,0,0.98) 50%, rgb(255,255,255,0.24) 80%);
-          border: 1px solid #666; 
-          background-color: transparent;
-          margin-bottom: 20px;
+            width: 100%;
+            background-color: rgba(255,0,0,0); 
+            border-style: solid;
+            box-sizing: border-box; 
+            filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
+
+            border-image: url('/local/themes/piregwan-western/ui-button-big.png') 15 fill; 
+            border-width: 7px; 
            
           z-index: 1000; 
           margin-bottom: 50px;
-          padding-top: 10px;
+          padding-top: 0px;
           padding-bottom: 10px;
-          border-radius: 7px !important;
-
-    }
-
-    a:nth-child(1) paper-icon-item, a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item {
-          background-color: rgba(255,0,0,0.5);
-    }
-    a:nth-child(4) paper-icon-item, a:nth-child(5) paper-icon-item {
-          background-color: var(--piregwan-green);
-    }
-    a:nth-child(6) paper-icon-item, a:nth-child(7) paper-icon-item {
-          background-color: var(--piregwan-yellow);
-    }
-    a:nth-child(8) paper-icon-item, a:nth-child(9) paper-icon-item, a:nth-child(10) paper-icon-item {
-          background-color: rgba(255,255,255,0.45);
-    }
-    a:nth-child(11) paper-icon-item, a:nth-child(12) paper-icon-item , a:nth-child(13) paper-icon-item {
-          background-color: rgba(0,0,255,0.3);
-    }
-    # a:nth-child(15) paper-icon-item {
-          # background-color: pink;
-    # }
-    
-
-    a[aria-selected=true] paper-icon-item:before {
-          top: 2.0px;
-    }
-
-    paper-icon-item:before {
-
-          background: url('/local/themes/piregwan-dark/concrete.jpg');
-          
-          border-radius: 5px;
-
-          content: '';
-          display: block;
-          
-          position: absolute;
-          height: calc(100% - 2px);
-          left: 1.0px;
-          top: 1.0px;
-          width: calc(100% - 10px);
-          
-          border: 4px dotted #555; 
-          border-bottom-style: none;
-          border-top-style: none;
           
           
-          opacity: 0.15; 
-           z-index: -1;
 
-    
     }
 
-    
-    paper-icon-item,
-    paper-icon-item:before {
-      transition: background-color 100ms ease-out, color 100ms ease-out; 
-    }
-
-
-    paper-icon-item:after {
-            content: "";
-            background: #000;
-            width: calc(100% - 100px);
-            max-width: 40%;
-            height: 7px;
-            border-radius: 7px 7px 0 0 ;
-            box-shadow: 
-                0 0px 0px 1px rgba(255,255,255,0.1),
-                0 0px 8px 6px rgba(255,255,255,0.1)
-            ;
-            # transition: box-shadow 6s infinite;
-            # animation: pulse 6s infinite;
-
-
-            transform: translateX(-50%);
-            position: absolute;
-            bottom: 0px;
-            left: 50%;
-    }        
+          
     
 
     div.tooltip {
@@ -792,10 +664,8 @@ DO NOT USE (card-mod): &card-mod-css
 
 
 
-
-
-Piregwan Dark:
-  card-mod-theme: Piregwan Dark
+Piregwan Western:
+  card-mod-theme: Piregwan Western
   <<: *piregwan-colors
   <<: *base
   <<: *card-mod-css

@@ -39,21 +39,21 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-spirale/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-spirale/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-spirale/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-spirale/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-spirale/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-spirale/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-spirale/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-spirale/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-spirale/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-spirale/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-spirale/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-spirale/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-spirale/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-spirale/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-spirale/exceptional.svg")  
+  weather-icon-clear-night: url("/local/themes/piregwan-spirale/clear-night.svg")
+  weather-icon-cloudy: url("/local/themes/piregwan-spirale/cloudy.svg")
+  weather-icon-fog: url("/local/themes/piregwan-spirale/fog.svg")
+  weather-icon-lightning: url("/local/themes/piregwan-spirale/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/themes/piregwan-spirale/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/themes/piregwan-spirale/partlycloudy.svg")
+  weather-icon-pouring: url("/local/themes/piregwan-spirale/pouring.svg")
+  weather-icon-rainy: url("/local/themes/piregwan-spirale/rainy.svg")
+  weather-icon-hail: url("/local/themes/piregwan-spirale/hail.svg")
+  weather-icon-snowy: url("/local/themes/piregwan-spirale/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/themes/piregwan-spirale/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/themes/piregwan-spirale/sunny.svg")
+  weather-icon-windy: url("/local/themes/piregwan-spirale/windy.svg")
+  weather-icon-windy-variant: url("/local/themes/piregwan-spirale/windy-variant.svg")
+  weather-icon-exceptional: url("/local/themes/piregwan-spirale/exceptional.svg")  
 
 
   
@@ -250,7 +250,7 @@ DO NOT USE (card-mod): &card-mod-css
               position: absolute;
               top: 0px;
               left: 0;
-              background: url('/hacsfiles/themes/piregwan-spirale/paper.jpg');
+              background: url('/local/themes/piregwan-spirale/paper.jpg');
               box-shadow: 0 10px 4px rgba(black, 0.2);
               # z-index: 999991;
         }
@@ -516,7 +516,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-spirale/transparent.png');      
+      background: url('/local/themes/piregwan-spirale/transparent.png');      
     }   
 
 
@@ -581,7 +581,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-spirale/transparent.png');      
+        background: url('/local/themes/piregwan-spirale/transparent.png');      
     }
     .menu .title {
       visibility: hidden;
@@ -708,7 +708,7 @@ DO NOT USE (card-mod): &card-mod-css
               position: absolute;
               top: 0px;
               left: 0;
-              background: url('/hacsfiles/themes/piregwan-spirale/paper.jpg');
+              background: url('/local/themes/piregwan-spirale/paper.jpg');
               box-shadow: 0 10px 4px rgba(black, 0.2);
               # z-index: 999991;
     }

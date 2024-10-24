@@ -27,7 +27,6 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-alert-border-top-left-radius: "14px"
   piregwan-alert-border-top-right-radius: "14px"
   piregwan-alert-border: "0px solid  var(--piregwan-red)"
-  # piregwan-alert-background-image: "linear-gradient(180deg, #EDD8CE 20%, rgba(255,255,255,1) 90%)"
   piregwan-alert-background-image: "linear-gradient(180deg, rgba(0,0,0,0.22) 12%, rgba(0,0,0,0) 80%)"
 
   # HEAD AND SIDE BACKGROUND
@@ -36,34 +35,27 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-light/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-light/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-light/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-light/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-light/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-light/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-light/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-light/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-light/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-light/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-light/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-light/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-light/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-light/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-light/exceptional.svg")  
-
-
-  
-  
-  
+  weather-icon-clear-night: url("/local/themes/piregwan-light/clear-night.svg")
+  weather-icon-cloudy: url("/local/themes/piregwan-light/cloudy.svg")
+  weather-icon-fog: url("/local/themes/piregwan-light/fog.svg")
+  weather-icon-lightning: url("/local/themes/piregwan-light/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/themes/piregwan-light/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/themes/piregwan-light/partlycloudy.svg")
+  weather-icon-pouring: url("/local/themes/piregwan-light/pouring.svg")
+  weather-icon-rainy: url("/local/themes/piregwan-light/rainy.svg")
+  weather-icon-hail: url("/local/themes/piregwan-light/hail.svg")
+  weather-icon-snowy: url("/local/themes/piregwan-light/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/themes/piregwan-light/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/themes/piregwan-light/sunny.svg")
+  weather-icon-windy: url("/local/themes/piregwan-light/windy.svg")
+  weather-icon-windy-variant: url("/local/themes/piregwan-light/windy-variant.svg")
+  weather-icon-exceptional: url("/local/themes/piregwan-light/exceptional.svg")  
 
 DO NOT USE (customizations): &base 
 
   lovelace-background: "#EFECE7"
   state-inactive-color: rgba(0,255,0,1)
   state-color: rgba (0,0,255,1)
-  
-
   
   
   primary-background-color: var(--piregwan-background)
@@ -87,8 +79,6 @@ DO NOT USE (customizations): &base
   ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
   ha-card-header-font-size: 24px
   ha-card-header-color: var(--piregwan-dark-gray)
-
-
 
   # Text
   primary-text-color: var(--piregwan-text-gray)
@@ -139,22 +129,17 @@ DO NOT USE (customizations): &base
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   # Switches
-  # switch-checked-color: var(--piregwan-red)
-  # switch-checked-track-color: var(--piregwan-red)
   switch-checked-button-color: var(--piregwan-red)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55)
   paper-item-icon-color: var(--piregwan-dark-gray)
   more-info-header-background: rgba(25, 25, 25)
   app-header-background-color: var(--piregwan-background)
-  
+ 
   state-switch-active-color: var(--piregwan-red)
   state-switch-on-color: var(--piregwan-red)
   state-active-color: var(--piregwan-red)
-  
-  
-  
-  
+
   # Custom
   mini-media-player-base-color: var(--piregwan-text-gray)
   mini-media-player-icon-color: var(--piregwan-text-gray)
@@ -162,7 +147,7 @@ DO NOT USE (customizations): &base
   sidebar-menu-button-text-color: white
   mdc-typography-button-font-family: var(--piregwan-font)
   mdc-typography-body2-font-family: var(--piregwan-font)
-  mdc-theme-primary: white
+  mdc-theme-primary: var(--piregwan-text-gray)
   mdc-theme-secondary: var(--piregwan-orange)
   round-slider-bar-color: var(--piregwan-red)
   app-header-edit-background-color: var(--piregwan-background)
@@ -178,104 +163,33 @@ DO NOT USE (customizations): &base
   paper-yellow-a100: transparent
   mdc-theme-on-primary: white
   mdc-theme-on-secondary: var(--piregwan-text-gray)
-  # mdc-theme-text-primary-on-background: white
-  # mdc-theme-text-secondary-on-background: white
   data-table-background-color: var(--piregwan-text-dark-gray)
   rgb-state-media-player-color: var(--paper-item-icon-color)
-  # state-color: var(--piregwan-ui-secondary)
   mdc-shape-small: var(--ha-card-border-radius)
-
-
-
-
-
-
   mdc-icon-size: 33px
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
-
+  state-binary_sensor-occupancy-on-color: "#FF4444"
 
 DO NOT USE (card-mod): &card-mod-css 
   card-mod-card-yaml: &card-mod-card |
     .: |
-
-      
-      
-      
-        /* CYBERPUNK CARDS */
-        
-
-       
-        # ha-svg-icon {
-         # color: var(--piregwan-red) !important;
-        # }
-        
-        
         ha-card {
-            
-            background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
-
-
+            background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%) !important;
             font: inherit;
             border: 0;
-            # margin: 26px 5px 0px 5px ; 
             padding: 0px;
             font-weight: 600;
             border-radius: 7px 7px 12px 12px;
-            # margin-bottom: 22px;
-            
-            # margin: 8px  !important;
-            
-
             box-shadow: 
                         rgba(45, 35, 66, 0.4) 0 4px 8px, 
                         rgba(66, 66, 66, 0.3) 0 7px 13px -3px, 
                         0 16px 15.5px 0 #cecece,
                         #dedede 0 -9px 0 inset, 
                         inset 0 1.3px 0 0 #f4f4f4 ,
-                        inset 0 18px 12px rgba(210,210,210,0.8) ;
-
-            # box-shadow: inset 0 1.5px 0 0 #f4f4f4, 
-                        # 0 1.5px 0 0 #efefef,
-                        # 0 4.5px 0 0 #ececec, 
-                        # 0 10px 0 0 #e0e0e0, 
-                        # 0 14px 0 0 #dedede,
-                        # 0 14.5px 0 0 #dcdcdc, 
-                        # 0 16px 0 0 #cacaca, 
-                        # 0 16px 15.5px 0 #cecece;
-
+                        inset 0 18px 12px rgba(210,210,210,0.8) !important ;
         }
         
-        ha-card:before {
-        }
-
-        ha-card:after {
-        } 
         
-          
-          
-
-    
-        
-        
-        
-        
-        
-      
         
         ha-card.type-button
         {
@@ -290,25 +204,6 @@ DO NOT USE (card-mod): &card-mod-css
         img #image {
           border-radius: 12px;
         }
-        
-        
-        # ha-card.type-markdown,
-        # ha-card.type-custom-button-card, 
-        # ha-card.type-button
-        # {
-                    # margin: 16px 5px 0 5px ; 
-        # }
-        # ha-card.type-custom-html-card
-        # {
-                    # margin: 16px 5px 26px 5px ; 
-        # }
-        # ha-card.type-entities {
-                    # margin: 26px 5px 26px 5px ; 
-        # }
-        
-        
-        
-        
 
         ha-card.type-button:after,  
         ha-card.type-custom-mini-graph-card:after 
@@ -326,11 +221,8 @@ DO NOT USE (card-mod): &card-mod-css
         
 
 
-        /* ALERTES */
         .item-left {
-            # width: 75px; 
             margin-right: 10px !important; 
-            # text-transform: none; 
             
         }
         state-badge {
@@ -348,7 +240,7 @@ DO NOT USE (card-mod): &card-mod-css
         
         
         
-        /* CALENDRIERS */
+        
         .event-left  {
             display: flex; 
         }
@@ -363,7 +255,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
         
             
-        #TITRES DES CARDS
+        
 
         ha-card h2 {
           font-size: 42px;
@@ -376,25 +268,43 @@ DO NOT USE (card-mod): &card-mod-css
           color: black;
         }
 
-        ha-card h1, ha-card h1.card-header, #header .name
-        
+        ha-card h1, ha-card h1.card-header, #header .name,
+        ha-card > div.information > div.header.flex > div > span
         {
           font-size: 24px;
           font-weight: 500;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           letter-spacing: 0.5px;
-          color: white;
+          color: white !important;
           background-color: rgba(21, 21, 21, 1);
           border-radius: 7px;
-          text-align: center; 
-          display: inline;
-          padding: 0;
-          margin: 15px 12px 15px 12px;
+          text-align: center !important; 
+          display: inline !important;
+          padding: 0 !important;
+          margin: 15px 12px 15px 12px !important;
         }
-        #header .name {
-            padding: 6px 20px; 
-            width: 100%; 
+        
+        ha-card > div.information > div.header.flex > div > span
+        {
+          padding: 11px 20px !important; 
+          display: block !important;
+          margin: 0 0 5px 0 !important;
+        }
+        ha-card > div.information > div.header.flex > div 
+        {
+          text-align: center !important; 
+          min-width: 100% !important; 
+          width: 100% !important; 
+          # overflow: hidden;
+        }
+        
+        
+        
+        #header .name
+        {
+            padding: 6px 20px !important; 
+            width: 100% !important; 
         }
         
         
@@ -412,12 +322,9 @@ DO NOT USE (card-mod): &card-mod-css
         h1, h2 {
           font-size: 24px !important;
           font-weight: 500 !important;
-        
-          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif !important;
+          font-family: "Bebas Neue", "Calibri", "sans-serif" !important;
           letter-spacing: 0.5px;
-          
         }
         
         h1 {
@@ -428,84 +335,45 @@ DO NOT USE (card-mod): &card-mod-css
           margin: 15px 0px;
           color: white; 
         }
+        
         h2 {
           color: var(--piregwan-dark-gray); 
           text-align: left; 
         }
-
-
-
-
-
-
-
         h3 {
           text-align: center; 
         }
         h3 b {
-          # font-size: 45px;
           font-family: "Roboto Condensed", Calibri ;
           text-transform: uppercase;
-          # -webkit-background-clip: text;
-          # background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 95%);
-          # -webkit-filter: drop-shadow(0px 0.6px 0.6px rgba(0,0,0,1));
-
           font-size: 42px;
-          text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+          # text-shadow: 2px 2px 0px white, 5px 4px 0px rgba(0,0,0,0.15);
           color: #333333;
           font-weight: 900; 
-          
           letter-spacing: -1px;
           line-height: 38px;
-            
         }
-
-
-
-
-
-
-        ha-markdown-element > h2  {
-        }
-
-        ha-markdown-element   {
-        }
-
         ha-markdown-element > pre  {
           font-size: 65px;
           font-weight: 200;
         }
-
+        
         ha-markdown-element > blockquote  {
           text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
+          font-family: "Bebas Neue", "Calibri", "sans-serif" ;
           letter-spacing: 0px;
           color: black;
           font-size: 30px;
           padding: 0;
           margin: 0;
         }
-
+        
         ha-markdown-element > p > img, img  {
           filter: drop-shadow(0 3.5px 0px  #ccc);
           border-radius: 7px;
         }
-
-
-
-
-
-      
-      
-            
-      
-      
-      
       
 
-
-
-      
       
 
   # Toolbar and dashboard modifications
@@ -513,10 +381,7 @@ DO NOT USE (card-mod): &card-mod-css
     .: |
 
       ha-drawer {
-            # border-right-width: unset !important;
-            # border-right-style: unset !important;
-            background-color: red; 
-            
+           background-color: red; 
       }
 
    
@@ -527,8 +392,6 @@ DO NOT USE (card-mod): &card-mod-css
       content: "";
       background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
     }   
-
-
 
 
 
@@ -557,26 +420,6 @@ DO NOT USE (card-mod): &card-mod-css
           
     }
     
-    
-    # a[aria-selected=true]  ha-svg-icon {
-        # color: pink; 
-    # }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -618,7 +461,6 @@ DO NOT USE (card-mod): &card-mod-css
 
 
     a[aria-selected=true] paper-icon-item  {
-      # background-image: linear-gradient(-25deg, var(--piregwan-red) 20%, var(--piregwan-red) 100%);
       padding-top: 23px;
       padding-bottom: 15px;
       border: 5px solid #FF4444; 
@@ -634,8 +476,6 @@ DO NOT USE (card-mod): &card-mod-css
       
       
     }
-    
-
 
     paper-icon-item:hover span,
     paper-icon-item:hover ha-icon,
@@ -666,44 +506,17 @@ DO NOT USE (card-mod): &card-mod-css
         width: 250%;
     }
     
-    # ha-sidebar {
-        # background-color: red; 
-    # }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* CYBERPUNK MENU */
 
     paper-icon-item {
       
             background-image: linear-gradient(0deg, rgba(240,240,240,1) 50%, rgba(236,236,236,1) 67%, rgba(227,227,227,1) 100%);
-
-            # font: inherit;
             border: 0;
-            
-            # margin: 26px 5px 0px 5px ; 
             padding: 0px;
-            
-            # margin: 8px  !important;
             font-weight: 600;
             box-shadow: 
                         rgba(45, 35, 66, 0.4) 0 4px 8px, 
-                        
                         rgba(66, 66, 66, 0.3) 0 7px 13px -3px, 
                         0 16px 15.5px 0 #cecece,
-                        
                         #dedede 0 -9px 0 inset, 
                         inset 0 1.3px 0 0 #f4f4f4 ,
                         inset 0 18px 12px rgba(210,210,210,0.8) ;
@@ -721,23 +534,12 @@ DO NOT USE (card-mod): &card-mod-css
           top: 2.0px;
     }
 
-     
-    
-
-
     div.tooltip {
       color: white;
       background-color: black;
       border-radius: 7px; 
       padding: 3px 15px; 
     }
-
-
-
-
-
-
-
 
 
 Piregwan Light:
@@ -747,18 +549,14 @@ Piregwan Light:
   <<: *card-mod-css
   
   # Primary colors
-  
   piregwan-ui-primary: var(--piregwan-gray)
   piregwan-ui-secondary: var(--piregwan-red)
   piregwan-ui-tertiary: var(--piregwan-gray)
   
-  # piregwan-ui-app-header-background-color: "#272727"
   piregwan-ui-app-header-text-color: "#FFF"
   # Card colors
   piregwan-card-top-color: var(--piregwan-gray)
   piregwan-card-mid-left-color: var(--piregwan-red)
-  
-  # piregwan-card-button: var(--piregwan-gray)
   piregwan-card-button: var(--piregwan-gray)
   
   piregwan-card-bottom-color: var(--piregwan-gray)
@@ -766,4 +564,3 @@ Piregwan Light:
   success-color: var(--piregwan-green)
   warning-color: var(--piregwan-orange)
   error-color: var(--piregwan-red)
-
